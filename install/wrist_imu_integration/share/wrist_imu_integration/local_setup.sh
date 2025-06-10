@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/wrist_imu_integration/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/roarm_anygrasp_integration/rosidl_generator_py/roarm_anygrasp_integration/srv/_upload_to_roboflow_s.c

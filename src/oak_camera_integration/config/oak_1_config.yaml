@@ -1,0 +1,79 @@
+# OAK-1 Mono Camera Configuration  
+# Optimized for high-speed object detection and tracking
+
+# Camera identification
+camera:
+  i_board_socket_id: 0      # Primary camera socket
+  i_mx_id: ""               # Auto-detect MX ID
+  i_ip: ""                  # Auto-detect IP
+  i_usb_port_id: ""         # Auto-detect USB port
+
+# Mono camera settings
+mono:
+  i_resolution: '1080P'               # 1920x1080 for detailed detection
+  i_fps: 60                           # High FPS for tracking
+  i_exposure: 8000                    # Fast exposure for motion
+  i_iso: 1600                         # Higher ISO for speed
+  i_lens_position: 135                # Auto focus position
+  
+  # Image quality optimized for speed
+  i_saturation: 0                     # Neutral saturation
+  i_contrast: 0                       # Neutral contrast  
+  i_brightness: 0                     # Neutral brightness
+  i_sharpness: 1                      # Slight sharpening for detection
+
+# Neural network processing
+nn:
+  i_nn_type: 'none'                   # Disable NN for basic operation
+  i_enable_passthrough: true          # Enable passthrough for processing
+  i_enable_passthrough_depth: false   # No depth on mono camera
+
+# Publishing options
+publishers:
+  # Image streams
+  i_publish_topic: true               # Enable topic publishing
+  i_get_base_device_timestamp: false  # Use ROS timestamps
+  
+  # Synchronization
+  i_enable_sync: false                # No sync needed for mono
+  
+  # TF frames
+  i_tf_prefix: "oak_1"               # TF prefix
+  i_parent_frame: "oak_1_link"       # Parent frame
+  i_cam_pos_x: 0.0                   # Camera position X
+  i_cam_pos_y: 0.0                   # Camera position Y
+  i_cam_pos_z: 0.0                   # Camera position Z
+  i_cam_roll: 0.0                    # Camera roll
+  i_cam_pitch: 0.0                   # Camera pitch
+  i_cam_yaw: 0.0                     # Camera yaw
+
+# Quality settings for object detection
+quality:
+  # Image quality for detection
+  image_quality: 'HIGH'              # HIGH quality for detection
+  denoise: true                      # Enable denoising
+  
+  # ROI (Region of Interest) for detection area
+  roi_enabled: false                 # Enable ROI filtering
+  roi_x: 0.1                        # ROI start X (normalized)
+  roi_y: 0.1                        # ROI start Y (normalized)  
+  roi_width: 0.8                    # ROI width (normalized)
+  roi_height: 0.8                   # ROI height (normalized)
+  
+  # Motion detection
+  motion_detection: true             # Enable motion detection
+  motion_threshold: 10               # Motion sensitivity
+  
+# Advanced settings
+advanced:
+  # Auto-exposure regions
+  ae_region_x: 0                     # AE region X
+  ae_region_y: 0                     # AE region Y
+  ae_region_width: 1920              # AE region width
+  ae_region_height: 1080             # AE region height
+  
+  # Auto-white balance
+  awb_mode: 'AUTO'                   # Auto white balance mode
+  
+  # Anti-banding
+  anti_banding_mode: '50_HZ'         # 50Hz anti-banding

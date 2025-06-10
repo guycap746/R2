@@ -1,0 +1,19 @@
+# Service for configuring Roboflow upload settings
+# Request: Configuration parameters
+string api_key
+string workspace_name
+string project_name
+string dataset_version
+bool auto_upload
+bool include_failed_grasps
+string annotation_format
+float32 min_confidence_for_upload
+
+---
+
+# Response: Configuration status
+bool success
+string message
+string workspace_url
+string project_url
+int32 total_images_in_dataset

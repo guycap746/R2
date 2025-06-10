@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypeselector="true"?>
+<package format="3">
+  <name>roarm_lerobot_integration</name>
+  <version>0.0.0</version>
+  <description>LeRobot integration for RoArm M3 robotic manipulation with Hugging Face AI models</description>
+  <maintainer email="robot@example.com">robot</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <!-- ROS2 Core Dependencies -->
+  <depend>rclpy</depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>trajectory_msgs</depend>
+  <depend>control_msgs</depend>
+  <depend>action_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+
+  <!-- Robot Control Dependencies -->
+  <depend>roarm_description</depend>
+  <depend>roarm_moveit</depend>
+  <depend>roarm_driver</depend>
+  <depend>roarm_anygrasp_integration</depend>
+  <depend>moveit_msgs</depend>
+  <depend>moveit_core</depend>
+
+  <!-- Camera and Sensor Dependencies -->
+  <depend>image_transport</depend>
+  <depend>cv_bridge</depend>
+  <depend>realsense2_camera</depend>
+  <depend>compressed_image_transport</depend>
+
+  <!-- AI/ML Dependencies -->
+  <depend>visualization_msgs</depend>
+  <depend>diagnostic_msgs</depend>
+  <depend>rosgraph_msgs</depend>
+
+  <!-- Python Dependencies (handled in setup.py) -->
+  <!-- torch, transformers, datasets, huggingface_hub, lerobot -->
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

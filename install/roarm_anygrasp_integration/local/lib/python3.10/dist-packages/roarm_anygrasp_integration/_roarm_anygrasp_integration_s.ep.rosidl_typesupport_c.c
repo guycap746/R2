@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/roarm_anygrasp_integration/rosidl_generator_py/roarm_anygrasp_integration/_roarm_anygrasp_integration_s.ep.rosidl_typesupport_c.c

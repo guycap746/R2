@@ -1,0 +1,1 @@
+/root/ros2_workspace/src/oak_camera_integration/scripts/multi_camera_coordinator.py

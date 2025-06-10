@@ -1,0 +1,5 @@
+source;share/roarm_lerobot_integration/local_setup.bash
+source;share/roarm_lerobot_integration/local_setup.dsv
+source;share/roarm_lerobot_integration/local_setup.ps1
+source;share/roarm_lerobot_integration/local_setup.sh
+source;share/roarm_lerobot_integration/local_setup.zsh

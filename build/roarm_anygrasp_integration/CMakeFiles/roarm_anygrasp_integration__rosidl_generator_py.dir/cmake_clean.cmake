@@ -1,0 +1,19 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/roarm_anygrasp_integration__rosidl_generator_py.dir/rosidl_generator_py/roarm_anygrasp_integration/srv/_calibrate_camera_s.c.o"
+  "CMakeFiles/roarm_anygrasp_integration__rosidl_generator_py.dir/rosidl_generator_py/roarm_anygrasp_integration/srv/_calibrate_camera_s.c.o.d"
+  "CMakeFiles/roarm_anygrasp_integration__rosidl_generator_py.dir/rosidl_generator_py/roarm_anygrasp_integration/srv/_configure_roboflow_s.c.o"
+  "CMakeFiles/roarm_anygrasp_integration__rosidl_generator_py.dir/rosidl_generator_py/roarm_anygrasp_integration/srv/_configure_roboflow_s.c.o.d"
+  "CMakeFiles/roarm_anygrasp_integration__rosidl_generator_py.dir/rosidl_generator_py/roarm_anygrasp_integration/srv/_get_grasp_candidates_s.c.o"
+  "CMakeFiles/roarm_anygrasp_integration__rosidl_generator_py.dir/rosidl_generator_py/roarm_anygrasp_integration/srv/_get_grasp_candidates_s.c.o.d"
+  "CMakeFiles/roarm_anygrasp_integration__rosidl_generator_py.dir/rosidl_generator_py/roarm_anygrasp_integration/srv/_select_grasp_s.c.o"
+  "CMakeFiles/roarm_anygrasp_integration__rosidl_generator_py.dir/rosidl_generator_py/roarm_anygrasp_integration/srv/_select_grasp_s.c.o.d"
+  "CMakeFiles/roarm_anygrasp_integration__rosidl_generator_py.dir/rosidl_generator_py/roarm_anygrasp_integration/srv/_upload_to_roboflow_s.c.o"
+  "CMakeFiles/roarm_anygrasp_integration__rosidl_generator_py.dir/rosidl_generator_py/roarm_anygrasp_integration/srv/_upload_to_roboflow_s.c.o.d"
+  "rosidl_generator_py/roarm_anygrasp_integration/libroarm_anygrasp_integration__rosidl_generator_py.pdb"
+  "rosidl_generator_py/roarm_anygrasp_integration/libroarm_anygrasp_integration__rosidl_generator_py.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/roarm_anygrasp_integration__rosidl_generator_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

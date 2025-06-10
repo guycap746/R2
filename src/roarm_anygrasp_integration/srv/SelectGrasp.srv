@@ -1,0 +1,17 @@
+# Service for user grasp selection from AnyGrasp candidates
+# Request: Index of selected grasp from the top candidates
+int32 selected_grasp_index
+
+# Optional: User can request to see more candidates  
+bool show_more_candidates
+
+---
+
+# Response: Confirmation and execution status
+bool success
+string message
+
+# Selected grasp details for confirmation
+geometry_msgs/PoseStamped selected_pose
+float32 confidence_score
+float32 grasp_width

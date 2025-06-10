@@ -1,0 +1,48 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from roarm_anygrasp_integration/srv/UploadToRoboflow.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseArray.idl"
+#include "sensor_msgs/msg/Image.idl"
+
+module roarm_anygrasp_integration {
+  module srv {
+    @verbatim (language="comment", text=
+      "Service for uploading images with grasp annotations to Roboflow" "\n"
+      "Request: Image data and grasp annotations")
+    struct UploadToRoboflow_Request {
+      sensor_msgs::msg::Image rgb_image;
+
+      geometry_msgs::msg::PoseArray grasp_poses;
+
+      sequence<float> confidence_scores;
+
+      sequence<string> class_labels;
+
+      @verbatim (language="comment", text=
+        "Metadata")
+      string scene_description;
+
+      string object_types;
+
+      boolean include_annotations;
+
+      boolean upload_immediately;
+    };
+    struct UploadToRoboflow_Response {
+      @verbatim (language="comment", text=
+        "Response: Upload status and details")
+      boolean success;
+
+      string message;
+
+      string roboflow_image_id;
+
+      string upload_url;
+
+      int32 annotation_count;
+
+      string dataset_version;
+    };
+  };
+};

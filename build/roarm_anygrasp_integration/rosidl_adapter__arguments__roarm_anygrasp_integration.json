@@ -1,0 +1,10 @@
+{
+  "package_name": "roarm_anygrasp_integration",
+  "non_idl_tuples": [
+    "/root/ros2_workspace/src/roarm_anygrasp_integration:srv/SelectGrasp.srv",
+    "/root/ros2_workspace/src/roarm_anygrasp_integration:srv/GetGraspCandidates.srv",
+    "/root/ros2_workspace/src/roarm_anygrasp_integration:srv/UploadToRoboflow.srv",
+    "/root/ros2_workspace/src/roarm_anygrasp_integration:srv/ConfigureRoboflow.srv",
+    "/root/ros2_workspace/src/roarm_anygrasp_integration:srv/CalibrateCamera.srv"
+  ]
+}

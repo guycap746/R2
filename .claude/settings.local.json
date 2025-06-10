@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(source:*)",
+      "Bash(colcon build:*)",
+      "Bash(./run_tests.sh:*)",
+      "Bash(mkdir:*)",
+      "Bash(ros2 pkg list:*)",
+      "Bash(ros2 launch:*)",
+      "Bash(collon build:*)",
+      "WebFetch(domain:huggingface.co)",
+      "Bash(chmod:*)"
+    ],
+    "deny": []
+  }
+}

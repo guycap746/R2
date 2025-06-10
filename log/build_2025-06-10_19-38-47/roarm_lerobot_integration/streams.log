@@ -1,0 +1,33 @@
+[0.017s] Invoking command in '/root/ros2_workspace/build/roarm_lerobot_integration': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_driver:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/roarm_anygrasp_integration/lib PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:/root/ros2_workspace/build/roarm_driver:/root/ros2_workspace/install/roarm_driver/lib/python3.10/site-packages:/root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages /usr/bin/cmake /root/ros2_workspace/src/roarm_lerobot_integration -DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/roarm_lerobot_integration
+[0.082s] -- The C compiler identification is GNU 11.4.0
+[0.154s] -- The CXX compiler identification is GNU 11.4.0
+[0.163s] -- Detecting C compiler ABI info
+[0.253s] -- Detecting C compiler ABI info - done
+[0.264s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.265s] -- Detecting C compile features
+[0.265s] -- Detecting C compile features - done
+[0.268s] -- Detecting CXX compiler ABI info
+[0.376s] -- Detecting CXX compiler ABI info - done
+[0.386s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.386s] -- Detecting CXX compile features
+[0.387s] -- Detecting CXX compile features - done
+[0.396s] CMake Error at CMakeLists.txt:9 (find_package):
+[0.396s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.396s]   has asked CMake to find a package configuration file provided by
+[0.396s]   "ament_cmake", but CMake did not find one.
+[0.396s] 
+[0.396s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.396s]   any of the following names:
+[0.396s] 
+[0.397s]     ament_cmakeConfig.cmake
+[0.397s]     ament_cmake-config.cmake
+[0.397s] 
+[0.397s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.397s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.397s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.397s]   has been installed.
+[0.397s] 
+[0.397s] 
+[0.397s] -- Configuring incomplete, errors occurred!
+[0.398s] See also "/root/ros2_workspace/build/roarm_lerobot_integration/CMakeFiles/CMakeOutput.log".
+[0.400s] Invoked command in '/root/ros2_workspace/build/roarm_lerobot_integration' returned '1': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_driver:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/roarm_anygrasp_integration/lib PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:/root/ros2_workspace/build/roarm_driver:/root/ros2_workspace/install/roarm_driver/lib/python3.10/site-packages:/root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages /usr/bin/cmake /root/ros2_workspace/src/roarm_lerobot_integration -DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/roarm_lerobot_integration

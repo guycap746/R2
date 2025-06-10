@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/roarm_moveit/rosidl_generator_py/roarm_moveit/srv/_get_pose_cmd_s.c

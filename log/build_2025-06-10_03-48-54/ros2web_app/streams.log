@@ -1,0 +1,23 @@
+[0.770s] Invoking command in '/root/ros2_workspace/build/ros2web_app': AMENT_PREFIX_PATH=/root/ros2_workspace/install/ros2web:/root/ros2_workspace/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/ros2web_interfaces LD_LIBRARY_PATH=/root/ros2_workspace/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/build/ros2web_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_workspace/install/ros2web_app/lib/python3.10/site-packages:/root/ros2_workspace/build/ros2web:/root/ros2_workspace/install/ros2web/lib/python3.10/site-packages:/root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_workspace/build/ros2web_app/build --no-deps symlink_data
+[0.999s] running develop
+[1.130s] running egg_info
+[1.130s] creating ros2web_app.egg-info
+[1.130s] writing ros2web_app.egg-info/PKG-INFO
+[1.131s] writing dependency_links to ros2web_app.egg-info/dependency_links.txt
+[1.131s] writing entry points to ros2web_app.egg-info/entry_points.txt
+[1.131s] writing requirements to ros2web_app.egg-info/requires.txt
+[1.131s] writing top-level names to ros2web_app.egg-info/top_level.txt
+[1.131s] writing manifest file 'ros2web_app.egg-info/SOURCES.txt'
+[1.134s] reading manifest file 'ros2web_app.egg-info/SOURCES.txt'
+[1.134s] writing manifest file 'ros2web_app.egg-info/SOURCES.txt'
+[1.136s] running build_ext
+[1.136s] Creating /root/ros2_workspace/install/ros2web_app/lib/python3.10/site-packages/ros2web-app.egg-link (link to .)
+[1.137s] 
+[1.137s] Installed /root/ros2_workspace/build/ros2web_app
+[1.137s] running symlink_data
+[1.137s] creating /root/ros2_workspace/install/ros2web_app/share/ament_index
+[1.137s] creating /root/ros2_workspace/install/ros2web_app/share/ament_index/resource_index
+[1.137s] creating /root/ros2_workspace/install/ros2web_app/share/ament_index/resource_index/packages
+[1.137s] symbolically linking /root/ros2_workspace/build/ros2web_app/resource/ros2web_app -> /root/ros2_workspace/install/ros2web_app/share/ament_index/resource_index/packages
+[1.137s] symbolically linking /root/ros2_workspace/build/ros2web_app/package.xml -> /root/ros2_workspace/install/ros2web_app/share/ros2web_app
+[1.164s] Invoked command in '/root/ros2_workspace/build/ros2web_app' returned '0': AMENT_PREFIX_PATH=/root/ros2_workspace/install/ros2web:/root/ros2_workspace/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/ros2web_interfaces LD_LIBRARY_PATH=/root/ros2_workspace/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/build/ros2web_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_workspace/install/ros2web_app/lib/python3.10/site-packages:/root/ros2_workspace/build/ros2web:/root/ros2_workspace/install/ros2web/lib/python3.10/site-packages:/root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_workspace/build/ros2web_app/build --no-deps symlink_data

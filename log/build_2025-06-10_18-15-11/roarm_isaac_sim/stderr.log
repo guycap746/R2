@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:70 (file):
+  file INSTALL cannot find
+  "/root/ros2_workspace/src/roarm_isaac_sim/scripts/sim_to_real_calibration.py":
+  No such file or directory.
+
+

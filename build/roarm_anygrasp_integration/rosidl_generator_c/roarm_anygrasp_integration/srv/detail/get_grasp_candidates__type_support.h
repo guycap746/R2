@@ -1,0 +1,58 @@
+// generated from rosidl_generator_c/resource/idl__type_support.h.em
+// with input from roarm_anygrasp_integration:srv/GetGraspCandidates.idl
+// generated code does not contain a copyright notice
+
+#ifndef ROARM_ANYGRASP_INTEGRATION__SRV__DETAIL__GET_GRASP_CANDIDATES__TYPE_SUPPORT_H_
+#define ROARM_ANYGRASP_INTEGRATION__SRV__DETAIL__GET_GRASP_CANDIDATES__TYPE_SUPPORT_H_
+
+#include "rosidl_typesupport_interface/macros.h"
+
+#include "roarm_anygrasp_integration/msg/rosidl_generator_c__visibility_control.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include "rosidl_runtime_c/message_type_support_struct.h"
+
+// Forward declare the get type support functions for this type.
+ROSIDL_GENERATOR_C_PUBLIC_roarm_anygrasp_integration
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  roarm_anygrasp_integration,
+  srv,
+  GetGraspCandidates_Request
+)();
+
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+
+// Forward declare the get type support functions for this type.
+ROSIDL_GENERATOR_C_PUBLIC_roarm_anygrasp_integration
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  roarm_anygrasp_integration,
+  srv,
+  GetGraspCandidates_Response
+)();
+
+#include "rosidl_runtime_c/service_type_support_struct.h"
+
+// Forward declare the get type support functions for this type.
+ROSIDL_GENERATOR_C_PUBLIC_roarm_anygrasp_integration
+const rosidl_service_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  roarm_anygrasp_integration,
+  srv,
+  GetGraspCandidates
+)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // ROARM_ANYGRASP_INTEGRATION__SRV__DETAIL__GET_GRASP_CANDIDATES__TYPE_SUPPORT_H_

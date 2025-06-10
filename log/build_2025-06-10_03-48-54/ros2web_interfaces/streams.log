@@ -1,0 +1,387 @@
+[0.020s] Invoking command in '/root/ros2_workspace/build/ros2web_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_workspace/src/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/ros2web_interfaces
+[0.298s] -- The C compiler identification is GNU 11.4.0
+[0.298s] -- The CXX compiler identification is GNU 11.4.0
+[0.298s] -- Detecting C compiler ABI info
+[0.298s] -- Detecting C compiler ABI info - done
+[0.298s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.298s] -- Detecting C compile features
+[0.298s] -- Detecting C compile features - done
+[0.299s] -- Detecting CXX compiler ABI info
+[0.370s] -- Detecting CXX compiler ABI info - done
+[0.373s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.374s] -- Detecting CXX compile features
+[0.374s] -- Detecting CXX compile features - done
+[0.378s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.582s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.676s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.690s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.690s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.695s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.735s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.115s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.334s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.624s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.649s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.649s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.675s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.675s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.675s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.676s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.701s] -- Found PythonExtra: .so  
+[1.746s] -- Configuring done
+[1.789s] -- Generating done
+[1.800s] -- Build files have been written to: /root/ros2_workspace/build/ros2web_interfaces
+[1.807s] Invoked command in '/root/ros2_workspace/build/ros2web_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_workspace/src/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/ros2web_interfaces
+[1.807s] Invoking command in '/root/ros2_workspace/build/ros2web_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_workspace/build/ros2web_interfaces -- -j4 -l4
+[1.867s] [  1%] Generating C code for ROS interfaces
+[1.885s] [  2%] Generating C++ code for ROS interfaces
+[1.960s] [  2%] Built target ament_cmake_python_symlink_ros2web_interfaces
+[2.302s] running egg_info
+[2.303s] creating ros2web_interfaces.egg-info
+[2.303s] writing ros2web_interfaces.egg-info/PKG-INFO
+[2.304s] writing dependency_links to ros2web_interfaces.egg-info/dependency_links.txt
+[2.304s] writing top-level names to ros2web_interfaces.egg-info/top_level.txt
+[2.304s] writing manifest file 'ros2web_interfaces.egg-info/SOURCES.txt'
+[2.307s] reading manifest file 'ros2web_interfaces.egg-info/SOURCES.txt'
+[2.308s] writing manifest file 'ros2web_interfaces.egg-info/SOURCES.txt'
+[2.341s] [  2%] Built target ament_cmake_python_build_ros2web_interfaces_egg
+[4.840s] [  2%] Built target ros2web_interfaces__cpp
+[4.878s] [  3%] Generating C++ type support dispatch for ROS interfaces
+[4.916s] [  4%] Generating C++ type support for eProsima Fast-RTPS
+[5.550s] [  5%] Generating C++ introspection for ROS interfaces
+[5.612s] [  6%] Building C object CMakeFiles/ros2web_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2web_interfaces/msg/detail/body_part__functions.c.o
+[5.757s] [  8%] Building C object CMakeFiles/ros2web_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2web_interfaces/msg/detail/content_type__functions.c.o
+[5.902s] [  9%] Building C object CMakeFiles/ros2web_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2web_interfaces/msg/detail/http_status_code__functions.c.o
+[6.198s] [ 10%] Building C object CMakeFiles/ros2web_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2web_interfaces/msg/detail/ws_msg_data__functions.c.o
+[6.593s] [ 11%] Building C object CMakeFiles/ros2web_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2web_interfaces/msg/detail/ws_msg_type__functions.c.o
+[7.037s] [ 12%] Building C object CMakeFiles/ros2web_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2web_interfaces/msg/detail/ws_msg__functions.c.o
+[7.505s] [ 13%] Building C object CMakeFiles/ros2web_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2web_interfaces/srv/detail/http__functions.c.o
+[8.258s] [ 14%] Building C object CMakeFiles/ros2web_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2web_interfaces/srv/detail/ws__functions.c.o
+[8.620s] [ 16%] Linking C shared library libros2web_interfaces__rosidl_generator_c.so
+[8.871s] [ 16%] Built target ros2web_interfaces__rosidl_generator_c
+[8.962s] [ 17%] Generating C type support for eProsima Fast-RTPS
+[10.682s] [ 18%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2web_interfaces/msg/body_part__type_support.cpp.o
+[11.061s] [ 19%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2web_interfaces/msg/content_type__type_support.cpp.o
+[11.799s] [ 20%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2web_interfaces/msg/http_status_code__type_support.cpp.o
+[11.825s] [ 21%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2web_interfaces/msg/detail/dds_fastrtps/body_part__type_support.cpp.o
+[12.237s] [ 22%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2web_interfaces/msg/detail/body_part__type_support.cpp.o
+[12.544s] [ 24%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2web_interfaces/msg/ws_msg_data__type_support.cpp.o
+[13.645s] [ 25%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2web_interfaces/msg/detail/dds_fastrtps/content_type__type_support.cpp.o
+[13.677s] [ 26%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2web_interfaces/msg/ws_msg_type__type_support.cpp.o
+[14.066s] [ 27%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2web_interfaces/msg/detail/content_type__type_support.cpp.o
+[14.098s] [ 28%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2web_interfaces/msg/detail/body_part__type_support_c.cpp.o
+[14.614s] [ 29%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2web_interfaces/msg/ws_msg__type_support.cpp.o
+[14.753s] [ 31%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2web_interfaces/msg/detail/dds_fastrtps/http_status_code__type_support.cpp.o
+[15.218s] [ 32%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2web_interfaces/msg/detail/content_type__type_support_c.cpp.o
+[15.306s] [ 33%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2web_interfaces/msg/detail/http_status_code__type_support.cpp.o
+[15.550s] [ 34%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2web_interfaces/srv/http__type_support.cpp.o
+[15.977s] [ 35%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2web_interfaces/msg/detail/dds_fastrtps/ws_msg_data__type_support.cpp.o
+[16.325s] [ 36%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2web_interfaces/msg/detail/http_status_code__type_support_c.cpp.o
+[16.580s] [ 37%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2web_interfaces/srv/ws__type_support.cpp.o
+[16.611s] [ 39%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2web_interfaces/msg/detail/ws_msg_data__type_support.cpp.o
+[17.356s] [ 40%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2web_interfaces/msg/detail/dds_fastrtps/ws_msg_type__type_support.cpp.o
+[17.651s] [ 41%] Linking CXX shared library libros2web_interfaces__rosidl_typesupport_cpp.so
+[17.741s] [ 42%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2web_interfaces/msg/detail/ws_msg_data__type_support_c.cpp.o
+[17.882s] [ 42%] Built target ros2web_interfaces__rosidl_typesupport_cpp
+[17.963s] [ 43%] Generating C introspection for ROS interfaces
+[18.334s] [ 44%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2web_interfaces/msg/detail/ws_msg_type__type_support.cpp.o
+[18.810s] [ 45%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2web_interfaces/msg/detail/dds_fastrtps/ws_msg__type_support.cpp.o
+[19.147s] [ 47%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2web_interfaces/msg/detail/ws_msg_type__type_support_c.cpp.o
+[19.891s] [ 48%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2web_interfaces/msg/detail/ws_msg__type_support.cpp.o
+[20.430s] [ 49%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2web_interfaces/srv/detail/dds_fastrtps/http__type_support.cpp.o
+[20.543s] [ 50%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2web_interfaces/msg/detail/ws_msg__type_support_c.cpp.o
+[21.297s] [ 51%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2web_interfaces/srv/detail/http__type_support.cpp.o
+[23.532s] [ 52%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2web_interfaces/srv/detail/http__type_support_c.cpp.o
+[28.141s] [ 54%] Building C object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2web_interfaces/msg/detail/body_part__type_support.c.o
+[28.175s] [ 55%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2web_interfaces/srv/detail/dds_fastrtps/ws__type_support.cpp.o
+[28.381s] [ 56%] Building C object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2web_interfaces/msg/detail/content_type__type_support.c.o
+[28.508s] [ 57%] Building C object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2web_interfaces/msg/detail/http_status_code__type_support.c.o
+[28.586s] [ 58%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2web_interfaces/srv/detail/ws__type_support_c.cpp.o
+[28.655s] [ 59%] Building C object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2web_interfaces/msg/detail/ws_msg_data__type_support.c.o
+[28.837s] [ 60%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2web_interfaces/srv/detail/ws__type_support.cpp.o
+[28.902s] [ 62%] Building C object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2web_interfaces/msg/detail/ws_msg_type__type_support.c.o
+[28.937s] [ 63%] Building C object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2web_interfaces/msg/detail/ws_msg__type_support.c.o
+[29.001s] [ 64%] Building C object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2web_interfaces/srv/detail/http__type_support.c.o
+[29.306s] [ 65%] Building C object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2web_interfaces/srv/detail/ws__type_support.c.o
+[29.453s] [ 66%] Linking C shared library libros2web_interfaces__rosidl_typesupport_introspection_c.so
+[29.563s] [ 66%] Built target ros2web_interfaces__rosidl_typesupport_introspection_c
+[29.685s] [ 67%] Linking CXX shared library libros2web_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[29.821s] [ 68%] Linking CXX shared library libros2web_interfaces__rosidl_typesupport_fastrtps_c.so
+[29.926s] [ 68%] Built target ros2web_interfaces__rosidl_typesupport_fastrtps_cpp
+[29.941s] [ 70%] Linking CXX shared library libros2web_interfaces__rosidl_typesupport_introspection_cpp.so
+[30.089s] [ 70%] Built target ros2web_interfaces__rosidl_typesupport_fastrtps_c
+[30.145s] [ 70%] Built target ros2web_interfaces__rosidl_typesupport_introspection_cpp
+[30.203s] [ 71%] Generating C type support dispatch for ROS interfaces
+[32.108s] [ 72%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2web_interfaces/msg/body_part__type_support.cpp.o
+[32.200s] [ 73%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2web_interfaces/msg/ws_msg_data__type_support.cpp.o
+[32.288s] [ 74%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2web_interfaces/msg/ws_msg_type__type_support.cpp.o
+[32.407s] [ 75%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2web_interfaces/msg/ws_msg__type_support.cpp.o
+[32.503s] [ 77%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2web_interfaces/srv/http__type_support.cpp.o
+[32.588s] [ 78%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2web_interfaces/srv/ws__type_support.cpp.o
+[32.639s] [ 79%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2web_interfaces/msg/http_status_code__type_support.cpp.o
+[32.685s] [ 80%] Building CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2web_interfaces/msg/content_type__type_support.cpp.o
+[32.721s] [ 81%] Linking CXX shared library libros2web_interfaces__rosidl_typesupport_c.so
+[32.759s] [ 81%] Built target ros2web_interfaces__rosidl_typesupport_c
+[32.781s] [ 81%] Built target ros2web_interfaces
+[32.828s] [ 82%] Generating Python code for ROS interfaces
+[35.761s] [ 82%] Built target ros2web_interfaces__py
+[35.798s] [ 83%] Building C object CMakeFiles/ros2web_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2web_interfaces/msg/_body_part_s.c.o
+[35.958s] [ 85%] Building C object CMakeFiles/ros2web_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2web_interfaces/msg/_ws_msg_data_s.c.o
+[36.058s] [ 86%] Building C object CMakeFiles/ros2web_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2web_interfaces/msg/_ws_msg_type_s.c.o
+[36.174s] [ 87%] Building C object CMakeFiles/ros2web_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2web_interfaces/msg/_ws_msg_s.c.o
+[36.330s] [ 88%] Building C object CMakeFiles/ros2web_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2web_interfaces/srv/_http_s.c.o
+[36.497s] [ 89%] Building C object CMakeFiles/ros2web_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2web_interfaces/srv/_ws_s.c.o
+[36.611s] [ 90%] Building C object CMakeFiles/ros2web_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2web_interfaces/msg/_http_status_code_s.c.o
+[36.703s] [ 91%] Building C object CMakeFiles/ros2web_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2web_interfaces/msg/_content_type_s.c.o
+[36.797s] [ 93%] Linking C shared library rosidl_generator_py/ros2web_interfaces/libros2web_interfaces__rosidl_generator_py.so
+[36.860s] [ 93%] Built target ros2web_interfaces__rosidl_generator_py
+[36.903s] [ 94%] Building C object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2web_interfaces/_ros2web_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[37.009s] [ 95%] Linking C shared library rosidl_generator_py/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[37.072s] [ 95%] Built target ros2web_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[37.116s] [ 96%] Building C object CMakeFiles/ros2web_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2web_interfaces/_ros2web_interfaces_s.ep.rosidl_typesupport_c.c.o
+[37.308s] [ 97%] Linking C shared library rosidl_generator_py/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[37.399s] [ 97%] Built target ros2web_interfaces__rosidl_typesupport_c__pyext
+[37.469s] [ 98%] Building C object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2web_interfaces/_ros2web_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o
+[37.662s] [100%] Linking C shared library rosidl_generator_py/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[37.767s] [100%] Built target ros2web_interfaces__rosidl_typesupport_introspection_c__pyext
+[37.785s] Invoked command in '/root/ros2_workspace/build/ros2web_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_workspace/build/ros2web_interfaces -- -j4 -l4
+[37.786s] Invoking command in '/root/ros2_workspace/build/ros2web_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_workspace/build/ros2web_interfaces
+[37.799s] -- Install configuration: ""
+[37.800s] -- Execute custom install script
+[37.800s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ament_index/resource_index/rosidl_interfaces/ros2web_interfaces
+[37.809s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/body_part.h
+[37.816s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/content_type.h
+[37.823s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__functions.h
+[37.831s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__struct.h
+[37.838s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__type_support.h
+[37.844s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__functions.h
+[37.852s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__struct.h
+[37.863s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__type_support.h
+[37.871s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__functions.h
+[37.879s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__struct.h
+[37.891s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__type_support.h
+[37.900s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__functions.h
+[37.920s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__struct.h
+[37.927s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__type_support.h
+[37.934s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__functions.h
+[37.941s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__struct.h
+[37.947s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__type_support.h
+[37.955s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__functions.h
+[37.962s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__struct.h
+[37.968s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__type_support.h
+[37.975s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/http_status_code.h
+[37.986s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/rosidl_generator_c__visibility_control.h
+[38.001s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/ws_msg.h
+[38.026s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/ws_msg_data.h
+[38.050s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/ws_msg_type.h
+[38.068s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__functions.h
+[38.078s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__struct.h
+[38.100s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__type_support.h
+[38.108s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__functions.h
+[38.117s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__struct.h
+[38.129s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__type_support.h
+[38.137s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/http.h
+[38.150s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/ws.h
+[38.157s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/environment/library_path.sh
+[38.169s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/environment/library_path.dsv
+[38.185s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__rosidl_typesupport_fastrtps_c.h
+[38.205s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__rosidl_typesupport_fastrtps_c.h
+[38.226s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__rosidl_typesupport_fastrtps_c.h
+[38.245s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__rosidl_typesupport_fastrtps_c.h
+[38.269s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__rosidl_typesupport_fastrtps_c.h
+[38.285s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__rosidl_typesupport_fastrtps_c.h
+[38.305s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[38.320s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__rosidl_typesupport_fastrtps_c.h
+[38.330s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__rosidl_typesupport_fastrtps_c.h
+[38.343s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__rosidl_typesupport_introspection_c.h
+[38.353s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__rosidl_typesupport_introspection_c.h
+[38.360s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__rosidl_typesupport_introspection_c.h
+[38.367s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__rosidl_typesupport_introspection_c.h
+[38.381s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__rosidl_typesupport_introspection_c.h
+[38.398s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__rosidl_typesupport_introspection_c.h
+[38.404s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[38.428s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__rosidl_typesupport_introspection_c.h
+[38.428s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__rosidl_typesupport_introspection_c.h
+[38.447s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/body_part.hpp
+[38.448s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/content_type.hpp
+[38.456s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__builder.hpp
+[38.462s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__struct.hpp
+[38.480s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__traits.hpp
+[38.506s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__type_support.hpp
+[38.517s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__builder.hpp
+[38.523s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__struct.hpp
+[38.535s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__traits.hpp
+[38.541s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__type_support.hpp
+[38.552s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__builder.hpp
+[38.558s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__struct.hpp
+[38.569s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__traits.hpp
+[38.581s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__type_support.hpp
+[38.590s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__builder.hpp
+[38.602s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__struct.hpp
+[38.614s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__traits.hpp
+[38.627s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__type_support.hpp
+[38.642s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__builder.hpp
+[38.649s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__struct.hpp
+[38.661s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__traits.hpp
+[38.673s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__type_support.hpp
+[38.681s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__builder.hpp
+[38.694s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__struct.hpp
+[38.714s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__traits.hpp
+[38.727s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__type_support.hpp
+[38.737s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/http_status_code.hpp
+[38.749s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[38.762s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/ws_msg.hpp
+[38.776s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/ws_msg_data.hpp
+[38.789s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/ws_msg_type.hpp
+[38.801s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__builder.hpp
+[38.812s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__struct.hpp
+[38.826s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__traits.hpp
+[38.838s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__type_support.hpp
+[38.857s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__builder.hpp
+[38.870s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__struct.hpp
+[38.882s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__traits.hpp
+[38.895s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__type_support.hpp
+[38.908s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/http.hpp
+[38.922s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/ws.hpp
+[38.943s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__rosidl_typesupport_fastrtps_cpp.hpp
+[38.956s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__rosidl_typesupport_fastrtps_cpp.hpp
+[38.969s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__rosidl_typesupport_fastrtps_cpp.hpp
+[38.975s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[38.982s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__rosidl_typesupport_fastrtps_cpp.hpp
+[38.988s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__rosidl_typesupport_fastrtps_cpp.hpp
+[38.995s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[39.001s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__rosidl_typesupport_fastrtps_cpp.hpp
+[39.007s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__rosidl_typesupport_fastrtps_cpp.hpp
+[39.013s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__rosidl_typesupport_introspection_cpp.hpp
+[39.019s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__rosidl_typesupport_introspection_cpp.hpp
+[39.024s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__rosidl_typesupport_introspection_cpp.hpp
+[39.031s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__rosidl_typesupport_introspection_cpp.hpp
+[39.036s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__rosidl_typesupport_introspection_cpp.hpp
+[39.043s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__rosidl_typesupport_introspection_cpp.hpp
+[39.049s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__rosidl_typesupport_introspection_cpp.hpp
+[39.055s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__rosidl_typesupport_introspection_cpp.hpp
+[39.062s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/environment/pythonpath.sh
+[39.068s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/environment/pythonpath.dsv
+[39.075s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces-0.1.0-py3.10.egg-info/PKG-INFO
+[39.081s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt
+[39.087s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt
+[39.093s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces-0.1.0-py3.10.egg-info/top_level.txt
+[39.100s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/__init__.py
+[39.108s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/_ros2web_interfaces_s.ep.rosidl_typesupport_c.c
+[39.114s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/_ros2web_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[39.120s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/_ros2web_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[39.126s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/libros2web_interfaces__rosidl_generator_py.so
+[39.133s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/__init__.py
+[39.140s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_body_part.py
+[39.146s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_body_part_s.c
+[39.152s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_content_type.py
+[39.157s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_content_type_s.c
+[39.164s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_http_status_code.py
+[39.170s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_http_status_code_s.c
+[39.176s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_ws_msg.py
+[39.186s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_ws_msg_data.py
+[39.192s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_ws_msg_data_s.c
+[39.198s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_ws_msg_s.c
+[39.204s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_ws_msg_type.py
+[39.210s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_ws_msg_type_s.c
+[39.216s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[39.223s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[39.228s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[39.234s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/srv/__init__.py
+[39.240s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/srv/_http.py
+[39.246s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/srv/_http_s.c
+[39.252s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/srv/_ws.py
+[39.258s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/srv/_ws_s.c
+[39.264s] -- Up-to-date symlink: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[39.264s] -- Up-to-date symlink: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[39.264s] -- Up-to-date symlink: /root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[39.264s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/msg/BodyPart.idl
+[39.270s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/msg/ContentType.idl
+[39.276s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/msg/HTTPStatusCode.idl
+[39.285s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/msg/WSMsgData.idl
+[39.292s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/msg/WSMsgType.idl
+[39.299s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/msg/WSMsg.idl
+[39.306s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/srv/HTTP.idl
+[39.312s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/srv/WS.idl
+[39.318s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/msg/BodyPart.msg
+[39.326s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/msg/ContentType.msg
+[39.336s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/msg/HTTPStatusCode.msg
+[39.342s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/msg/WSMsgData.msg
+[39.350s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/msg/WSMsgType.msg
+[39.360s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/msg/WSMsg.msg
+[39.367s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/srv/HTTP.srv
+[39.375s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/srv/HTTP_Request.msg
+[39.381s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/srv/HTTP_Response.msg
+[39.388s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/srv/WS.srv
+[39.395s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/srv/WS_Request.msg
+[39.402s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/srv/WS_Response.msg
+[39.409s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ament_index/resource_index/package_run_dependencies/ros2web_interfaces
+[39.417s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ament_index/resource_index/parent_prefix_path/ros2web_interfaces
+[39.424s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/environment/ament_prefix_path.sh
+[39.431s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/environment/ament_prefix_path.dsv
+[39.438s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/environment/path.sh
+[39.445s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/environment/path.dsv
+[39.452s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/local_setup.bash
+[39.459s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/local_setup.sh
+[39.466s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/local_setup.zsh
+[39.474s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/local_setup.dsv
+[39.480s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/package.dsv
+[39.488s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ament_index/resource_index/packages/ros2web_interfaces
+[39.496s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/rosidl_cmake-extras.cmake
+[39.503s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[39.511s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[39.518s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[39.525s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[39.532s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.539s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[39.547s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfacesConfig.cmake
+[39.554s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfacesConfig-version.cmake
+[39.561s] -- Symlinking: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/package.xml
+[39.568s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_generator_c.so
+[39.568s] -- Set runtime path of "/root/ros2_workspace/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_generator_c.so" to ""
+[39.568s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_fastrtps_c.so
+[39.568s] -- Set runtime path of "/root/ros2_workspace/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[39.568s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_introspection_c.so
+[39.569s] -- Set runtime path of "/root/ros2_workspace/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[39.569s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_c.so
+[39.569s] -- Set runtime path of "/root/ros2_workspace/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_c.so" to ""
+[39.569s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[39.569s] -- Set runtime path of "/root/ros2_workspace/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[39.569s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_introspection_cpp.so
+[39.570s] -- Set runtime path of "/root/ros2_workspace/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[39.570s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_cpp.so
+[39.570s] -- Set runtime path of "/root/ros2_workspace/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_cpp.so" to ""
+[39.614s] Listing '/root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces'...
+[39.615s] Compiling '/root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/__init__.py'...
+[39.615s] Listing '/root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg'...
+[39.615s] Compiling '/root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/__init__.py'...
+[39.615s] Compiling '/root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_body_part.py'...
+[39.615s] Compiling '/root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_content_type.py'...
+[39.615s] Compiling '/root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_http_status_code.py'...
+[39.615s] Compiling '/root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_ws_msg.py'...
+[39.615s] Compiling '/root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_ws_msg_data.py'...
+[39.615s] Compiling '/root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_ws_msg_type.py'...
+[39.615s] Listing '/root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/srv'...
+[39.615s] Compiling '/root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/srv/__init__.py'...
+[39.615s] Compiling '/root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/srv/_http.py'...
+[39.615s] Compiling '/root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/srv/_ws.py'...
+[39.619s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_generator_py.so
+[39.620s] -- Set runtime path of "/root/ros2_workspace/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_generator_py.so" to ""
+[39.620s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_generator_cExport.cmake
+[39.620s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_generator_cExport-noconfig.cmake
+[39.620s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[39.620s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[39.620s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[39.620s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[39.620s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_cExport.cmake
+[39.620s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[39.620s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_generator_cppExport.cmake
+[39.620s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[39.621s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[39.621s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[39.621s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[39.621s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_cppExport.cmake
+[39.621s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[39.621s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_generator_pyExport.cmake
+[39.621s] -- Installing: /root/ros2_workspace/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[39.623s] Invoked command in '/root/ros2_workspace/build/ros2web_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_workspace/build/ros2web_interfaces

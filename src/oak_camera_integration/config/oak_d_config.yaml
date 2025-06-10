@@ -1,0 +1,93 @@
+# OAK-D Stereo Camera Configuration
+# Optimized for robotic grasping with high-quality depth
+
+# Camera identification
+camera:
+  i_board_socket_id: 0      # Primary camera socket
+  i_mx_id: ""               # Auto-detect MX ID
+  i_ip: ""                  # Auto-detect IP
+  i_usb_port_id: ""         # Auto-detect USB port
+
+# Stereo depth configuration
+stereo:
+  i_lr_check: true                    # Left-right consistency check
+  i_subpixel: false                   # Subpixel interpolation
+  i_extended_disparity: false         # Extended disparity range
+  i_depth_filter_size: 5              # Depth filtering kernel size
+  i_stereo_conf_threshold: 230        # Confidence threshold (0-255)
+  i_bilateral_sigma: 0                # Bilateral filter sigma
+  
+  # Advanced stereo settings
+  i_depth_align_baseline_offset: 0    # Baseline alignment offset
+  i_baseline: 75                      # Baseline distance in mm (OAK-D spec)
+  i_focal_length_pixel: 840           # Focal length in pixels
+
+# RGB camera settings
+rgb:
+  i_resolution: '1080P'               # 1920x1080 for detailed grasping
+  i_fps: 30                           # 30 FPS for smooth operation
+  i_interleaved: false                # Non-interleaved mode
+  i_set_isp_scale: [2, 3]            # ISP scaling factor [num, den]
+  
+  # Image quality
+  i_exposure: 10000                   # Auto exposure (microseconds)
+  i_iso: 800                          # Auto ISO
+  i_lens_position: 135                # Auto focus position
+  i_saturation: 0                     # Saturation adjustment
+  i_contrast: 0                       # Contrast adjustment
+  i_brightness: 0                     # Brightness adjustment
+  i_sharpness: 0                      # Sharpness adjustment
+
+# Mono camera settings (left/right)
+mono:
+  i_resolution: '720P'                # 1280x720 for stereo matching
+  i_fps: 30                           # Match RGB FPS
+  i_exposure: 10000                   # Auto exposure
+  i_iso: 800                          # Auto ISO
+
+# Neural network processing
+nn:
+  i_nn_type: 'none'                   # Disable NN for basic operation
+  i_enable_passthrough: false         # Disable passthrough
+  i_enable_passthrough_depth: false   # Disable depth passthrough
+
+# Publishing options
+publishers:
+  # Image streams
+  i_publish_topic: true               # Enable topic publishing
+  i_output_disparity: false           # Skip raw disparity
+  i_get_base_device_timestamp: false  # Use ROS timestamps
+  
+  # Point cloud
+  i_enable_spatial_nn_info: false     # Disable spatial NN
+  i_enable_sync: true                 # Synchronize streams
+  
+  # TF frames
+  i_tf_prefix: "oak_d"               # TF prefix
+  i_parent_frame: "oak_d_link"       # Parent frame
+  i_cam_pos_x: 0.0                   # Camera position X
+  i_cam_pos_y: 0.0                   # Camera position Y  
+  i_cam_pos_z: 0.0                   # Camera position Z
+  i_cam_roll: 0.0                    # Camera roll
+  i_cam_pitch: 0.0                   # Camera pitch
+  i_cam_yaw: 0.0                     # Camera yaw
+
+# Quality settings for grasping
+quality:
+  # Depth quality
+  depth_quality: 'MEDIUM'             # ULTRA, HIGH, MEDIUM for speed/quality balance
+  confidence_threshold: 230           # Higher for better quality
+  lr_threshold: 5                     # Left-right check threshold
+  
+  # Filtering
+  speckle_filter: true                # Remove speckle noise
+  speckle_range: 50                   # Speckle filtering range
+  temporal_filter: true              # Temporal noise reduction
+  spatial_filter: true               # Spatial noise reduction
+  
+  # ROI (Region of Interest) for grasping area
+  roi_enabled: false                  # Enable ROI filtering
+  roi_x: 0.2                         # ROI start X (normalized)
+  roi_y: 0.2                         # ROI start Y (normalized)
+  roi_width: 0.6                     # ROI width (normalized)
+  roi_height: 0.6                    # ROI height (normalized)

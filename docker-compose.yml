@@ -1,0 +1,39 @@
+
+services:
+  ros2-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ros2-humble-dev
+    volumes:
+      - ./src:/ros2_ws/src
+      - ./install:/ros2_ws/install
+      - ./build:/ros2_ws/build
+      - ./log:/ros2_ws/log
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - /dev/bus/usb:/dev/bus/usb:rw
+    environment:
+      - DISPLAY=${DISPLAY}
+      - ROS_DOMAIN_ID=42
+    network_mode: host
+    stdin_open: true
+    tty: true
+    privileged: true
+    working_dir: /ros2_ws
+    command: /bin/bash
+
+  ros2-runtime:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ros2-humble-runtime
+    volumes:
+      - ./src:/ros2_ws/src:ro
+      - ./install:/ros2_ws/install:ro
+    environment:
+      - ROS_DOMAIN_ID=42
+    network_mode: host
+    restart: unless-stopped
+    working_dir: /ros2_ws
+    depends_on:
+      - ros2-dev

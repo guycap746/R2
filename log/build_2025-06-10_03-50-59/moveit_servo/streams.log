@@ -1,0 +1,96 @@
+[0.018s] Invoking command in '/root/ros2_workspace/build/moveit_servo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_workspace/build/moveit_servo -- -j4 -l4
+[0.382s] Consolidate compiler generated dependencies of target servo_controller_input
+[0.382s] Consolidate compiler generated dependencies of target gtest_main
+[0.382s] [  6%] Built target gtest_main
+[0.382s] Consolidate compiler generated dependencies of target fake_command_publisher
+[0.382s] [ 12%] Built target servo_controller_input
+[0.382s] Consolidate compiler generated dependencies of target moveit_servo_lib_parameters
+[0.383s] [ 18%] Built target fake_command_publisher
+[0.383s] Consolidate compiler generated dependencies of target gtest
+[0.383s] [ 27%] Built target moveit_servo_lib_parameters
+[0.383s] [ 33%] Built target gtest
+[0.383s] Consolidate compiler generated dependencies of target test_servo_collision
+[0.383s] Consolidate compiler generated dependencies of target moveit_servo_lib
+[0.383s] Consolidate compiler generated dependencies of target test_servo_integration
+[0.383s] [ 39%] Built target test_servo_collision
+[0.383s] [ 42%] Building CXX object CMakeFiles/moveit_servo_lib.dir/src/servo_calcs.cpp.o
+[0.383s] [ 48%] Built target test_servo_integration
+[52.678s] [ 51%] Linking CXX shared library libmoveit_servo_lib.so
+[53.105s] [ 63%] Built target moveit_servo_lib
+[53.127s] [ 66%] Building CXX object CMakeFiles/pose_tracking.dir/src/pose_tracking.cpp.o
+[53.128s] [ 72%] Building CXX object CMakeFiles/servo_node.dir/src/servo_node.cpp.o
+[53.128s] [ 69%] Building CXX object CMakeFiles/servo_calcs_unit_tests.dir/test/servo_calcs_unit_tests.cpp.o
+[66.050s] [ 75%] Linking CXX shared library libservo_node.so
+[66.318s] [ 75%] Built target servo_node
+[66.338s] [ 78%] Building CXX object CMakeFiles/servo_node_main.dir/src/servo_node_main.cpp.o
+[74.671s] [ 81%] Linking CXX shared library libpose_tracking.so
+[74.959s] [ 81%] Built target pose_tracking
+[74.982s] [ 87%] Building CXX object CMakeFiles/test_servo_pose_tracking.dir/test/pose_tracking_test.cpp.o
+[74.982s] [ 87%] Building CXX object CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.o
+[77.307s] [ 90%] Linking CXX executable servo_node_main
+[77.614s] [ 90%] Built target servo_node_main
+[78.207s] [ 93%] Linking CXX executable servo_calcs_unit_tests
+[78.604s] [ 93%] Built target servo_calcs_unit_tests
+[93.371s] [ 96%] Linking CXX executable servo_pose_tracking_demo
+[93.756s] [ 96%] Built target servo_pose_tracking_demo
+[96.526s] [100%] Linking CXX executable test_servo_pose_tracking
+[96.932s] [100%] Built target test_servo_pose_tracking
+[96.942s] Invoked command in '/root/ros2_workspace/build/moveit_servo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_workspace/build/moveit_servo -- -j4 -l4
+[96.944s] Invoking command in '/root/ros2_workspace/build/moveit_servo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_workspace/build/moveit_servo
+[96.951s] -- Install configuration: "Release"
+[96.952s] -- Execute custom install script
+[96.953s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/lib/moveit_servo/servo_node_main
+[96.960s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/lib/moveit_servo/servo_pose_tracking_demo
+[96.966s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/lib/moveit_servo/fake_command_publisher
+[96.973s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/include/moveit_servo/collision_check.h
+[96.979s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/include/moveit_servo/enforce_limits.hpp
+[96.984s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/include/moveit_servo/make_shared_from_pool.h
+[96.990s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/include/moveit_servo/parameter_descriptor_builder.hpp
+[96.996s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/include/moveit_servo/pose_tracking.h
+[97.004s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/include/moveit_servo/servo.h
+[97.010s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/include/moveit_servo/servo_calcs.h
+[97.019s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/include/moveit_servo/servo_node.h
+[97.026s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/include/moveit_servo/servo_parameters.h
+[97.032s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/include/moveit_servo/servo_server.h
+[97.039s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/include/moveit_servo/status_codes.h
+[97.047s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/include/moveit_servo/utilities.h
+[97.057s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/launch/demo.launch.py
+[97.066s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/launch/servo_control.launch.py
+[97.075s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/config/demo.rviz
+[97.084s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/config/roarm_simulated_config.yaml
+[97.093s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/config/servo_control.rviz
+[97.100s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/environment/library_path.sh
+[97.110s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/environment/library_path.dsv
+[97.118s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/ament_index/resource_index/package_run_dependencies/moveit_servo
+[97.125s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/ament_index/resource_index/parent_prefix_path/moveit_servo
+[97.134s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/environment/ament_prefix_path.sh
+[97.143s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/environment/ament_prefix_path.dsv
+[97.150s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/environment/path.sh
+[97.157s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/environment/path.dsv
+[97.166s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/local_setup.bash
+[97.175s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/local_setup.sh
+[97.182s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/local_setup.zsh
+[97.188s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/local_setup.dsv
+[97.196s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/package.dsv
+[97.204s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/ament_index/resource_index/packages/moveit_servo
+[97.211s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/ament_index/resource_index/rclcpp_components/moveit_servo
+[97.218s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/cmake/ament_cmake_export_targets-extras.cmake
+[97.224s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/cmake/ament_cmake_export_dependencies-extras.cmake
+[97.231s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/cmake/moveit_servoConfig.cmake
+[97.237s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/cmake/moveit_servoConfig-version.cmake
+[97.244s] -- Symlinking: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/package.xml
+[97.251s] -- Installing: /root/ros2_workspace/install/moveit_servo/lib/libmoveit_servo_lib.so.2.5.5
+[97.254s] -- Set runtime path of "/root/ros2_workspace/install/moveit_servo/lib/libmoveit_servo_lib.so.2.5.5" to ""
+[97.254s] -- Installing: /root/ros2_workspace/install/moveit_servo/lib/libmoveit_servo_lib.so
+[97.254s] -- Installing: /root/ros2_workspace/install/moveit_servo/lib/libmoveit_servo_lib_parameters.so.2.5.5
+[97.254s] -- Set runtime path of "/root/ros2_workspace/install/moveit_servo/lib/libmoveit_servo_lib_parameters.so.2.5.5" to ""
+[97.254s] -- Installing: /root/ros2_workspace/install/moveit_servo/lib/libmoveit_servo_lib_parameters.so
+[97.254s] -- Installing: /root/ros2_workspace/install/moveit_servo/lib/libpose_tracking.so
+[97.255s] -- Set runtime path of "/root/ros2_workspace/install/moveit_servo/lib/libpose_tracking.so" to ""
+[97.255s] -- Installing: /root/ros2_workspace/install/moveit_servo/lib/libservo_node.so
+[97.256s] -- Set runtime path of "/root/ros2_workspace/install/moveit_servo/lib/libservo_node.so" to ""
+[97.256s] -- Installing: /root/ros2_workspace/install/moveit_servo/lib/libservo_controller_input.so
+[97.257s] -- Set runtime path of "/root/ros2_workspace/install/moveit_servo/lib/libservo_controller_input.so" to ""
+[97.258s] -- Installing: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/cmake/export_moveit_servoExport.cmake
+[97.259s] -- Installing: /root/ros2_workspace/install/moveit_servo/share/moveit_servo/cmake/export_moveit_servoExport-release.cmake
+[97.262s] Invoked command in '/root/ros2_workspace/build/moveit_servo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_workspace/build/moveit_servo

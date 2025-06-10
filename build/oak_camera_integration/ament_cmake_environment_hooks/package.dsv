@@ -1,0 +1,4 @@
+source;share/oak_camera_integration/local_setup.bash
+source;share/oak_camera_integration/local_setup.dsv
+source;share/oak_camera_integration/local_setup.sh
+source;share/oak_camera_integration/local_setup.zsh

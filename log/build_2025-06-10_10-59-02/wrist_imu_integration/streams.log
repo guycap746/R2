@@ -1,0 +1,72 @@
+[0.009s] Invoking command in '/root/ros2_workspace/build/wrist_imu_integration': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_workspace/src/wrist_imu_integration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/wrist_imu_integration
+[0.083s] -- The C compiler identification is GNU 11.4.0
+[0.141s] -- The CXX compiler identification is GNU 11.4.0
+[0.148s] -- Detecting C compiler ABI info
+[0.215s] -- Detecting C compiler ABI info - done
+[0.223s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.223s] -- Detecting C compile features
+[0.223s] -- Detecting C compile features - done
+[0.226s] -- Detecting CXX compiler ABI info
+[0.310s] -- Detecting CXX compiler ABI info - done
+[0.317s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.317s] -- Detecting CXX compile features
+[0.318s] -- Detecting CXX compile features - done
+[0.320s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.463s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.521s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.547s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.633s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.727s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.729s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.729s] -- Added test 'lint_cmake' to check CMake code style
+[0.730s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.731s] -- Added test 'xmllint' to check XML markup files
+[0.733s] -- Configuring done
+[0.738s] -- Generating done
+[0.740s] -- Build files have been written to: /root/ros2_workspace/build/wrist_imu_integration
+[0.747s] Invoked command in '/root/ros2_workspace/build/wrist_imu_integration' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_workspace/src/wrist_imu_integration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/wrist_imu_integration
+[0.748s] Invoking command in '/root/ros2_workspace/build/wrist_imu_integration': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_workspace/build/wrist_imu_integration -- -j4 -l4
+[0.801s] Built target ament_cmake_python_symlink_wrist_imu_integration
+[1.041s] running egg_info
+[1.042s] creating wrist_imu_integration.egg-info
+[1.043s] writing wrist_imu_integration.egg-info/PKG-INFO
+[1.043s] writing dependency_links to wrist_imu_integration.egg-info/dependency_links.txt
+[1.043s] writing top-level names to wrist_imu_integration.egg-info/top_level.txt
+[1.043s] writing manifest file 'wrist_imu_integration.egg-info/SOURCES.txt'
+[1.045s] reading manifest file 'wrist_imu_integration.egg-info/SOURCES.txt'
+[1.046s] writing manifest file 'wrist_imu_integration.egg-info/SOURCES.txt'
+[1.077s] Built target ament_cmake_python_build_wrist_imu_integration_egg
+[1.090s] Invoked command in '/root/ros2_workspace/build/wrist_imu_integration' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_workspace/build/wrist_imu_integration -- -j4 -l4
+[1.102s] Invoking command in '/root/ros2_workspace/build/wrist_imu_integration': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_workspace/build/wrist_imu_integration
+[1.110s] -- Install configuration: ""
+[1.110s] -- Execute custom install script
+[1.110s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/environment/pythonpath.sh
+[1.118s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/environment/pythonpath.dsv
+[1.127s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/local/lib/python3.10/dist-packages/wrist_imu_integration-1.0.0-py3.10.egg-info/PKG-INFO
+[1.141s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/local/lib/python3.10/dist-packages/wrist_imu_integration-1.0.0-py3.10.egg-info/SOURCES.txt
+[1.149s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/local/lib/python3.10/dist-packages/wrist_imu_integration-1.0.0-py3.10.egg-info/dependency_links.txt
+[1.157s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/local/lib/python3.10/dist-packages/wrist_imu_integration-1.0.0-py3.10.egg-info/top_level.txt
+[1.165s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/local/lib/python3.10/dist-packages/wrist_imu_integration/__init__.py
+[1.173s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/lib/wrist_imu_integration/wrist_imu_calibration.py
+[1.180s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/lib/wrist_imu_integration/imu_camera_fusion.py
+[1.189s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/launch/d405_with_imu.launch.py
+[1.197s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/launch/wrist_imu.launch.py
+[1.206s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/config/bno055_wrist_config.yaml
+[1.213s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/share/ament_index/resource_index/package_run_dependencies/wrist_imu_integration
+[1.220s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/share/ament_index/resource_index/parent_prefix_path/wrist_imu_integration
+[1.227s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/environment/ament_prefix_path.sh
+[1.235s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/environment/ament_prefix_path.dsv
+[1.242s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/environment/path.sh
+[1.250s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/environment/path.dsv
+[1.260s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/local_setup.bash
+[1.268s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/local_setup.sh
+[1.275s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/local_setup.zsh
+[1.282s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/local_setup.dsv
+[1.292s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/package.dsv
+[1.299s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/share/ament_index/resource_index/packages/wrist_imu_integration
+[1.308s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/cmake/wrist_imu_integrationConfig.cmake
+[1.315s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/cmake/wrist_imu_integrationConfig-version.cmake
+[1.323s] -- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/package.xml
+[1.362s] Listing '/root/ros2_workspace/install/wrist_imu_integration/local/lib/python3.10/dist-packages/wrist_imu_integration'...
+[1.362s] Compiling '/root/ros2_workspace/install/wrist_imu_integration/local/lib/python3.10/dist-packages/wrist_imu_integration/__init__.py'...
+[1.369s] Invoked command in '/root/ros2_workspace/build/wrist_imu_integration' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_workspace/build/wrist_imu_integration

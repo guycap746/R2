@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/roarm_anygrasp_integration/rosidl_generator_py/roarm_anygrasp_integration/__init__.py

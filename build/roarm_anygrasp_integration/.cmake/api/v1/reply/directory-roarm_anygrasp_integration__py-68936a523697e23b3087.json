@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "roarm_anygrasp_integration__py",
+		"source" : "/root/ros2_workspace/build/roarm_anygrasp_integration/roarm_anygrasp_integration__py"
+	}
+}

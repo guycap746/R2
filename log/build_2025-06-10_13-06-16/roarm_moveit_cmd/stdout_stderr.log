@@ -1,0 +1,91 @@
+-- Found moveit_common: 2.5.9 (/opt/ros/humble/share/moveit_common/cmake)
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread 
+-- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+roarm_moveit_cmd: You did not request a specific build type: Choosing 'Release' for maximum performance
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found moveit_core: 2.5.9 (/opt/ros/humble/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_planning: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found moveit_visual_tools: 4.1.2 (/opt/ros/humble/share/moveit_visual_tools/cmake)
+-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- Could not find freeimage library
+-- Found moveit_servo: 2.5.5 (/root/ros2_workspace/install/moveit_servo/share/moveit_servo/cmake)
+-- Found roarm_moveit: 0.3.0 (/root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_workspace/build/roarm_moveit_cmd
+Consolidate compiler generated dependencies of target getposecmd_tf2
+Consolidate compiler generated dependencies of target keyboardcontrol
+[ 14%] Built target keyboardcontrol
+[ 28%] Built target getposecmd_tf2
+Consolidate compiler generated dependencies of target movepointcmd
+Consolidate compiler generated dependencies of target getposecmd
+Consolidate compiler generated dependencies of target movecirclecmd
+Consolidate compiler generated dependencies of target webappcontrol
+[ 42%] Built target movepointcmd
+[ 57%] Built target movecirclecmd
+[ 71%] Built target getposecmd
+[ 85%] Built target webappcontrol
+Consolidate compiler generated dependencies of target setgrippercmd
+[100%] Built target setgrippercmd
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/getposecmd
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/getposecmd_tf2
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/keyboardcontrol
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/movepointcmd
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/movecirclecmd
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/webappcontrol
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/setgrippercmd
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/launch/command_control.launch.py
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/config/command_control.rviz
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/ament_index/resource_index/package_run_dependencies/roarm_moveit_cmd
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/ament_index/resource_index/parent_prefix_path/roarm_moveit_cmd
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/path.sh
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/path.dsv
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.bash
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.sh
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.zsh
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.dsv
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.dsv
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/ament_index/resource_index/packages/roarm_moveit_cmd
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/roarm_moveit_cmdConfig.cmake
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/roarm_moveit_cmdConfig-version.cmake
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.xml

@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/roarm_moveit/rosidl_typesupport_introspection_c/roarm_moveit/srv/detail/get_pose_cmd__rosidl_typesupport_introspection_c.h

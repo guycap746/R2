@@ -1,0 +1,37 @@
+[0.821s] Invoking command in '/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_driver': PYTHONPATH=/root/ros2_workspace/build/roarm_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_workspace/install/roarm_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/roarm_driver build --build-base /root/ros2_workspace/build/roarm_driver/build install --record /root/ros2_workspace/build/roarm_driver/install.log --single-version-externally-managed install_data
+[1.069s] running egg_info
+[1.070s] creating ../../../../../build/roarm_driver/roarm_driver.egg-info
+[1.070s] writing ../../../../../build/roarm_driver/roarm_driver.egg-info/PKG-INFO
+[1.070s] writing dependency_links to ../../../../../build/roarm_driver/roarm_driver.egg-info/dependency_links.txt
+[1.070s] writing entry points to ../../../../../build/roarm_driver/roarm_driver.egg-info/entry_points.txt
+[1.070s] writing requirements to ../../../../../build/roarm_driver/roarm_driver.egg-info/requires.txt
+[1.070s] writing top-level names to ../../../../../build/roarm_driver/roarm_driver.egg-info/top_level.txt
+[1.071s] writing manifest file '../../../../../build/roarm_driver/roarm_driver.egg-info/SOURCES.txt'
+[1.072s] reading manifest file '../../../../../build/roarm_driver/roarm_driver.egg-info/SOURCES.txt'
+[1.073s] writing manifest file '../../../../../build/roarm_driver/roarm_driver.egg-info/SOURCES.txt'
+[1.073s] running build
+[1.073s] running build_py
+[1.073s] creating /root/ros2_workspace/build/roarm_driver/build
+[1.073s] creating /root/ros2_workspace/build/roarm_driver/build/lib
+[1.074s] creating /root/ros2_workspace/build/roarm_driver/build/lib/roarm_driver
+[1.074s] copying roarm_driver/__init__.py -> /root/ros2_workspace/build/roarm_driver/build/lib/roarm_driver
+[1.074s] copying roarm_driver/roarm_driver.py -> /root/ros2_workspace/build/roarm_driver/build/lib/roarm_driver
+[1.074s] running install
+[1.074s] running install_lib
+[1.075s] creating /root/ros2_workspace/install/roarm_driver/lib/python3.10/site-packages/roarm_driver
+[1.075s] copying /root/ros2_workspace/build/roarm_driver/build/lib/roarm_driver/__init__.py -> /root/ros2_workspace/install/roarm_driver/lib/python3.10/site-packages/roarm_driver
+[1.075s] copying /root/ros2_workspace/build/roarm_driver/build/lib/roarm_driver/roarm_driver.py -> /root/ros2_workspace/install/roarm_driver/lib/python3.10/site-packages/roarm_driver
+[1.075s] byte-compiling /root/ros2_workspace/install/roarm_driver/lib/python3.10/site-packages/roarm_driver/__init__.py to __init__.cpython-310.pyc
+[1.075s] byte-compiling /root/ros2_workspace/install/roarm_driver/lib/python3.10/site-packages/roarm_driver/roarm_driver.py to roarm_driver.cpython-310.pyc
+[1.077s] running install_data
+[1.077s] creating /root/ros2_workspace/install/roarm_driver/share/ament_index
+[1.077s] creating /root/ros2_workspace/install/roarm_driver/share/ament_index/resource_index
+[1.077s] creating /root/ros2_workspace/install/roarm_driver/share/ament_index/resource_index/packages
+[1.077s] copying resource/roarm_driver -> /root/ros2_workspace/install/roarm_driver/share/ament_index/resource_index/packages
+[1.078s] copying package.xml -> /root/ros2_workspace/install/roarm_driver/share/roarm_driver
+[1.078s] running install_egg_info
+[1.079s] Copying ../../../../../build/roarm_driver/roarm_driver.egg-info to /root/ros2_workspace/install/roarm_driver/lib/python3.10/site-packages/roarm_driver-0.0.0-py3.10.egg-info
+[1.080s] running install_scripts
+[1.102s] Installing roarm_driver script to /root/ros2_workspace/install/roarm_driver/lib/roarm_driver
+[1.103s] writing list of installed files to '/root/ros2_workspace/build/roarm_driver/install.log'
+[1.131s] Invoked command in '/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_driver' returned '0': PYTHONPATH=/root/ros2_workspace/build/roarm_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_workspace/install/roarm_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/roarm_driver build --build-base /root/ros2_workspace/build/roarm_driver/build install --record /root/ros2_workspace/build/roarm_driver/install.log --single-version-externally-managed install_data

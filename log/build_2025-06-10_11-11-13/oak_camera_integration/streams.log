@@ -1,0 +1,59 @@
+[0.010s] Invoking command in '/root/ros2_workspace/build/oak_camera_integration': AMENT_PREFIX_PATH=/root/ros2_workspace/install/realsense_launch:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/realsense_launch:/opt/ros/humble /usr/bin/cmake /root/ros2_workspace/src/oak_camera_integration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/oak_camera_integration
+[0.075s] -- The C compiler identification is GNU 11.4.0
+[0.141s] -- The CXX compiler identification is GNU 11.4.0
+[0.152s] -- Detecting C compiler ABI info
+[0.233s] -- Detecting C compiler ABI info - done
+[0.240s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.241s] -- Detecting C compile features
+[0.241s] -- Detecting C compile features - done
+[0.244s] -- Detecting CXX compiler ABI info
+[0.326s] -- Detecting CXX compiler ABI info - done
+[0.335s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.335s] -- Detecting CXX compile features
+[0.335s] -- Detecting CXX compile features - done
+[0.339s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.504s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.577s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.606s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.699s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.784s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.785s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.786s] -- Added test 'lint_cmake' to check CMake code style
+[0.786s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.788s] -- Added test 'xmllint' to check XML markup files
+[0.789s] -- Configuring done
+[0.793s] -- Generating done
+[0.794s] -- Build files have been written to: /root/ros2_workspace/build/oak_camera_integration
+[0.799s] Invoked command in '/root/ros2_workspace/build/oak_camera_integration' returned '0': AMENT_PREFIX_PATH=/root/ros2_workspace/install/realsense_launch:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/realsense_launch:/opt/ros/humble /usr/bin/cmake /root/ros2_workspace/src/oak_camera_integration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/oak_camera_integration
+[0.801s] Invoking command in '/root/ros2_workspace/build/oak_camera_integration': AMENT_PREFIX_PATH=/root/ros2_workspace/install/realsense_launch:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/realsense_launch:/opt/ros/humble /usr/bin/cmake --build /root/ros2_workspace/build/oak_camera_integration -- -j4 -l4
+[0.859s] Built target ament_cmake_python_symlink_oak_camera_integration
+[1.104s] running egg_info
+[1.105s] creating oak_camera_integration.egg-info
+[1.105s] writing oak_camera_integration.egg-info/PKG-INFO
+[1.105s] writing dependency_links to oak_camera_integration.egg-info/dependency_links.txt
+[1.106s] writing top-level names to oak_camera_integration.egg-info/top_level.txt
+[1.106s] writing manifest file 'oak_camera_integration.egg-info/SOURCES.txt'
+[1.108s] reading manifest file 'oak_camera_integration.egg-info/SOURCES.txt'
+[1.109s] writing manifest file 'oak_camera_integration.egg-info/SOURCES.txt'
+[1.141s] Built target ament_cmake_python_build_oak_camera_integration_egg
+[1.152s] Invoked command in '/root/ros2_workspace/build/oak_camera_integration' returned '0': AMENT_PREFIX_PATH=/root/ros2_workspace/install/realsense_launch:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/realsense_launch:/opt/ros/humble /usr/bin/cmake --build /root/ros2_workspace/build/oak_camera_integration -- -j4 -l4
+[1.162s] Invoking command in '/root/ros2_workspace/build/oak_camera_integration': AMENT_PREFIX_PATH=/root/ros2_workspace/install/realsense_launch:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/realsense_launch:/opt/ros/humble /usr/bin/cmake --install /root/ros2_workspace/build/oak_camera_integration
+[1.171s] -- Install configuration: ""
+[1.171s] -- Execute custom install script
+[1.171s] -- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/environment/pythonpath.sh
+[1.179s] -- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/environment/pythonpath.dsv
+[1.187s] -- Symlinking: /root/ros2_workspace/install/oak_camera_integration/local/lib/python3.10/dist-packages/oak_camera_integration-1.0.0-py3.10.egg-info/PKG-INFO
+[1.194s] -- Symlinking: /root/ros2_workspace/install/oak_camera_integration/local/lib/python3.10/dist-packages/oak_camera_integration-1.0.0-py3.10.egg-info/SOURCES.txt
+[1.201s] -- Symlinking: /root/ros2_workspace/install/oak_camera_integration/local/lib/python3.10/dist-packages/oak_camera_integration-1.0.0-py3.10.egg-info/dependency_links.txt
+[1.209s] -- Symlinking: /root/ros2_workspace/install/oak_camera_integration/local/lib/python3.10/dist-packages/oak_camera_integration-1.0.0-py3.10.egg-info/top_level.txt
+[1.216s] -- Symlinking: /root/ros2_workspace/install/oak_camera_integration/local/lib/python3.10/dist-packages/oak_camera_integration/__init__.py
+[1.225s] -- Symlinking: /root/ros2_workspace/install/oak_camera_integration/lib/oak_camera_integration/multi_camera_coordinator.py
+[1.233s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):
+[1.233s]   ament_cmake_symlink_install_programs() can't find
+[1.234s]   '/root/ros2_workspace/src/oak_camera_integration/scripts/oak_camera_manager.py'
+[1.234s] Call Stack (most recent call first):
+[1.234s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:326 (ament_cmake_symlink_install_programs)
+[1.234s]   cmake_install.cmake:46 (include)
+[1.234s] 
+[1.234s] 
+[1.235s] Invoked command in '/root/ros2_workspace/build/oak_camera_integration' returned '1': AMENT_PREFIX_PATH=/root/ros2_workspace/install/realsense_launch:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/realsense_launch:/opt/ros/humble /usr/bin/cmake --install /root/ros2_workspace/build/oak_camera_integration

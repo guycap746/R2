@@ -1,0 +1,38 @@
+Built target ament_cmake_python_symlink_wrist_imu_integration
+running egg_info
+writing wrist_imu_integration.egg-info/PKG-INFO
+writing dependency_links to wrist_imu_integration.egg-info/dependency_links.txt
+writing top-level names to wrist_imu_integration.egg-info/top_level.txt
+reading manifest file 'wrist_imu_integration.egg-info/SOURCES.txt'
+writing manifest file 'wrist_imu_integration.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_wrist_imu_integration_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/environment/pythonpath.sh
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/environment/pythonpath.dsv
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/local/lib/python3.10/dist-packages/wrist_imu_integration-1.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/local/lib/python3.10/dist-packages/wrist_imu_integration-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/local/lib/python3.10/dist-packages/wrist_imu_integration-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/local/lib/python3.10/dist-packages/wrist_imu_integration-1.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/local/lib/python3.10/dist-packages/wrist_imu_integration/__init__.py
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/lib/wrist_imu_integration/wrist_imu_calibration.py
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/lib/wrist_imu_integration/imu_camera_fusion.py
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/launch/d405_with_imu.launch.py
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/launch/wrist_imu.launch.py
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/config/bno055_wrist_config.yaml
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/share/ament_index/resource_index/package_run_dependencies/wrist_imu_integration
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/share/ament_index/resource_index/parent_prefix_path/wrist_imu_integration
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/environment/path.sh
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/environment/path.dsv
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/local_setup.bash
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/local_setup.sh
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/local_setup.zsh
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/local_setup.dsv
+-- Symlinking: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/package.dsv
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/share/ament_index/resource_index/packages/wrist_imu_integration
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/cmake/wrist_imu_integrationConfig.cmake
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/cmake/wrist_imu_integrationConfig-version.cmake
+-- Up-to-date symlink: /root/ros2_workspace/install/wrist_imu_integration/share/wrist_imu_integration/package.xml
+Listing '/root/ros2_workspace/install/wrist_imu_integration/local/lib/python3.10/dist-packages/wrist_imu_integration'...

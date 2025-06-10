@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/oak_camera_integration/ament_cmake_python/oak_camera_integration/oak_camera_integration.egg-info/top_level.txt

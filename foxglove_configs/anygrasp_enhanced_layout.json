@@ -1,0 +1,153 @@
+{
+  "configById": {
+    "3D!4co6zb": {
+      "checkedKeys": [
+        "name:Topics",
+        "t:/camera/depth/color/points",
+        "t:/anygrasp/grasp_poses",
+        "t:/cameras/combined_pointcloud",
+        "t:/tf",
+        "ns:t:/anygrasp"
+      ],
+      "expandedKeys": [
+        "name:Topics",
+        "ns:t:/anygrasp"
+      ],
+      "followMode": "follow-pose",
+      "scene": {
+        "meshUpAxis": "z_up"
+      },
+      "transforms": {},
+      "topics": {
+        "/camera/depth/color/points": {
+          "pointSize": 2,
+          "colorField": "rgb",
+          "pointShape": "circle"
+        },
+        "/anygrasp/grasp_poses": {
+          "type": "arrow",
+          "arrowScale": [0.1, 0.02, 0.02]
+        },
+        "/cameras/combined_pointcloud": {
+          "pointSize": 3,
+          "colorField": "rgb",
+          "pointShape": "square"
+        },
+        "/tf": {
+          "showLabel": true,
+          "editable": false
+        }
+      },
+      "layers": {},
+      "cameraState": {
+        "perspective": true,
+        "distance": 1.5,
+        "phi": 60,
+        "thetaOffset": 45,
+        "targetOffset": [0, 0, 0]
+      }
+    },
+    "Plot!3yv8w7": {
+      "paths": [
+        {
+          "value": "/wrist_imu/imu.angular_velocity.x",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "/wrist_imu/imu.angular_velocity.y", 
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "/wrist_imu/imu.angular_velocity.z",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "RawMessages!2x1t5u": {
+      "topicPath": "/anygrasp/status",
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false
+    },
+    "RawMessages!1a9s8d": {
+      "topicPath": "/grasp_coordinator/status",
+      "diffEnabled": false,
+      "diffMethod": "custom", 
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false
+    },
+    "RawMessages!4k2l9m": {
+      "topicPath": "/cameras/status",
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false
+    },
+    "Image!3m5n7p": {
+      "topicPath": "/camera/color/image_raw",
+      "calibrationTopic": "/camera/color/camera_info",
+      "transformMarkers": false,
+      "synchronize": false,
+      "smooth": true,
+      "flipHorizontal": false,
+      "flipVertical": false,
+      "minValue": 0,
+      "maxValue": 255
+    },
+    "Image!8q9r2s": {
+      "topicPath": "/oak_d/oak_d/color/image_raw",
+      "calibrationTopic": "/oak_d/oak_d/color/camera_info",
+      "transformMarkers": false,
+      "synchronize": false,
+      "smooth": true,
+      "flipHorizontal": false,
+      "flipVertical": false,
+      "minValue": 0,
+      "maxValue": 255
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": {
+    "first": {
+      "first": {
+        "first": "3D!4co6zb",
+        "second": {
+          "first": "Image!3m5n7p",
+          "second": "Image!8q9r2s",
+          "direction": "row"
+        },
+        "direction": "column"
+      },
+      "second": "Plot!3yv8w7",
+      "direction": "row",
+      "splitPercentage": 70
+    },
+    "second": {
+      "first": "RawMessages!2x1t5u",
+      "second": {
+        "first": "RawMessages!1a9s8d",
+        "second": "RawMessages!4k2l9m",
+        "direction": "column"
+      },
+      "direction": "row"
+    },
+    "direction": "column",
+    "splitPercentage": 75
+  }
+}

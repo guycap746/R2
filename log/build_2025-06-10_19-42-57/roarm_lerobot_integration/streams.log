@@ -1,0 +1,34 @@
+[0.018s] Invoking command in '/root/ros2_workspace/build/roarm_lerobot_integration': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_driver:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/roarm_anygrasp_integration/lib PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:/root/ros2_workspace/build/roarm_driver:/root/ros2_workspace/install/roarm_driver/lib/python3.10/site-packages:/root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages /usr/bin/cmake --build /root/ros2_workspace/build/roarm_lerobot_integration -- -j4 -l4
+[0.092s] Built target ament_cmake_python_copy_roarm_lerobot_integration
+[0.281s] running egg_info
+[0.282s] writing roarm_lerobot_integration.egg-info/PKG-INFO
+[0.282s] writing dependency_links to roarm_lerobot_integration.egg-info/dependency_links.txt
+[0.282s] writing top-level names to roarm_lerobot_integration.egg-info/top_level.txt
+[0.285s] reading manifest file 'roarm_lerobot_integration.egg-info/SOURCES.txt'
+[0.286s] writing manifest file 'roarm_lerobot_integration.egg-info/SOURCES.txt'
+[0.316s] Built target ament_cmake_python_build_roarm_lerobot_integration_egg
+[0.327s] Invoked command in '/root/ros2_workspace/build/roarm_lerobot_integration' returned '0': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_driver:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/roarm_anygrasp_integration/lib PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:/root/ros2_workspace/build/roarm_driver:/root/ros2_workspace/install/roarm_driver/lib/python3.10/site-packages:/root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages /usr/bin/cmake --build /root/ros2_workspace/build/roarm_lerobot_integration -- -j4 -l4
+[0.337s] Invoking command in '/root/ros2_workspace/build/roarm_lerobot_integration': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_driver:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/roarm_anygrasp_integration/lib PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:/root/ros2_workspace/build/roarm_driver:/root/ros2_workspace/install/roarm_driver/lib/python3.10/site-packages:/root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages /usr/bin/cmake --install /root/ros2_workspace/build/roarm_lerobot_integration
+[0.347s] -- Install configuration: ""
+[0.347s] -- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/environment/pythonpath.sh
+[0.347s] -- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/environment/pythonpath.dsv
+[0.348s] -- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration-0.0.0-py3.10.egg-info
+[0.348s] -- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.348s] -- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration-0.0.0-py3.10.egg-info/PKG-INFO
+[0.349s] -- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.349s] -- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration-0.0.0-py3.10.egg-info/top_level.txt
+[0.350s] -- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration
+[0.350s] -- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration/__init__.py
+[0.383s] Listing '/root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration'...
+[0.390s] -- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/lib/roarm_lerobot_integration/lerobot_bridge.py
+[0.390s] -- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/lib/roarm_lerobot_integration/lerobot_data_collector.py
+[0.390s] -- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/lib/roarm_lerobot_integration/lerobot_policy_trainer.py
+[0.390s] -- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/lib/roarm_lerobot_integration/lerobot_policy_executor.py
+[0.391s] -- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/lib/roarm_lerobot_integration/lerobot_teleop_interface.py
+[0.391s] CMake Error at cmake_install.cmake:70 (file):
+[0.391s]   file INSTALL cannot find
+[0.391s]   "/root/ros2_workspace/src/roarm_lerobot_integration/scripts/lerobot_dataset_manager.py":
+[0.391s]   No such file or directory.
+[0.391s] 
+[0.391s] 
+[0.393s] Invoked command in '/root/ros2_workspace/build/roarm_lerobot_integration' returned '1': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_driver:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/roarm_anygrasp_integration/lib PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:/root/ros2_workspace/build/roarm_driver:/root/ros2_workspace/install/roarm_driver/lib/python3.10/site-packages:/root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages /usr/bin/cmake --install /root/ros2_workspace/build/roarm_lerobot_integration

@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/ros2web_example_py
+ros2web_example_py/__init__.py
+ros2web_example_py/api.py
+ros2web_example_py/form.py
+ros2web_example_py.egg-info/PKG-INFO
+ros2web_example_py.egg-info/SOURCES.txt
+ros2web_example_py.egg-info/dependency_links.txt
+ros2web_example_py.egg-info/entry_points.txt
+ros2web_example_py.egg-info/requires.txt
+ros2web_example_py.egg-info/top_level.txt
+ros2web_example_py.egg-info/zip-safe

@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/roarm_moveit/rosidl_typesupport_fastrtps_cpp/roarm_moveit/srv/detail/move_point_cmd__rosidl_typesupport_fastrtps_cpp.hpp

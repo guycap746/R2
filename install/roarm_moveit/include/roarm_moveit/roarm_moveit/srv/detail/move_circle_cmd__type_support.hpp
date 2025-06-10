@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/roarm_moveit/rosidl_generator_cpp/roarm_moveit/srv/detail/move_circle_cmd__type_support.hpp

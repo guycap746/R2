@@ -1,0 +1,52 @@
+[0.007s] Invoking command in '/root/ros2_workspace/build/realsense_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_workspace/src/realsense_launch -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/realsense_launch
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.130s] -- The CXX compiler identification is GNU 11.4.0
+[0.137s] -- Detecting C compiler ABI info
+[0.239s] -- Detecting C compiler ABI info - done
+[0.247s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.247s] -- Detecting C compile features
+[0.247s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.380s] -- Detecting CXX compiler ABI info - done
+[0.388s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.388s] -- Detecting CXX compile features
+[0.389s] -- Detecting CXX compile features - done
+[0.391s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.549s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.616s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.641s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.732s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.733s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.734s] -- Added test 'lint_cmake' to check CMake code style
+[0.747s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.748s] -- Added test 'xmllint' to check XML markup files
+[0.749s] -- Configuring done
+[0.751s] -- Generating done
+[0.753s] -- Build files have been written to: /root/ros2_workspace/build/realsense_launch
+[0.763s] Invoked command in '/root/ros2_workspace/build/realsense_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_workspace/src/realsense_launch -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/realsense_launch
+[0.763s] Invoking command in '/root/ros2_workspace/build/realsense_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_workspace/build/realsense_launch -- -j4 -l4
+[0.878s] Invoked command in '/root/ros2_workspace/build/realsense_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_workspace/build/realsense_launch -- -j4 -l4
+[0.879s] Invoking command in '/root/ros2_workspace/build/realsense_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_workspace/build/realsense_launch
+[0.893s] -- Install configuration: ""
+[0.907s] -- Execute custom install script
+[0.907s] -- Symlinking: /root/ros2_workspace/install/realsense_launch/share/realsense_launch//launch/d405.launch.py
+[0.926s] -- Symlinking: /root/ros2_workspace/install/realsense_launch/share/realsense_launch//launch/d405_rgbd.launch.py
+[0.948s] -- Symlinking: /root/ros2_workspace/install/realsense_launch/share/realsense_launch//launch/dual_d405.launch.py
+[0.971s] -- Symlinking: /root/ros2_workspace/install/realsense_launch/share/realsense_launch//config/d405_config.yaml
+[0.999s] -- Symlinking: /root/ros2_workspace/install/realsense_launch/share/realsense_launch//config/d405_side_config.yaml
+[1.019s] -- Symlinking: /root/ros2_workspace/install/realsense_launch/share/ament_index/resource_index/package_run_dependencies/realsense_launch
+[1.035s] -- Symlinking: /root/ros2_workspace/install/realsense_launch/share/ament_index/resource_index/parent_prefix_path/realsense_launch
+[1.047s] -- Symlinking: /root/ros2_workspace/install/realsense_launch/share/realsense_launch/environment/ament_prefix_path.sh
+[1.058s] -- Symlinking: /root/ros2_workspace/install/realsense_launch/share/realsense_launch/environment/ament_prefix_path.dsv
+[1.079s] -- Symlinking: /root/ros2_workspace/install/realsense_launch/share/realsense_launch/environment/path.sh
+[1.105s] -- Symlinking: /root/ros2_workspace/install/realsense_launch/share/realsense_launch/environment/path.dsv
+[1.136s] -- Symlinking: /root/ros2_workspace/install/realsense_launch/share/realsense_launch/local_setup.bash
+[1.162s] -- Symlinking: /root/ros2_workspace/install/realsense_launch/share/realsense_launch/local_setup.sh
+[1.183s] -- Symlinking: /root/ros2_workspace/install/realsense_launch/share/realsense_launch/local_setup.zsh
+[1.199s] -- Symlinking: /root/ros2_workspace/install/realsense_launch/share/realsense_launch/local_setup.dsv
+[1.208s] -- Symlinking: /root/ros2_workspace/install/realsense_launch/share/realsense_launch/package.dsv
+[1.218s] -- Symlinking: /root/ros2_workspace/install/realsense_launch/share/ament_index/resource_index/packages/realsense_launch
+[1.229s] -- Symlinking: /root/ros2_workspace/install/realsense_launch/share/realsense_launch/cmake/realsense_launchConfig.cmake
+[1.238s] -- Symlinking: /root/ros2_workspace/install/realsense_launch/share/realsense_launch/cmake/realsense_launchConfig-version.cmake
+[1.267s] -- Symlinking: /root/ros2_workspace/install/realsense_launch/share/realsense_launch/package.xml
+[1.298s] Invoked command in '/root/ros2_workspace/build/realsense_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_workspace/build/realsense_launch

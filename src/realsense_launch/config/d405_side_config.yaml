@@ -1,0 +1,80 @@
+# Intel RealSense D405 Side Camera Configuration
+# This camera is positioned to view the robot arm from the side for grasp verification
+
+camera:
+  camera_name: "d405_side"
+  device_type: "d405"
+  
+  # Device connection
+  serial_no: ""          # Leave empty to auto-detect second camera
+  usb_port_id: ""        # Specify if needed to distinguish cameras
+  
+  # Camera modules
+  enable_gyro: false
+  enable_accel: false
+  enable_pose: false
+  enable_sync: true
+  
+  # RGB Camera settings
+  rgb_camera:
+    enable_auto_exposure: true
+    exposure: 8500
+    gain: 16
+    enable_auto_white_balance: true
+    white_balance: 4600
+    brightness: 0
+    contrast: 50
+    saturation: 64
+    sharpness: 50
+    backlight_compensation: false
+    
+    # Resolution and framerate for verification (lower res for speed)
+    color_profile: "640,480,15"    # Width, Height, FPS
+    color_format: "RGB8"
+    
+  # Depth Camera settings  
+  depth_module:
+    enable_auto_exposure: true
+    exposure: 8500
+    gain: 16
+    enable_emitter: true
+    emitter_on_off: false
+    
+    # Resolution for side view depth
+    depth_profile: "640,480,15"    # Lower FPS for verification camera
+    depth_format: "Z16"
+    
+    # Depth processing
+    enable_depth_to_disparity_filter: false
+    enable_spatial_filter: true
+    enable_temporal_filter: true
+    enable_hole_filling_filter: true
+    enable_decimation_filter: false
+    
+  # Point cloud settings
+  pointcloud:
+    enable: true
+    stream_filter: 2       # Only RGB point cloud
+    stream_index_filter: 0
+    
+  # Alignment
+  align_depth:
+    enable: true
+    
+  # TF frames for side camera
+  tf:
+    tf_publish_rate: 10.0
+    
+# Transform from robot base to side camera
+# Adjust these values based on your actual camera mounting position
+camera_transform:
+  parent_frame: "base_link"
+  child_frame: "d405_side_camera_link"
+  translation:
+    x: 0.3    # 30cm to the side of robot base
+    y: -0.4   # 40cm to the left (negative Y)
+    z: 0.2    # 20cm above base level
+  rotation:
+    roll: 0.0
+    pitch: 0.0
+    yaw: 1.57  # 90 degrees to face the robot

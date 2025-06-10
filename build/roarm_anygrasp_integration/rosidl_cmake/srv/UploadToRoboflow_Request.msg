@@ -1,0 +1,13 @@
+# Service for uploading images with grasp annotations to Roboflow
+# Request: Image data and grasp annotations
+sensor_msgs/Image rgb_image
+geometry_msgs/PoseArray grasp_poses
+float32[] confidence_scores
+string[] class_labels
+
+# Metadata
+string scene_description
+string object_types
+bool include_annotations
+bool upload_immediately
+

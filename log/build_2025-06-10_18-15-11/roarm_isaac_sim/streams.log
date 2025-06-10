@@ -1,0 +1,95 @@
+[0.015s] Invoking command in '/root/ros2_workspace/build/roarm_isaac_sim': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/roarm_anygrasp_integration/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:/root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_workspace/src/roarm_isaac_sim -DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/roarm_isaac_sim
+[0.139s] -- The C compiler identification is GNU 11.4.0
+[0.238s] -- The CXX compiler identification is GNU 11.4.0
+[0.247s] -- Detecting C compiler ABI info
+[0.329s] -- Detecting C compiler ABI info - done
+[0.336s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.336s] -- Detecting C compile features
+[0.337s] -- Detecting C compile features - done
+[0.341s] -- Detecting CXX compiler ABI info
+[0.435s] -- Detecting CXX compiler ABI info - done
+[0.443s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.443s] -- Detecting CXX compile features
+[0.443s] -- Detecting CXX compile features - done
+[0.448s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.624s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.723s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.768s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.774s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.782s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.794s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.810s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.854s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.856s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.948s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.973s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.012s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.021s] -- Looking for pthread.h
+[1.110s] -- Looking for pthread.h - found
+[1.111s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.187s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.188s] -- Found Threads: TRUE  
+[1.248s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[1.250s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.282s] -- Found trajectory_msgs: 4.8.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[1.299s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.354s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[1.363s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.428s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.441s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.443s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.443s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.446s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[1.523s] -- Found moveit_core: 2.5.9 (/opt/ros/humble/share/moveit_core/cmake)
+[1.559s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.592s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.606s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.634s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.714s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.788s] -- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+[1.792s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.893s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.982s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.984s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.985s] -- Added test 'lint_cmake' to check CMake code style
+[1.986s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.987s] -- Added test 'xmllint' to check XML markup files
+[1.988s] -- Configuring done
+[1.996s] -- Generating done
+[1.999s] -- Build files have been written to: /root/ros2_workspace/build/roarm_isaac_sim
+[2.014s] Invoked command in '/root/ros2_workspace/build/roarm_isaac_sim' returned '0': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/roarm_anygrasp_integration/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:/root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_workspace/src/roarm_isaac_sim -DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/roarm_isaac_sim
+[2.015s] Invoking command in '/root/ros2_workspace/build/roarm_isaac_sim': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/roarm_anygrasp_integration/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:/root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_workspace/build/roarm_isaac_sim -- -j4 -l4
+[2.066s] Built target ament_cmake_python_copy_roarm_isaac_sim
+[2.329s] running egg_info
+[2.330s] creating roarm_isaac_sim.egg-info
+[2.331s] writing roarm_isaac_sim.egg-info/PKG-INFO
+[2.331s] writing dependency_links to roarm_isaac_sim.egg-info/dependency_links.txt
+[2.331s] writing top-level names to roarm_isaac_sim.egg-info/top_level.txt
+[2.332s] writing manifest file 'roarm_isaac_sim.egg-info/SOURCES.txt'
+[2.334s] reading manifest file 'roarm_isaac_sim.egg-info/SOURCES.txt'
+[2.334s] writing manifest file 'roarm_isaac_sim.egg-info/SOURCES.txt'
+[2.362s] Built target ament_cmake_python_build_roarm_isaac_sim_egg
+[2.372s] Invoked command in '/root/ros2_workspace/build/roarm_isaac_sim' returned '0': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/roarm_anygrasp_integration/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:/root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_workspace/build/roarm_isaac_sim -- -j4 -l4
+[2.380s] Invoking command in '/root/ros2_workspace/build/roarm_isaac_sim': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/roarm_anygrasp_integration/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:/root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_workspace/build/roarm_isaac_sim
+[2.387s] -- Install configuration: ""
+[2.387s] -- Installing: /root/ros2_workspace/install/roarm_isaac_sim/share/roarm_isaac_sim/environment/pythonpath.sh
+[2.387s] -- Installing: /root/ros2_workspace/install/roarm_isaac_sim/share/roarm_isaac_sim/environment/pythonpath.dsv
+[2.388s] -- Installing: /root/ros2_workspace/install/roarm_isaac_sim/local/lib/python3.10/dist-packages/roarm_isaac_sim-0.0.0-py3.10.egg-info
+[2.388s] -- Installing: /root/ros2_workspace/install/roarm_isaac_sim/local/lib/python3.10/dist-packages/roarm_isaac_sim-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.388s] -- Installing: /root/ros2_workspace/install/roarm_isaac_sim/local/lib/python3.10/dist-packages/roarm_isaac_sim-0.0.0-py3.10.egg-info/PKG-INFO
+[2.388s] -- Installing: /root/ros2_workspace/install/roarm_isaac_sim/local/lib/python3.10/dist-packages/roarm_isaac_sim-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.388s] -- Installing: /root/ros2_workspace/install/roarm_isaac_sim/local/lib/python3.10/dist-packages/roarm_isaac_sim-0.0.0-py3.10.egg-info/top_level.txt
+[2.388s] -- Installing: /root/ros2_workspace/install/roarm_isaac_sim/local/lib/python3.10/dist-packages/roarm_isaac_sim
+[2.388s] -- Installing: /root/ros2_workspace/install/roarm_isaac_sim/local/lib/python3.10/dist-packages/roarm_isaac_sim/__init__.py
+[2.420s] Listing '/root/ros2_workspace/install/roarm_isaac_sim/local/lib/python3.10/dist-packages/roarm_isaac_sim'...
+[2.420s] Compiling '/root/ros2_workspace/install/roarm_isaac_sim/local/lib/python3.10/dist-packages/roarm_isaac_sim/__init__.py'...
+[2.424s] -- Installing: /root/ros2_workspace/install/roarm_isaac_sim/lib/roarm_isaac_sim/isaac_sim_launcher.py
+[2.425s] -- Installing: /root/ros2_workspace/install/roarm_isaac_sim/lib/roarm_isaac_sim/isaac_ros_bridge.py
+[2.425s] -- Installing: /root/ros2_workspace/install/roarm_isaac_sim/lib/roarm_isaac_sim/synthetic_data_generator.py
+[2.425s] CMake Error at cmake_install.cmake:70 (file):
+[2.425s]   file INSTALL cannot find
+[2.425s]   "/root/ros2_workspace/src/roarm_isaac_sim/scripts/sim_to_real_calibration.py":
+[2.425s]   No such file or directory.
+[2.425s] 
+[2.425s] 
+[2.426s] Invoked command in '/root/ros2_workspace/build/roarm_isaac_sim' returned '1': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/roarm_anygrasp_integration/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:/root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_workspace/build/roarm_isaac_sim

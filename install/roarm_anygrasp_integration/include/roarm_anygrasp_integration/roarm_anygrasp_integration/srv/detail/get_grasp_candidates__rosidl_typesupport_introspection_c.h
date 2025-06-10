@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/roarm_anygrasp_integration/rosidl_typesupport_introspection_c/roarm_anygrasp_integration/srv/detail/get_grasp_candidates__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,55 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /root/ros2_workspace/build/roarm_moveit_ikfast_plugins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b1c94/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b1c94.dir/build.make CMakeFiles/cmTC_b1c94.dir/build
+gmake[1]: Entering directory '/root/ros2_workspace/build/roarm_moveit_ikfast_plugins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1c94.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_b1c94.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b1c94
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1c94.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_b1c94.dir/CheckFunctionExists.c.o -o cmTC_b1c94 
+/usr/bin/ld: CMakeFiles/cmTC_b1c94.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_b1c94.dir/build.make:99: cmTC_b1c94] Error 1
+gmake[1]: Leaving directory '/root/ros2_workspace/build/roarm_moveit_ikfast_plugins/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b1c94/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /root/ros2_workspace/build/roarm_moveit_ikfast_plugins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e022c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e022c.dir/build.make CMakeFiles/cmTC_e022c.dir/build
+gmake[1]: Entering directory '/root/ros2_workspace/build/roarm_moveit_ikfast_plugins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e022c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_e022c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e022c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e022c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_e022c.dir/CheckFunctionExists.c.o -o cmTC_e022c  /usr/lib/x86_64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_e022c.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_e022c.dir/build.make:100: cmTC_e022c] Error 1
+gmake[1]: Leaving directory '/root/ros2_workspace/build/roarm_moveit_ikfast_plugins/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e022c/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /root/ros2_workspace/build/roarm_moveit_ikfast_plugins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5a689/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5a689.dir/build.make CMakeFiles/cmTC_5a689.dir/build
+gmake[1]: Entering directory '/root/ros2_workspace/build/roarm_moveit_ikfast_plugins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a689.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_5a689.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5a689
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a689.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_5a689.dir/CheckFunctionExists.c.o -o cmTC_5a689  /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/libblas.so -fortranlibs 
+cc: error: unrecognized command-line option ‘-fortranlibs’
+gmake[1]: *** [CMakeFiles/cmTC_5a689.dir/build.make:101: cmTC_5a689] Error 1
+gmake[1]: Leaving directory '/root/ros2_workspace/build/roarm_moveit_ikfast_plugins/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_5a689/fast] Error 2
+
+
+

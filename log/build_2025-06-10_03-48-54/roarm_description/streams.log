@@ -1,0 +1,44 @@
+[0.019s] Invoking command in '/root/ros2_workspace/build/roarm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/roarm_description
+[0.292s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.292s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.292s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.309s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.309s] -- Added test 'lint_cmake' to check CMake code style
+[0.310s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.310s] -- Added test 'xmllint' to check XML markup files
+[0.311s] -- Configuring done
+[0.314s] -- Generating done
+[0.316s] -- Build files have been written to: /root/ros2_workspace/build/roarm_description
+[0.321s] Invoked command in '/root/ros2_workspace/build/roarm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/roarm_description
+[0.323s] Invoking command in '/root/ros2_workspace/build/roarm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_workspace/build/roarm_description -- -j4 -l4
+[0.399s] Invoked command in '/root/ros2_workspace/build/roarm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_workspace/build/roarm_description -- -j4 -l4
+[0.408s] Invoking command in '/root/ros2_workspace/build/roarm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_workspace/build/roarm_description
+[0.415s] -- Install configuration: ""
+[0.416s] -- Execute custom install script
+[0.416s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/config/joint_names_roarm.yaml
+[0.426s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/config/roarm_description.rviz
+[0.435s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/launch/display.launch.py
+[0.448s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/meshes/base_link.STL
+[0.457s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/meshes/gripper_link.STL
+[0.465s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/meshes/link1.STL
+[0.474s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/meshes/link2.STL
+[0.483s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/meshes/link3.STL
+[0.491s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/urdf/roarm_description.csv
+[0.499s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/urdf/roarm_description.urdf
+[0.507s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/urdf/roarm_description_web_app.urdf
+[0.515s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/ament_index/resource_index/package_run_dependencies/roarm_description
+[0.523s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/ament_index/resource_index/parent_prefix_path/roarm_description
+[0.532s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/environment/ament_prefix_path.sh
+[0.541s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/environment/ament_prefix_path.dsv
+[0.549s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/environment/path.sh
+[0.566s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/environment/path.dsv
+[0.577s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/local_setup.bash
+[0.585s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/local_setup.sh
+[0.594s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/local_setup.zsh
+[0.602s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/local_setup.dsv
+[0.610s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/package.dsv
+[0.619s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/ament_index/resource_index/packages/roarm_description
+[0.627s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/cmake/roarm_descriptionConfig.cmake
+[0.635s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/cmake/roarm_descriptionConfig-version.cmake
+[0.643s] -- Symlinking: /root/ros2_workspace/install/roarm_description/share/roarm_description/package.xml
+[0.651s] Invoked command in '/root/ros2_workspace/build/roarm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_workspace/build/roarm_description

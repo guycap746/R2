@@ -1,0 +1,198 @@
+[0.030s] Invoking command in '/root/ros2_workspace/build/roarm_anygrasp_integration': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_workspace/build/roarm_anygrasp_integration -- -j4 -l4
+[0.139s] [  1%] Built target roarm_anygrasp_integration__cpp
+[0.181s] [ 12%] Built target roarm_anygrasp_integration__rosidl_generator_c
+[0.502s] [ 12%] Built target ament_cmake_python_symlink_roarm_anygrasp_integration
+[0.502s] [ 30%] Built target roarm_anygrasp_integration__rosidl_typesupport_cpp
+[0.502s] [ 34%] Built target roarm_anygrasp_integration__rosidl_typesupport_fastrtps_cpp
+[0.502s] [ 46%] Built target roarm_anygrasp_integration__rosidl_typesupport_introspection_cpp
+[0.502s] [ 57%] Built target roarm_anygrasp_integration__rosidl_typesupport_fastrtps_c
+[0.502s] [ 68%] Built target roarm_anygrasp_integration__rosidl_typesupport_introspection_c
+[0.502s] [ 79%] Built target roarm_anygrasp_integration__rosidl_typesupport_c
+[0.502s] [ 79%] Built target roarm_anygrasp_integration
+[0.502s] [ 80%] Built target roarm_anygrasp_integration__py
+[0.502s] [ 90%] Built target roarm_anygrasp_integration__rosidl_generator_py
+[0.502s] [ 93%] Built target roarm_anygrasp_integration__rosidl_typesupport_introspection_c__pyext
+[0.502s] [ 96%] Built target roarm_anygrasp_integration__rosidl_typesupport_fastrtps_c__pyext
+[0.502s] [100%] Built target roarm_anygrasp_integration__rosidl_typesupport_c__pyext
+[0.532s] running egg_info
+[0.532s] writing roarm_anygrasp_integration.egg-info/PKG-INFO
+[0.532s] writing dependency_links to roarm_anygrasp_integration.egg-info/dependency_links.txt
+[0.532s] writing top-level names to roarm_anygrasp_integration.egg-info/top_level.txt
+[0.532s] reading manifest file 'roarm_anygrasp_integration.egg-info/SOURCES.txt'
+[0.532s] writing manifest file 'roarm_anygrasp_integration.egg-info/SOURCES.txt'
+[0.826s] [100%] Built target ament_cmake_python_build_roarm_anygrasp_integration_egg
+[0.826s] Invoked command in '/root/ros2_workspace/build/roarm_anygrasp_integration' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_workspace/build/roarm_anygrasp_integration -- -j4 -l4
+[0.828s] Invoking command in '/root/ros2_workspace/build/roarm_anygrasp_integration': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_workspace/build/roarm_anygrasp_integration
+[0.842s] -- Install configuration: ""
+[0.842s] -- Execute custom install script
+[0.842s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/ament_index/resource_index/rosidl_interfaces/roarm_anygrasp_integration
+[0.842s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/msg/rosidl_generator_c__visibility_control.h
+[0.842s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/calibrate_camera.h
+[0.842s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/configure_roboflow.h
+[0.842s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/calibrate_camera__functions.h
+[0.842s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/calibrate_camera__struct.h
+[0.842s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/calibrate_camera__type_support.h
+[0.843s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/configure_roboflow__functions.h
+[0.843s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/configure_roboflow__struct.h
+[0.843s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/configure_roboflow__type_support.h
+[0.843s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/get_grasp_candidates__functions.h
+[0.843s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/get_grasp_candidates__struct.h
+[0.843s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/get_grasp_candidates__type_support.h
+[0.843s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/select_grasp__functions.h
+[0.843s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/select_grasp__struct.h
+[0.843s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/select_grasp__type_support.h
+[0.843s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/upload_to_roboflow__functions.h
+[0.843s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/upload_to_roboflow__struct.h
+[0.843s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/upload_to_roboflow__type_support.h
+[0.843s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/get_grasp_candidates.h
+[0.844s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/select_grasp.h
+[0.844s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/upload_to_roboflow.h
+[0.844s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/environment/library_path.sh
+[0.844s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/environment/library_path.dsv
+[0.845s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.845s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/calibrate_camera__rosidl_typesupport_fastrtps_c.h
+[0.845s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/configure_roboflow__rosidl_typesupport_fastrtps_c.h
+[0.845s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/get_grasp_candidates__rosidl_typesupport_fastrtps_c.h
+[0.846s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/select_grasp__rosidl_typesupport_fastrtps_c.h
+[0.846s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/upload_to_roboflow__rosidl_typesupport_fastrtps_c.h
+[0.847s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.847s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/calibrate_camera.hpp
+[0.847s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/configure_roboflow.hpp
+[0.847s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/calibrate_camera__builder.hpp
+[0.847s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/calibrate_camera__struct.hpp
+[0.847s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/calibrate_camera__traits.hpp
+[0.848s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/calibrate_camera__type_support.hpp
+[0.848s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/configure_roboflow__builder.hpp
+[0.848s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/configure_roboflow__struct.hpp
+[0.848s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/configure_roboflow__traits.hpp
+[0.848s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/configure_roboflow__type_support.hpp
+[0.848s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/get_grasp_candidates__builder.hpp
+[0.848s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/get_grasp_candidates__struct.hpp
+[0.849s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/get_grasp_candidates__traits.hpp
+[0.849s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/get_grasp_candidates__type_support.hpp
+[0.849s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/select_grasp__builder.hpp
+[0.849s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/select_grasp__struct.hpp
+[0.849s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/select_grasp__traits.hpp
+[0.849s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/select_grasp__type_support.hpp
+[0.849s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/upload_to_roboflow__builder.hpp
+[0.849s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/upload_to_roboflow__struct.hpp
+[0.850s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/upload_to_roboflow__traits.hpp
+[0.850s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/upload_to_roboflow__type_support.hpp
+[0.850s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/get_grasp_candidates.hpp
+[0.850s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/select_grasp.hpp
+[0.850s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/upload_to_roboflow.hpp
+[0.851s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.851s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/calibrate_camera__rosidl_typesupport_fastrtps_cpp.hpp
+[0.851s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/configure_roboflow__rosidl_typesupport_fastrtps_cpp.hpp
+[0.851s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/get_grasp_candidates__rosidl_typesupport_fastrtps_cpp.hpp
+[0.852s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/select_grasp__rosidl_typesupport_fastrtps_cpp.hpp
+[0.852s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/upload_to_roboflow__rosidl_typesupport_fastrtps_cpp.hpp
+[0.852s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.852s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/calibrate_camera__rosidl_typesupport_introspection_c.h
+[0.852s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/configure_roboflow__rosidl_typesupport_introspection_c.h
+[0.853s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/get_grasp_candidates__rosidl_typesupport_introspection_c.h
+[0.853s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/select_grasp__rosidl_typesupport_introspection_c.h
+[0.853s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/upload_to_roboflow__rosidl_typesupport_introspection_c.h
+[0.853s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/calibrate_camera__rosidl_typesupport_introspection_cpp.hpp
+[0.853s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/configure_roboflow__rosidl_typesupport_introspection_cpp.hpp
+[0.854s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/get_grasp_candidates__rosidl_typesupport_introspection_cpp.hpp
+[0.854s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/select_grasp__rosidl_typesupport_introspection_cpp.hpp
+[0.854s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/include/roarm_anygrasp_integration/roarm_anygrasp_integration/srv/detail/upload_to_roboflow__rosidl_typesupport_introspection_cpp.hpp
+[0.854s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/environment/pythonpath.sh
+[0.854s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/environment/pythonpath.dsv
+[0.855s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration-0.0.0-py3.10.egg-info/PKG-INFO
+[0.855s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.855s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.855s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration-0.0.0-py3.10.egg-info/top_level.txt
+[0.856s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/__init__.py
+[0.857s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/_roarm_anygrasp_integration_s.ep.rosidl_typesupport_c.c
+[0.857s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/_roarm_anygrasp_integration_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.857s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/_roarm_anygrasp_integration_s.ep.rosidl_typesupport_introspection_c.c
+[0.857s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/libroarm_anygrasp_integration__rosidl_generator_py.so
+[0.857s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/roarm_anygrasp_integration_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.857s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/roarm_anygrasp_integration_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.858s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/roarm_anygrasp_integration_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.858s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/srv/__init__.py
+[0.858s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/srv/_calibrate_camera.py
+[0.858s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/srv/_calibrate_camera_s.c
+[0.858s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/srv/_configure_roboflow.py
+[0.858s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/srv/_configure_roboflow_s.c
+[0.859s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/srv/_get_grasp_candidates.py
+[0.859s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/srv/_get_grasp_candidates_s.c
+[0.859s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/srv/_select_grasp.py
+[0.859s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/srv/_select_grasp_s.c
+[0.859s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/srv/_upload_to_roboflow.py
+[0.859s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/srv/_upload_to_roboflow_s.c
+[0.860s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/roarm_anygrasp_integration_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.860s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/roarm_anygrasp_integration_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.860s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/roarm_anygrasp_integration_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.861s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/srv/SelectGrasp.idl
+[0.861s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/srv/GetGraspCandidates.idl
+[0.861s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/srv/UploadToRoboflow.idl
+[0.861s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/srv/ConfigureRoboflow.idl
+[0.862s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/srv/CalibrateCamera.idl
+[0.862s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/srv/SelectGrasp.srv
+[0.862s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/srv/SelectGrasp_Request.msg
+[0.862s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/srv/SelectGrasp_Response.msg
+[0.862s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/srv/GetGraspCandidates.srv
+[0.863s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/srv/GetGraspCandidates_Request.msg
+[0.863s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/srv/GetGraspCandidates_Response.msg
+[0.863s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/srv/UploadToRoboflow.srv
+[0.863s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/srv/UploadToRoboflow_Request.msg
+[0.863s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/srv/UploadToRoboflow_Response.msg
+[0.864s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/srv/ConfigureRoboflow.srv
+[0.864s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/srv/ConfigureRoboflow_Request.msg
+[0.864s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/srv/ConfigureRoboflow_Response.msg
+[0.864s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/srv/CalibrateCamera.srv
+[0.865s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/srv/CalibrateCamera_Request.msg
+[0.865s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/srv/CalibrateCamera_Response.msg
+[0.865s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/ament_index/resource_index/package_run_dependencies/roarm_anygrasp_integration
+[0.865s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/ament_index/resource_index/parent_prefix_path/roarm_anygrasp_integration
+[0.865s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/environment/ament_prefix_path.sh
+[0.866s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/environment/ament_prefix_path.dsv
+[0.866s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/environment/path.sh
+[0.866s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/environment/path.dsv
+[0.866s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/local_setup.bash
+[0.867s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/local_setup.sh
+[0.867s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/local_setup.zsh
+[0.867s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/local_setup.dsv
+[0.867s] -- Symlinking: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/package.dsv
+[0.882s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/ament_index/resource_index/packages/roarm_anygrasp_integration
+[0.882s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/rosidl_cmake-extras.cmake
+[0.882s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.882s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.882s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/ament_cmake_export_libraries-extras.cmake
+[0.882s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/ament_cmake_export_targets-extras.cmake
+[0.882s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.883s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.883s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/roarm_anygrasp_integrationConfig.cmake
+[0.883s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/roarm_anygrasp_integrationConfig-version.cmake
+[0.883s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/package.xml
+[0.883s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/lib/libroarm_anygrasp_integration__rosidl_generator_c.so
+[0.884s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/lib/libroarm_anygrasp_integration__rosidl_typesupport_fastrtps_c.so
+[0.884s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/lib/libroarm_anygrasp_integration__rosidl_typesupport_fastrtps_cpp.so
+[0.884s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/lib/libroarm_anygrasp_integration__rosidl_typesupport_introspection_c.so
+[0.885s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/lib/libroarm_anygrasp_integration__rosidl_typesupport_c.so
+[0.885s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/lib/libroarm_anygrasp_integration__rosidl_typesupport_introspection_cpp.so
+[0.885s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/lib/libroarm_anygrasp_integration__rosidl_typesupport_cpp.so
+[0.925s] Listing '/root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration'...
+[0.925s] Listing '/root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages/roarm_anygrasp_integration/srv'...
+[0.932s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/lib/libroarm_anygrasp_integration__rosidl_generator_py.so
+[0.932s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/export_roarm_anygrasp_integration__rosidl_generator_cExport.cmake
+[0.932s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/export_roarm_anygrasp_integration__rosidl_generator_cExport-noconfig.cmake
+[0.932s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/export_roarm_anygrasp_integration__rosidl_typesupport_fastrtps_cExport.cmake
+[0.932s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/export_roarm_anygrasp_integration__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.932s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/export_roarm_anygrasp_integration__rosidl_generator_cppExport.cmake
+[0.932s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/export_roarm_anygrasp_integration__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.932s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/export_roarm_anygrasp_integration__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.932s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/roarm_anygrasp_integration__rosidl_typesupport_introspection_cExport.cmake
+[0.932s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/roarm_anygrasp_integration__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.932s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/roarm_anygrasp_integration__rosidl_typesupport_cExport.cmake
+[0.932s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/roarm_anygrasp_integration__rosidl_typesupport_cExport-noconfig.cmake
+[0.933s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/roarm_anygrasp_integration__rosidl_typesupport_introspection_cppExport.cmake
+[0.933s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/roarm_anygrasp_integration__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.933s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/roarm_anygrasp_integration__rosidl_typesupport_cppExport.cmake
+[0.933s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/roarm_anygrasp_integration__rosidl_typesupport_cppExport-noconfig.cmake
+[0.933s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/export_roarm_anygrasp_integration__rosidl_generator_pyExport.cmake
+[0.933s] -- Up-to-date: /root/ros2_workspace/install/roarm_anygrasp_integration/share/roarm_anygrasp_integration/cmake/export_roarm_anygrasp_integration__rosidl_generator_pyExport-noconfig.cmake
+[0.938s] Invoked command in '/root/ros2_workspace/build/roarm_anygrasp_integration' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_workspace/build/roarm_anygrasp_integration

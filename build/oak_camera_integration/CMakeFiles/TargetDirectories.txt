@@ -1,0 +1,11 @@
+/root/ros2_workspace/build/oak_camera_integration/CMakeFiles/uninstall.dir
+/root/ros2_workspace/build/oak_camera_integration/CMakeFiles/oak_camera_integration_uninstall.dir
+/root/ros2_workspace/build/oak_camera_integration/CMakeFiles/ament_cmake_python_symlink_oak_camera_integration.dir
+/root/ros2_workspace/build/oak_camera_integration/CMakeFiles/ament_cmake_python_build_oak_camera_integration_egg.dir
+/root/ros2_workspace/build/oak_camera_integration/CMakeFiles/test.dir
+/root/ros2_workspace/build/oak_camera_integration/CMakeFiles/edit_cache.dir
+/root/ros2_workspace/build/oak_camera_integration/CMakeFiles/rebuild_cache.dir
+/root/ros2_workspace/build/oak_camera_integration/CMakeFiles/list_install_components.dir
+/root/ros2_workspace/build/oak_camera_integration/CMakeFiles/install.dir
+/root/ros2_workspace/build/oak_camera_integration/CMakeFiles/install/local.dir
+/root/ros2_workspace/build/oak_camera_integration/CMakeFiles/install/strip.dir

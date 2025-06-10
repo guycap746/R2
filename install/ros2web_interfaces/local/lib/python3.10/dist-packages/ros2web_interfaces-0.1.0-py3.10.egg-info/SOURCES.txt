@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/ros2web_interfaces/ament_cmake_python/ros2web_interfaces/ros2web_interfaces.egg-info/SOURCES.txt

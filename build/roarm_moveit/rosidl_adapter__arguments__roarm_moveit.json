@@ -1,0 +1,8 @@
+{
+  "package_name": "roarm_moveit",
+  "non_idl_tuples": [
+    "/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit:srv/GetPoseCmd.srv",
+    "/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit:srv/MovePointCmd.srv",
+    "/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit:srv/MoveCircleCmd.srv"
+  ]
+}

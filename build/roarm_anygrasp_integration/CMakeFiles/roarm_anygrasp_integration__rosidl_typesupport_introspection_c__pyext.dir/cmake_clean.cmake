@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/roarm_anygrasp_integration__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/roarm_anygrasp_integration/_roarm_anygrasp_integration_s.ep.rosidl_typesupport_introspection_c.c.o"
+  "CMakeFiles/roarm_anygrasp_integration__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/roarm_anygrasp_integration/_roarm_anygrasp_integration_s.ep.rosidl_typesupport_introspection_c.c.o.d"
+  "rosidl_generator_py/roarm_anygrasp_integration/roarm_anygrasp_integration_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.pdb"
+  "rosidl_generator_py/roarm_anygrasp_integration/roarm_anygrasp_integration_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/roarm_anygrasp_integration__rosidl_typesupport_introspection_c__pyext.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

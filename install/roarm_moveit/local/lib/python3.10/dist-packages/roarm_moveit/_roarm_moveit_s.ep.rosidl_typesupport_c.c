@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/roarm_moveit/rosidl_generator_py/roarm_moveit/_roarm_moveit_s.ep.rosidl_typesupport_c.c

@@ -1,0 +1,4 @@
+Invoking command in '/root/ros2_workspace/build/wrist_imu_integration': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_workspace/build/wrist_imu_integration -- -j4 -l4
+Invoked command in '/root/ros2_workspace/build/wrist_imu_integration' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_workspace/build/wrist_imu_integration -- -j4 -l4
+Invoking command in '/root/ros2_workspace/build/wrist_imu_integration': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_workspace/build/wrist_imu_integration
+Invoked command in '/root/ros2_workspace/build/wrist_imu_integration' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_workspace/build/wrist_imu_integration

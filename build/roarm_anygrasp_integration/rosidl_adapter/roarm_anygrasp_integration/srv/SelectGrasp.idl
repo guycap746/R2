@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from roarm_anygrasp_integration/srv/SelectGrasp.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module roarm_anygrasp_integration {
+  module srv {
+    @verbatim (language="comment", text=
+      "Service for user grasp selection from AnyGrasp candidates" "\n"
+      "Request: Index of selected grasp from the top candidates")
+    struct SelectGrasp_Request {
+      int32 selected_grasp_index;
+
+      @verbatim (language="comment", text=
+        "Optional: User can request to see more candidates")
+      boolean show_more_candidates;
+    };
+    struct SelectGrasp_Response {
+      @verbatim (language="comment", text=
+        "Response: Confirmation and execution status")
+      boolean success;
+
+      string message;
+
+      @verbatim (language="comment", text=
+        "Selected grasp details for confirmation")
+      geometry_msgs::msg::PoseStamped selected_pose;
+
+      float confidence_score;
+
+      float grasp_width;
+    };
+  };
+};

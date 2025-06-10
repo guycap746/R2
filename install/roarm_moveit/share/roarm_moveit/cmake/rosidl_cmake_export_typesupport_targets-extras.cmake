@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/roarm_moveit/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

@@ -1,0 +1,13 @@
+[0;34m[2025-06-10 13:04:14] INFO: Starting AnyGrasp Claude processing session[0m
+[0;34m[2025-06-10 13:04:14] INFO: Project directory: /root/ros2_workspace[0m
+[0;34m[2025-06-10 13:04:14] INFO: Claude log: /root/ros2_workspace/logs/claude_log_20250610_130414.json[0m
+[0;34m[2025-06-10 13:04:14] INFO: Script log: /root/ros2_workspace/logs/script_log_20250610_130414.log[0m
+[0;34m[2025-06-10 13:04:14] INFO: Validating environment...[0m
+[0;34m[2025-06-10 13:04:14] INFO: Found task file: /root/ros2_workspace/ANYGRASP_IMPROVEMENT_TASKS.md[0m
+[0;32m[2025-06-10 13:04:14] SUCCESS: Environment validation passed[0m
+[0;34m[2025-06-10 13:04:14] INFO: Starting Claude Code session...[0m
+[0;32m[2025-06-10 13:04:26] SUCCESS: Claude session completed successfully[0m
+[0;34m[2025-06-10 13:04:26] INFO: Logs available at: /root/ros2_workspace/logs/claude_log_20250610_130414.json[0m
+[0;34m[2025-06-10 13:04:26] INFO: Script logs at: /root/ros2_workspace/logs/script_log_20250610_130414.log[0m
+[0;34m[2025-06-10 13:04:26] INFO: Cleaning up...[0m
+[0;34m[2025-06-10 13:04:26] INFO: Session duration: 12s[0m

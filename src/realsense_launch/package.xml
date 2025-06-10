@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypeid="urn:x-ros:schema:package-format3"?>
+<package format="3">
+  <name>realsense_launch</name>
+  <version>1.0.0</version>
+  <description>Launch files for Intel RealSense D405 camera</description>
+  <maintainer email="dev@example.com">ROS2 Developer</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>realsense2_camera</exec_depend>
+  <exec_depend>realsense2_description</exec_depend>
+  <exec_depend>depth_image_proc</exec_depend>
+  <exec_depend>rgbd_launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

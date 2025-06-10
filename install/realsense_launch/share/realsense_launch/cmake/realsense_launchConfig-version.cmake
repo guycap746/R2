@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/realsense_launch/ament_cmake_core/realsense_launchConfig-version.cmake

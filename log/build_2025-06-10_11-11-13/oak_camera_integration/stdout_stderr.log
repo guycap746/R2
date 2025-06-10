@@ -1,0 +1,53 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_workspace/build/oak_camera_integration
+Built target ament_cmake_python_symlink_oak_camera_integration
+running egg_info
+creating oak_camera_integration.egg-info
+writing oak_camera_integration.egg-info/PKG-INFO
+writing dependency_links to oak_camera_integration.egg-info/dependency_links.txt
+writing top-level names to oak_camera_integration.egg-info/top_level.txt
+writing manifest file 'oak_camera_integration.egg-info/SOURCES.txt'
+reading manifest file 'oak_camera_integration.egg-info/SOURCES.txt'
+writing manifest file 'oak_camera_integration.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_oak_camera_integration_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/environment/pythonpath.sh
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/environment/pythonpath.dsv
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/local/lib/python3.10/dist-packages/oak_camera_integration-1.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/local/lib/python3.10/dist-packages/oak_camera_integration-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/local/lib/python3.10/dist-packages/oak_camera_integration-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/local/lib/python3.10/dist-packages/oak_camera_integration-1.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/local/lib/python3.10/dist-packages/oak_camera_integration/__init__.py
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/lib/oak_camera_integration/multi_camera_coordinator.py
+CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):
+  ament_cmake_symlink_install_programs() can't find
+  '/root/ros2_workspace/src/oak_camera_integration/scripts/oak_camera_manager.py'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:326 (ament_cmake_symlink_install_programs)
+  cmake_install.cmake:46 (include)
+
+

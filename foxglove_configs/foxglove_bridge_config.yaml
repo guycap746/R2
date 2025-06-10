@@ -1,0 +1,181 @@
+# Foxglove Bridge Configuration for RoArm M3 + AnyGrasp
+# This configuration optimizes topic publishing for Foxglove Studio
+
+# General bridge settings
+port: 8765
+address: "0.0.0.0"
+tls: false
+certfile: ""
+keyfile: ""
+topic_whitelist: []
+service_whitelist: []
+parameter_whitelist: []
+
+# Performance settings
+max_qos_depth: 10
+num_threads: 0  # Use default number of threads
+use_compression: false
+
+# Topic-specific configurations
+topics:
+  # Robot state and joint information
+  "/joint_states":
+    type: "sensor_msgs/JointState"
+    qos:
+      reliability: "reliable"
+      durability: "volatile"
+      depth: 10
+
+  # Transform tree for robot visualization
+  "/tf":
+    type: "tf2_msgs/TFMessage"
+    qos:
+      reliability: "reliable"
+      durability: "volatile"
+      depth: 100
+
+  "/tf_static":
+    type: "tf2_msgs/TFMessage"
+    qos:
+      reliability: "reliable"
+      durability: "transient_local"
+      depth: 100
+
+  # Robot description for URDF visualization
+  "/robot_description":
+    type: "std_msgs/String"
+    qos:
+      reliability: "reliable"
+      durability: "transient_local"
+      depth: 1
+
+  # Camera streams and point clouds
+  "/camera/color/image_raw":
+    type: "sensor_msgs/Image"
+    qos:
+      reliability: "best_effort"
+      durability: "volatile"
+      depth: 5
+
+  "/camera/depth/image_rect_raw":
+    type: "sensor_msgs/Image"
+    qos:
+      reliability: "best_effort"
+      durability: "volatile"
+      depth: 5
+
+  "/camera/depth/color/points":
+    type: "sensor_msgs/PointCloud2"
+    qos:
+      reliability: "best_effort"
+      durability: "volatile"
+      depth: 2
+
+  # AnyGrasp detection results
+  "/anygrasp/grasp_poses":
+    type: "geometry_msgs/PoseArray"
+    qos:
+      reliability: "reliable"
+      durability: "volatile"
+      depth: 10
+
+  "/anygrasp/debug_markers":
+    type: "visualization_msgs/MarkerArray"
+    qos:
+      reliability: "reliable"
+      durability: "volatile"
+      depth: 10
+
+  # MoveIt planning and execution
+  "/move_group/display_planned_path":
+    type: "moveit_msgs/DisplayTrajectory"
+    qos:
+      reliability: "reliable"
+      durability: "volatile"
+      depth: 5
+
+  "/execute_trajectory/feedback":
+    type: "moveit_msgs/ExecuteTrajectoryActionFeedback"
+    qos:
+      reliability: "reliable"
+      durability: "volatile"
+      depth: 10
+
+  "/move_group/monitored_planning_scene":
+    type: "moveit_msgs/PlanningScene"
+    qos:
+      reliability: "reliable"
+      durability: "volatile"
+      depth: 5
+
+  # Servo control for real-time manipulation
+  "/servo_node/delta_joint_cmds":
+    type: "control_msgs/JointJog"
+    qos:
+      reliability: "reliable"
+      durability: "volatile"
+      depth: 10
+
+  "/servo_node/delta_twist_cmds":
+    type: "geometry_msgs/TwistStamped"
+    qos:
+      reliability: "reliable"
+      durability: "volatile"
+      depth: 10
+
+  # Robot driver communication
+  "/roarm_driver/status":
+    type: "std_msgs/String"
+    qos:
+      reliability: "reliable"
+      durability: "volatile"
+      depth: 10
+
+  "/led_ctrl":
+    type: "std_msgs/Float32"
+    qos:
+      reliability: "reliable"
+      durability: "volatile"
+      depth: 10
+
+  # Diagnostics and system monitoring
+  "/diagnostics":
+    type: "diagnostic_msgs/DiagnosticArray"
+    qos:
+      reliability: "reliable"
+      durability: "volatile"
+      depth: 10
+
+  "/rosout":
+    type: "rcl_interfaces/Log"
+    qos:
+      reliability: "reliable"
+      durability: "volatile"
+      depth: 1000
+
+# Services to expose (for interactive control)
+services:
+  "/get_pose_cmd":
+    type: "roarm_moveit/GetPoseCmd"
+  
+  "/move_point_cmd":
+    type: "roarm_moveit/MovePointCmd"
+    
+  "/move_circle_cmd":
+    type: "roarm_moveit/MoveCircleCmd"
+
+# Parameters to expose for runtime configuration
+parameters:
+  "/servo_node":
+    - "linear_speed_limit"
+    - "angular_speed_limit"
+    - "collision_check_rate"
+    
+  "/anygrasp_node":
+    - "detection_confidence_threshold"
+    - "max_grasps"
+    - "gripper_width"
+    
+  "/roarm_driver":
+    - "serial_port"
+    - "baud_rate"

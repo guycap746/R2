@@ -1,0 +1,274 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_workspace/build/roarm_moveit
+[  2%] Generating C code for ROS interfaces
+[  4%] Generating C++ code for ROS interfaces
+[  4%] Built target ament_cmake_python_symlink_roarm_moveit
+running egg_info
+creating roarm_moveit.egg-info
+writing roarm_moveit.egg-info/PKG-INFO
+writing dependency_links to roarm_moveit.egg-info/dependency_links.txt
+writing top-level names to roarm_moveit.egg-info/top_level.txt
+writing manifest file 'roarm_moveit.egg-info/SOURCES.txt'
+reading manifest file 'roarm_moveit.egg-info/SOURCES.txt'
+writing manifest file 'roarm_moveit.egg-info/SOURCES.txt'
+[  4%] Built target ament_cmake_python_build_roarm_moveit_egg
+[  6%] Building C object CMakeFiles/roarm_moveit__rosidl_generator_c.dir/rosidl_generator_c/roarm_moveit/srv/detail/get_pose_cmd__functions.c.o
+[  8%] Building C object CMakeFiles/roarm_moveit__rosidl_generator_c.dir/rosidl_generator_c/roarm_moveit/srv/detail/move_point_cmd__functions.c.o
+[ 10%] Building C object CMakeFiles/roarm_moveit__rosidl_generator_c.dir/rosidl_generator_c/roarm_moveit/srv/detail/move_circle_cmd__functions.c.o
+[ 10%] Built target roarm_moveit__cpp
+[ 12%] Generating C++ type support for eProsima Fast-RTPS
+[ 14%] Generating C++ type support dispatch for ROS interfaces
+[ 17%] Generating C++ introspection for ROS interfaces
+[ 19%] Linking C shared library libroarm_moveit__rosidl_generator_c.so
+[ 19%] Built target roarm_moveit__rosidl_generator_c
+[ 21%] Generating C type support for eProsima Fast-RTPS
+[ 23%] Building CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roarm_moveit/srv/detail/dds_fastrtps/get_pose_cmd__type_support.cpp.o
+[ 25%] Building CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roarm_moveit/srv/get_pose_cmd__type_support.cpp.o
+[ 27%] Building CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roarm_moveit/srv/detail/get_pose_cmd__type_support.cpp.o
+[ 29%] Building CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roarm_moveit/srv/detail/get_pose_cmd__type_support_c.cpp.o
+[ 31%] Building CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roarm_moveit/srv/move_point_cmd__type_support.cpp.o
+[ 34%] Building CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roarm_moveit/srv/detail/dds_fastrtps/move_point_cmd__type_support.cpp.o
+[ 36%] Building CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roarm_moveit/srv/detail/move_point_cmd__type_support.cpp.o
+[ 38%] Building CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roarm_moveit/srv/detail/move_point_cmd__type_support_c.cpp.o
+[ 40%] Building CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roarm_moveit/srv/move_circle_cmd__type_support.cpp.o
+[ 42%] Building CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roarm_moveit/srv/detail/dds_fastrtps/move_circle_cmd__type_support.cpp.o
+[ 44%] Linking CXX shared library libroarm_moveit__rosidl_typesupport_cpp.so
+[ 44%] Built target roarm_moveit__rosidl_typesupport_cpp
+[ 46%] Generating C introspection for ROS interfaces
+[ 48%] Building CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roarm_moveit/srv/detail/move_circle_cmd__type_support_c.cpp.o
+[ 51%] Building CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roarm_moveit/srv/detail/move_circle_cmd__type_support.cpp.o
+[ 53%] Linking CXX shared library libroarm_moveit__rosidl_typesupport_fastrtps_cpp.so
+[ 53%] Built target roarm_moveit__rosidl_typesupport_fastrtps_cpp
+[ 55%] Generating C type support dispatch for ROS interfaces
+[ 57%] Linking CXX shared library libroarm_moveit__rosidl_typesupport_introspection_cpp.so
+[ 59%] Linking CXX shared library libroarm_moveit__rosidl_typesupport_fastrtps_c.so
+[ 59%] Built target roarm_moveit__rosidl_typesupport_introspection_cpp
+[ 59%] Built target roarm_moveit__rosidl_typesupport_fastrtps_c
+[ 61%] Building C object CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roarm_moveit/srv/detail/get_pose_cmd__type_support.c.o
+[ 63%] Building C object CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roarm_moveit/srv/detail/move_point_cmd__type_support.c.o
+[ 65%] Building C object CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roarm_moveit/srv/detail/move_circle_cmd__type_support.c.o
+[ 68%] Linking C shared library libroarm_moveit__rosidl_typesupport_introspection_c.so
+[ 68%] Built target roarm_moveit__rosidl_typesupport_introspection_c
+[ 70%] Building CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp.o
+[ 72%] Building CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp.o
+[ 74%] Building CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp.o
+[ 76%] Linking CXX shared library libroarm_moveit__rosidl_typesupport_c.so
+[ 76%] Built target roarm_moveit__rosidl_typesupport_c
+[ 76%] Built target roarm_moveit
+[ 78%] Generating Python code for ROS interfaces
+[ 78%] Built target roarm_moveit__py
+[ 80%] Building C object CMakeFiles/roarm_moveit__rosidl_generator_py.dir/rosidl_generator_py/roarm_moveit/srv/_get_pose_cmd_s.c.o
+[ 82%] Building C object CMakeFiles/roarm_moveit__rosidl_generator_py.dir/rosidl_generator_py/roarm_moveit/srv/_move_point_cmd_s.c.o
+[ 85%] Building C object CMakeFiles/roarm_moveit__rosidl_generator_py.dir/rosidl_generator_py/roarm_moveit/srv/_move_circle_cmd_s.c.o
+[ 87%] Linking C shared library rosidl_generator_py/roarm_moveit/libroarm_moveit__rosidl_generator_py.so
+[ 87%] Built target roarm_moveit__rosidl_generator_py
+[ 89%] Building C object CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/roarm_moveit/_roarm_moveit_s.ep.rosidl_typesupport_introspection_c.c.o
+[ 91%] Building C object CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/roarm_moveit/_roarm_moveit_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[ 93%] Linking C shared library rosidl_generator_py/roarm_moveit/roarm_moveit_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[ 93%] Built target roarm_moveit__rosidl_typesupport_introspection_c__pyext
+[ 95%] Linking C shared library rosidl_generator_py/roarm_moveit/roarm_moveit_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[ 97%] Building C object CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/roarm_moveit/_roarm_moveit_s.ep.rosidl_typesupport_c.c.o
+[ 97%] Built target roarm_moveit__rosidl_typesupport_fastrtps_c__pyext
+[100%] Linking C shared library rosidl_generator_py/roarm_moveit/roarm_moveit_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[100%] Built target roarm_moveit__rosidl_typesupport_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/ament_index/resource_index/rosidl_interfaces/roarm_moveit
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__functions.h
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__struct.h
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__type_support.h
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__functions.h
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__struct.h
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__type_support.h
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__functions.h
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__struct.h
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__type_support.h
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/get_pose_cmd.h
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/move_circle_cmd.h
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/move_point_cmd.h
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/environment/library_path.sh
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/environment/library_path.dsv
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__builder.hpp
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__struct.hpp
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__traits.hpp
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__type_support.hpp
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__builder.hpp
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__struct.hpp
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__traits.hpp
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__type_support.hpp
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__builder.hpp
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__struct.hpp
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__traits.hpp
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__type_support.hpp
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/get_pose_cmd.hpp
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/move_circle_cmd.hpp
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/move_point_cmd.hpp
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/environment/pythonpath.sh
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/environment/pythonpath.dsv
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit-0.3.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit-0.3.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit-0.3.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit-0.3.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/__init__.py
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/_roarm_moveit_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/_roarm_moveit_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/_roarm_moveit_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/libroarm_moveit__rosidl_generator_py.so
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/roarm_moveit_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/roarm_moveit_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/roarm_moveit_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/srv/__init__.py
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/srv/_get_pose_cmd.py
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/srv/_get_pose_cmd_s.c
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/srv/_move_circle_cmd.py
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/srv/_move_circle_cmd_s.c
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/srv/_move_point_cmd.py
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/srv/_move_point_cmd_s.c
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/roarm_moveit_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/roarm_moveit_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/roarm_moveit_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/srv/GetPoseCmd.idl
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/srv/MovePointCmd.idl
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/srv/MoveCircleCmd.idl
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/srv/GetPoseCmd.srv
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/srv/GetPoseCmd_Request.msg
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/srv/GetPoseCmd_Response.msg
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/srv/MovePointCmd.srv
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/srv/MovePointCmd_Request.msg
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/srv/MovePointCmd_Response.msg
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/srv/MoveCircleCmd.srv
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/srv/MoveCircleCmd_Request.msg
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/srv/MoveCircleCmd_Response.msg
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/ament_index/resource_index/package_run_dependencies/roarm_moveit
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/ament_index/resource_index/parent_prefix_path/roarm_moveit
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/environment/ament_prefix_path.dsv
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/environment/path.sh
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/environment/path.dsv
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/local_setup.bash
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/local_setup.sh
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/local_setup.zsh
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/local_setup.dsv
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/package.dsv
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/ament_index/resource_index/packages/roarm_moveit
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveitConfig.cmake
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveitConfig-version.cmake
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/package.xml
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/launch/command_control_moveit_rviz.launch.py
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/launch/demo.launch.py
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/launch/interact.launch.py
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/launch/interact_moveit_rviz.launch.py
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/launch/move_group.launch.py
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/launch/moveit_rviz.launch.py
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/launch/rsp.launch.py
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/launch/setup_assistant.launch.py
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/launch/spawn_controllers.launch.py
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/launch/static_virtual_joint_tfs.launch.py
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/launch/warehouse_db.launch.py
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/config/initial_positions.yaml
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/config/interact.rviz
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/config/joint_limits.yaml
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/config/kinematics.yaml
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/config/moveit.rviz
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/config/moveit_controllers.yaml
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/config/pilz_cartesian_limits.yaml
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/config/roarm_description.ros2_control.xacro
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/config/roarm_description.srdf
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/config/roarm_description.urdf.xacro
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/config/ros2_controllers.yaml
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/config/sensors_3d.yaml
+-- Symlinking: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/.setup_assistant
+-- Installing: /root/ros2_workspace/install/roarm_moveit/lib/libroarm_moveit__rosidl_generator_c.so
+-- Set runtime path of "/root/ros2_workspace/install/roarm_moveit/lib/libroarm_moveit__rosidl_generator_c.so" to ""
+-- Installing: /root/ros2_workspace/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/root/ros2_workspace/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /root/ros2_workspace/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/root/ros2_workspace/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /root/ros2_workspace/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_c.so
+-- Set runtime path of "/root/ros2_workspace/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_c.so" to ""
+-- Installing: /root/ros2_workspace/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/root/ros2_workspace/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /root/ros2_workspace/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/root/ros2_workspace/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /root/ros2_workspace/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_cpp.so
+-- Set runtime path of "/root/ros2_workspace/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_cpp.so" to ""
+Listing '/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit'...
+Compiling '/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/__init__.py'...
+Listing '/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/srv'...
+Compiling '/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/srv/__init__.py'...
+Compiling '/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/srv/_get_pose_cmd.py'...
+Compiling '/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/srv/_move_circle_cmd.py'...
+Compiling '/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/srv/_move_point_cmd.py'...
+-- Installing: /root/ros2_workspace/install/roarm_moveit/lib/libroarm_moveit__rosidl_generator_py.so
+-- Set runtime path of "/root/ros2_workspace/install/roarm_moveit/lib/libroarm_moveit__rosidl_generator_py.so" to ""
+-- Installing: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_generator_cExport.cmake
+-- Installing: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_cExport.cmake
+-- Installing: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_generator_cppExport.cmake
+-- Installing: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_cppExport.cmake
+-- Installing: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_generator_pyExport.cmake
+-- Installing: /root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_generator_pyExport-noconfig.cmake

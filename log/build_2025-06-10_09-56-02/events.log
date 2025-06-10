@@ -1,0 +1,485 @@
+[0.000000] (-) TimerEvent: {}
+[0.000157] (-) JobUnselected: {'identifier': 'launch_api'}
+[0.000197] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.000219] (-) JobUnselected: {'identifier': 'realsense_launch'}
+[0.000238] (-) JobUnselected: {'identifier': 'roarm_anygrasp_integration'}
+[0.000256] (-) JobUnselected: {'identifier': 'roarm_description'}
+[0.000275] (-) JobUnselected: {'identifier': 'roarm_driver'}
+[0.000293] (-) JobUnselected: {'identifier': 'roarm_moveit'}
+[0.000311] (-) JobUnselected: {'identifier': 'roarm_moveit_ikfast_plugins'}
+[0.000328] (-) JobUnselected: {'identifier': 'roarm_web_app'}
+[0.000346] (-) JobUnselected: {'identifier': 'ros2web'}
+[0.000364] (-) JobUnselected: {'identifier': 'ros2web_app'}
+[0.000381] (-) JobUnselected: {'identifier': 'ros2web_example_py'}
+[0.000399] (-) JobUnselected: {'identifier': 'ros2web_interfaces'}
+[0.000417] (-) JobUnselected: {'identifier': 'ros2web_widgets'}
+[0.000439] (roarm_moveit_cmd) JobQueued: {'identifier': 'roarm_moveit_cmd', 'dependencies': OrderedDict([('moveit_servo', '/root/ros2_workspace/install/moveit_servo'), ('roarm_description', '/root/ros2_workspace/install/roarm_description'), ('roarm_moveit', '/root/ros2_workspace/install/roarm_moveit')])}
+[0.001495] (roarm_moveit_cmd) JobStarted: {'identifier': 'roarm_moveit_cmd'}
+[0.017859] (roarm_moveit_cmd) JobProgress: {'identifier': 'roarm_moveit_cmd', 'progress': 'cmake'}
+[0.019310] (roarm_moveit_cmd) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd', '-DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/roarm_moveit_cmd'], 'cwd': '/root/ros2_workspace/build/roarm_moveit_cmd', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-0/default,28936,0'), ('USER', 'root'), ('SSH_CLIENT', '99.127.244.23 51899 22'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/moveit_servo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '3.2a'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '6'), ('OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE', 'delta'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('PWD', '/root/ros2_workspace/build/roarm_moveit_cmd'), ('SSH_CONNECTION', '99.127.244.23 51899 167.172.239.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:/opt/ros/humble')]), 'shell': False}
+[0.041625] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found moveit_common: 2.5.9 (/opt/ros/humble/share/moveit_common/cmake)\n'}
+[0.042212] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099549] (-) TimerEvent: {}
+[0.199778] (-) TimerEvent: {}
+[0.220933] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.299930] (-) TimerEvent: {}
+[0.323486] (roarm_moveit_cmd) StderrLine: {'line': b"roarm_moveit_cmd: You did not request a specific build type: Choosing 'Release' for maximum performance\n"}
+[0.347695] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread \n'}
+[0.357468] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[0.390677] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.393393] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.400109] (-) TimerEvent: {}
+[0.400390] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.413788] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.429467] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500260] (-) TimerEvent: {}
+[0.570664] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found moveit_core: 2.5.9 (/opt/ros/humble/share/moveit_core/cmake)\n'}
+[0.582083] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[0.600449] (-) TimerEvent: {}
+[0.611847] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[0.646071] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.648083] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700610] (-) TimerEvent: {}
+[0.758890] (roarm_moveit_cmd) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800785] (-) TimerEvent: {}
+[0.815558] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.841518] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[0.876379] (roarm_moveit_cmd) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[0.900957] (-) TimerEvent: {}
+[0.924854] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.001139] (-) TimerEvent: {}
+[1.101425] (-) TimerEvent: {}
+[1.139099] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found moveit_ros_planning: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning/cmake)\n'}
+[1.145538] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[1.172450] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[1.178978] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[1.195224] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[1.201589] (-) TimerEvent: {}
+[1.220354] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[1.254072] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found moveit_visual_tools: 4.1.2 (/opt/ros/humble/share/moveit_visual_tools/cmake)\n'}
+[1.301749] (-) TimerEvent: {}
+[1.332116] (roarm_moveit_cmd) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[1.342752] (roarm_moveit_cmd) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[1.344393] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found OGRE\n'}
+[1.344733] (roarm_moveit_cmd) StdoutLine: {'line': b'--   static     : OFF\n'}
+[1.344942] (roarm_moveit_cmd) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[1.345054] (roarm_moveit_cmd) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[1.345157] (roarm_moveit_cmd) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[1.345288] (roarm_moveit_cmd) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[1.345351] (roarm_moveit_cmd) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[1.345409] (roarm_moveit_cmd) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[1.345468] (roarm_moveit_cmd) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[1.345524] (roarm_moveit_cmd) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[1.345597] (roarm_moveit_cmd) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[1.345658] (roarm_moveit_cmd) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[1.345717] (roarm_moveit_cmd) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[1.346722] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[1.369768] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[1.376062] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[1.402005] (-) TimerEvent: {}
+[1.484040] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.484384] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.502140] (-) TimerEvent: {}
+[1.602402] (-) TimerEvent: {}
+[1.644052] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.644264] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.702526] (-) TimerEvent: {}
+[1.759997] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.760258] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.802663] (-) TimerEvent: {}
+[1.868764] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.869034] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.902822] (-) TimerEvent: {}
+[1.980815] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.981093] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[2.002961] (-) TimerEvent: {}
+[2.097670] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[2.097907] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[2.103100] (-) TimerEvent: {}
+[2.203372] (-) TimerEvent: {}
+[2.208760] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[2.303690] (-) TimerEvent: {}
+[2.320652] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found moveit_servo: 2.5.5 (/root/ros2_workspace/install/moveit_servo/share/moveit_servo/cmake)\n'}
+[2.381271] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found roarm_moveit: 0.3.0 (/root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake)\n'}
+[2.396581] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Found ompl: /opt/ros/humble/include/ompl-1.6;/usr/include;/usr/include/eigen3  \n'}
+[2.403841] (-) TimerEvent: {}
+[2.478679] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.504000] (-) TimerEvent: {}
+[2.604271] (-) TimerEvent: {}
+[2.650877] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Generating done\n'}
+[2.704417] (-) TimerEvent: {}
+[2.709987] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_workspace/build/roarm_moveit_cmd\n'}
+[2.728388] (roarm_moveit_cmd) CommandEnded: {'returncode': 0}
+[2.729661] (roarm_moveit_cmd) JobProgress: {'identifier': 'roarm_moveit_cmd', 'progress': 'build'}
+[2.729696] (roarm_moveit_cmd) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_workspace/build/roarm_moveit_cmd', '--', '-j4', '-l4'], 'cwd': '/root/ros2_workspace/build/roarm_moveit_cmd', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-0/default,28936,0'), ('USER', 'root'), ('SSH_CLIENT', '99.127.244.23 51899 22'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/moveit_servo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '3.2a'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '6'), ('OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE', 'delta'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('PWD', '/root/ros2_workspace/build/roarm_moveit_cmd'), ('SSH_CONNECTION', '99.127.244.23 51899 167.172.239.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:/opt/ros/humble')]), 'shell': False}
+[2.800074] (roarm_moveit_cmd) StdoutLine: {'line': b'[  7%] Building CXX object CMakeFiles/keyboardcontrol.dir/src/keyboardcontrol.cpp.o\n'}
+[2.800475] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 14%] Building CXX object CMakeFiles/movepointcmd.dir/src/movepointcmd.cpp.o\n'}
+[2.804546] (-) TimerEvent: {}
+[2.806331] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/getposecmd_tf2.dir/src/getposecmd_tf2.cpp.o\n'}
+[2.813304] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/getposecmd.dir/src/getposecmd_moveit2.cpp.o\n'}
+[2.904667] (-) TimerEvent: {}
+[3.004874] (-) TimerEvent: {}
+[3.105085] (-) TimerEvent: {}
+[3.205506] (-) TimerEvent: {}
+[3.305746] (-) TimerEvent: {}
+[3.405978] (-) TimerEvent: {}
+[3.506204] (-) TimerEvent: {}
+[3.576994] (roarm_moveit_cmd) StderrLine: {'line': b'In file included from /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp:6:\n'}
+[3.577225] (roarm_moveit_cmd) StderrLine: {'line': b'/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2: warning: #warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [-Wcpp]\n'}
+[3.577321] (roarm_moveit_cmd) StderrLine: {'line': b'   35 | #warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[3.577384] (roarm_moveit_cmd) StderrLine: {'line': b'      |  ^~~~~~~\n'}
+[3.606328] (-) TimerEvent: {}
+[3.706554] (-) TimerEvent: {}
+[3.806776] (-) TimerEvent: {}
+[3.906999] (-) TimerEvent: {}
+[4.007221] (-) TimerEvent: {}
+[4.107442] (-) TimerEvent: {}
+[4.207660] (-) TimerEvent: {}
+[4.307887] (-) TimerEvent: {}
+[4.408119] (-) TimerEvent: {}
+[4.508346] (-) TimerEvent: {}
+[4.608575] (-) TimerEvent: {}
+[4.708799] (-) TimerEvent: {}
+[4.809035] (-) TimerEvent: {}
+[4.909288] (-) TimerEvent: {}
+[5.009526] (-) TimerEvent: {}
+[5.109756] (-) TimerEvent: {}
+[5.209992] (-) TimerEvent: {}
+[5.310233] (-) TimerEvent: {}
+[5.410465] (-) TimerEvent: {}
+[5.510689] (-) TimerEvent: {}
+[5.610918] (-) TimerEvent: {}
+[5.711142] (-) TimerEvent: {}
+[5.811361] (-) TimerEvent: {}
+[5.911587] (-) TimerEvent: {}
+[6.011808] (-) TimerEvent: {}
+[6.112042] (-) TimerEvent: {}
+[6.212281] (-) TimerEvent: {}
+[6.312531] (-) TimerEvent: {}
+[6.412764] (-) TimerEvent: {}
+[6.512998] (-) TimerEvent: {}
+[6.562314] (roarm_moveit_cmd) StderrLine: {'line': b'/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/getposecmd_tf2.cpp: In function \xe2\x80\x98void handle_service(std::shared_ptr<roarm_moveit::srv::GetPoseCmd_Request_<std::allocator<void> > >, std::shared_ptr<roarm_moveit::srv::GetPoseCmd_Response_<std::allocator<void> > >, std::shared_ptr<RobotPosePublisher>)\xe2\x80\x99:\n'}
+[6.562543] (roarm_moveit_cmd) StderrLine: {'line': b'/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/getposecmd_tf2.cpp:59:83: warning: unused parameter \xe2\x80\x98request\xe2\x80\x99 [-Wunused-parameter]\n'}
+[6.562601] (roarm_moveit_cmd) StderrLine: {'line': b'   59 | void handle_service(const std::shared_ptr<roarm_moveit::srv::GetPoseCmd::Request> request,\n'}
+[6.562650] (roarm_moveit_cmd) StderrLine: {'line': b'      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\n'}
+[6.613115] (-) TimerEvent: {}
+[6.713355] (-) TimerEvent: {}
+[6.814394] (-) TimerEvent: {}
+[6.914645] (-) TimerEvent: {}
+[7.018755] (-) TimerEvent: {}
+[7.118974] (-) TimerEvent: {}
+[7.219195] (-) TimerEvent: {}
+[7.319419] (-) TimerEvent: {}
+[7.419644] (-) TimerEvent: {}
+[7.519876] (-) TimerEvent: {}
+[7.620112] (-) TimerEvent: {}
+[7.720362] (-) TimerEvent: {}
+[7.820614] (-) TimerEvent: {}
+[7.920832] (-) TimerEvent: {}
+[8.021053] (-) TimerEvent: {}
+[8.121290] (-) TimerEvent: {}
+[8.221521] (-) TimerEvent: {}
+[8.321749] (-) TimerEvent: {}
+[8.421979] (-) TimerEvent: {}
+[8.522217] (-) TimerEvent: {}
+[8.622446] (-) TimerEvent: {}
+[8.722683] (-) TimerEvent: {}
+[8.822922] (-) TimerEvent: {}
+[8.923155] (-) TimerEvent: {}
+[9.023411] (-) TimerEvent: {}
+[9.123650] (-) TimerEvent: {}
+[9.180264] (roarm_moveit_cmd) StderrLine: {'line': b'/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp: In function \xe2\x80\x98void handle_service(std::shared_ptr<roarm_moveit::srv::MovePointCmd_Request_<std::allocator<void> > >, std::shared_ptr<roarm_moveit::srv::MovePointCmd_Response_<std::allocator<void> > >)\xe2\x80\x99:\n'}
+[9.180482] (roarm_moveit_cmd) StderrLine: {'line': b'/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp:35:92: warning: \xe2\x80\x98using MoveItErrorCode = class moveit::core::MoveItErrorCode\xe2\x80\x99 is deprecated: Use moveit::core::MoveItErrorCode [-Wdeprecated-declarations]\n'}
+[9.180554] (roarm_moveit_cmd) StderrLine: {'line': b'   35 |   bool success = (move_group.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::SUCCESS);\n'}
+[9.180617] (roarm_moveit_cmd) StderrLine: {'line': b'      |                                                                                            ^~~~~~~\n'}
+[9.180675] (roarm_moveit_cmd) StderrLine: {'line': b'In file included from /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp:4:\n'}
+[9.180747] (roarm_moveit_cmd) StderrLine: {'line': b'/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7: note: declared here\n'}
+[9.180804] (roarm_moveit_cmd) StderrLine: {'line': b'   71 | using MoveItErrorCode [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;\n'}
+[9.180861] (roarm_moveit_cmd) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~~\n'}
+[9.223782] (-) TimerEvent: {}
+[9.324046] (-) TimerEvent: {}
+[9.424295] (-) TimerEvent: {}
+[9.524521] (-) TimerEvent: {}
+[9.624763] (-) TimerEvent: {}
+[9.725001] (-) TimerEvent: {}
+[9.825264] (-) TimerEvent: {}
+[9.925503] (-) TimerEvent: {}
+[10.031461] (-) TimerEvent: {}
+[10.131726] (-) TimerEvent: {}
+[10.231984] (-) TimerEvent: {}
+[10.332226] (-) TimerEvent: {}
+[10.432487] (-) TimerEvent: {}
+[10.532752] (-) TimerEvent: {}
+[10.633006] (-) TimerEvent: {}
+[10.733271] (-) TimerEvent: {}
+[10.833506] (-) TimerEvent: {}
+[10.933743] (-) TimerEvent: {}
+[11.033974] (-) TimerEvent: {}
+[11.134216] (-) TimerEvent: {}
+[11.234447] (-) TimerEvent: {}
+[11.334686] (-) TimerEvent: {}
+[11.434914] (-) TimerEvent: {}
+[11.535137] (-) TimerEvent: {}
+[11.635402] (-) TimerEvent: {}
+[11.735675] (-) TimerEvent: {}
+[11.798662] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 35%] Linking CXX executable keyboardcontrol\n'}
+[11.835811] (-) TimerEvent: {}
+[11.936050] (-) TimerEvent: {}
+[11.941096] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 42%] Linking CXX executable getposecmd_tf2\n'}
+[12.036185] (-) TimerEvent: {}
+[12.136417] (-) TimerEvent: {}
+[12.236643] (-) TimerEvent: {}
+[12.336867] (-) TimerEvent: {}
+[12.389624] (roarm_moveit_cmd) StderrLine: {'line': b'/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/getposecmd_moveit2.cpp: In function \xe2\x80\x98void handle_service(std::shared_ptr<roarm_moveit::srv::GetPoseCmd_Request_<std::allocator<void> > >, std::shared_ptr<roarm_moveit::srv::GetPoseCmd_Response_<std::allocator<void> > >)\xe2\x80\x99:\n'}
+[12.389872] (roarm_moveit_cmd) StderrLine: {'line': b'/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/getposecmd_moveit2.cpp:14:83: warning: unused parameter \xe2\x80\x98request\xe2\x80\x99 [-Wunused-parameter]\n'}
+[12.389980] (roarm_moveit_cmd) StderrLine: {'line': b'   14 | void handle_service(const std::shared_ptr<roarm_moveit::srv::GetPoseCmd::Request> request,\n'}
+[12.390065] (roarm_moveit_cmd) StderrLine: {'line': b'      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\n'}
+[12.436986] (-) TimerEvent: {}
+[12.537224] (-) TimerEvent: {}
+[12.637462] (-) TimerEvent: {}
+[12.737689] (-) TimerEvent: {}
+[12.837995] (-) TimerEvent: {}
+[12.878096] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 42%] Built target keyboardcontrol\n'}
+[12.908131] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/movecirclecmd.dir/src/movecirclecmd.cpp.o\n'}
+[12.941098] (-) TimerEvent: {}
+[13.041292] (-) TimerEvent: {}
+[13.141520] (-) TimerEvent: {}
+[13.165874] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 50%] Built target getposecmd_tf2\n'}
+[13.192692] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 57%] Building CXX object CMakeFiles/webappcontrol.dir/src/webappcontrol.cpp.o\n'}
+[13.241668] (-) TimerEvent: {}
+[13.341905] (-) TimerEvent: {}
+[13.442128] (-) TimerEvent: {}
+[13.542352] (-) TimerEvent: {}
+[13.642585] (-) TimerEvent: {}
+[13.738529] (roarm_moveit_cmd) StderrLine: {'line': b'In file included from /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp:10:\n'}
+[13.738731] (roarm_moveit_cmd) StderrLine: {'line': b'/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2: warning: #warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [-Wcpp]\n'}
+[13.738796] (roarm_moveit_cmd) StderrLine: {'line': b'   35 | #warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[13.738857] (roarm_moveit_cmd) StderrLine: {'line': b'      |  ^~~~~~~\n'}
+[13.742707] (-) TimerEvent: {}
+[13.842937] (-) TimerEvent: {}
+[13.943170] (-) TimerEvent: {}
+[14.043391] (-) TimerEvent: {}
+[14.143605] (-) TimerEvent: {}
+[14.243838] (-) TimerEvent: {}
+[14.344091] (-) TimerEvent: {}
+[14.444316] (-) TimerEvent: {}
+[14.488258] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 64%] Linking CXX executable movepointcmd\n'}
+[14.544444] (-) TimerEvent: {}
+[14.644683] (-) TimerEvent: {}
+[14.749300] (-) TimerEvent: {}
+[14.849531] (-) TimerEvent: {}
+[14.949756] (-) TimerEvent: {}
+[14.979180] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 64%] Built target movepointcmd\n'}
+[15.007609] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 71%] Building CXX object CMakeFiles/setgrippercmd.dir/src/setgrippercmd.cpp.o\n'}
+[15.049907] (-) TimerEvent: {}
+[15.150156] (-) TimerEvent: {}
+[15.250397] (-) TimerEvent: {}
+[15.350628] (-) TimerEvent: {}
+[15.450871] (-) TimerEvent: {}
+[15.551132] (-) TimerEvent: {}
+[15.651397] (-) TimerEvent: {}
+[15.751652] (-) TimerEvent: {}
+[15.851932] (-) TimerEvent: {}
+[15.952207] (-) TimerEvent: {}
+[16.052495] (-) TimerEvent: {}
+[16.152779] (-) TimerEvent: {}
+[16.253084] (-) TimerEvent: {}
+[16.353367] (-) TimerEvent: {}
+[16.453635] (-) TimerEvent: {}
+[16.553897] (-) TimerEvent: {}
+[16.654173] (-) TimerEvent: {}
+[16.754443] (-) TimerEvent: {}
+[16.854713] (-) TimerEvent: {}
+[16.955011] (-) TimerEvent: {}
+[17.055280] (-) TimerEvent: {}
+[17.155521] (-) TimerEvent: {}
+[17.255772] (-) TimerEvent: {}
+[17.355997] (-) TimerEvent: {}
+[17.456216] (-) TimerEvent: {}
+[17.556433] (-) TimerEvent: {}
+[17.656669] (-) TimerEvent: {}
+[17.756897] (-) TimerEvent: {}
+[17.857122] (-) TimerEvent: {}
+[17.957360] (-) TimerEvent: {}
+[18.057589] (-) TimerEvent: {}
+[18.157846] (-) TimerEvent: {}
+[18.258146] (-) TimerEvent: {}
+[18.358425] (-) TimerEvent: {}
+[18.458680] (-) TimerEvent: {}
+[18.558911] (-) TimerEvent: {}
+[18.659143] (-) TimerEvent: {}
+[18.759393] (-) TimerEvent: {}
+[18.859649] (-) TimerEvent: {}
+[18.958740] (roarm_moveit_cmd) StderrLine: {'line': b'/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp: In function \xe2\x80\x98void handle_service(std::shared_ptr<roarm_moveit::srv::MoveCircleCmd_Request_<std::allocator<void> > >, std::shared_ptr<roarm_moveit::srv::MoveCircleCmd_Response_<std::allocator<void> > >)\xe2\x80\x99:\n'}
+[18.958961] (roarm_moveit_cmd) StderrLine: {'line': b'/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp:93:94: warning: \xe2\x80\x98using MoveItErrorCode = class moveit::core::MoveItErrorCode\xe2\x80\x99 is deprecated: Use moveit::core::MoveItErrorCode [-Wdeprecated-declarations]\n'}
+[18.959032] (roarm_moveit_cmd) StderrLine: {'line': b'   93 |     bool success = (move_group.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::SUCCESS);\n'}
+[18.959108] (roarm_moveit_cmd) StderrLine: {'line': b'      |                                                                                              ^~~~~~~\n'}
+[18.959168] (roarm_moveit_cmd) StderrLine: {'line': b'In file included from /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp:8:\n'}
+[18.959227] (roarm_moveit_cmd) StderrLine: {'line': b'/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7: note: declared here\n'}
+[18.959284] (roarm_moveit_cmd) StderrLine: {'line': b'   71 | using MoveItErrorCode [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;\n'}
+[18.959342] (roarm_moveit_cmd) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~~\n'}
+[18.959569] (roarm_moveit_cmd) StderrLine: {'line': b'/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp:42:10: warning: unused variable \xe2\x80\x98center_z\xe2\x80\x99 [-Wunused-variable]\n'}
+[18.959637] (-) TimerEvent: {}
+[18.959656] (roarm_moveit_cmd) StderrLine: {'line': b'   42 |   double center_z = request->z;\n'}
+[18.959715] (roarm_moveit_cmd) StderrLine: {'line': b'      |          ^~~~~~~~\n'}
+[19.059778] (-) TimerEvent: {}
+[19.160020] (-) TimerEvent: {}
+[19.260290] (-) TimerEvent: {}
+[19.324316] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 78%] Linking CXX executable getposecmd\n'}
+[19.360440] (-) TimerEvent: {}
+[19.460743] (-) TimerEvent: {}
+[19.561062] (-) TimerEvent: {}
+[19.661309] (-) TimerEvent: {}
+[19.761550] (-) TimerEvent: {}
+[19.861786] (-) TimerEvent: {}
+[19.892571] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 78%] Built target getposecmd\n'}
+[19.961937] (-) TimerEvent: {}
+[20.062188] (-) TimerEvent: {}
+[20.162435] (-) TimerEvent: {}
+[20.262672] (-) TimerEvent: {}
+[20.362962] (-) TimerEvent: {}
+[20.463262] (-) TimerEvent: {}
+[20.563540] (-) TimerEvent: {}
+[20.663804] (-) TimerEvent: {}
+[20.764071] (-) TimerEvent: {}
+[20.864337] (-) TimerEvent: {}
+[20.964602] (-) TimerEvent: {}
+[21.064832] (-) TimerEvent: {}
+[21.165074] (-) TimerEvent: {}
+[21.265312] (-) TimerEvent: {}
+[21.365559] (-) TimerEvent: {}
+[21.466000] (-) TimerEvent: {}
+[21.566259] (-) TimerEvent: {}
+[21.666527] (-) TimerEvent: {}
+[21.766795] (-) TimerEvent: {}
+[21.867059] (-) TimerEvent: {}
+[21.967335] (-) TimerEvent: {}
+[22.067573] (-) TimerEvent: {}
+[22.167875] (-) TimerEvent: {}
+[22.268150] (-) TimerEvent: {}
+[22.368450] (-) TimerEvent: {}
+[22.468770] (-) TimerEvent: {}
+[22.569067] (-) TimerEvent: {}
+[22.669333] (-) TimerEvent: {}
+[22.769617] (-) TimerEvent: {}
+[22.869937] (-) TimerEvent: {}
+[22.970212] (-) TimerEvent: {}
+[23.070456] (-) TimerEvent: {}
+[23.170706] (-) TimerEvent: {}
+[23.270982] (-) TimerEvent: {}
+[23.371251] (-) TimerEvent: {}
+[23.471535] (-) TimerEvent: {}
+[23.571843] (-) TimerEvent: {}
+[23.672122] (-) TimerEvent: {}
+[23.772411] (-) TimerEvent: {}
+[23.872686] (-) TimerEvent: {}
+[23.972970] (-) TimerEvent: {}
+[24.073297] (-) TimerEvent: {}
+[24.173624] (-) TimerEvent: {}
+[24.273952] (-) TimerEvent: {}
+[24.374206] (-) TimerEvent: {}
+[24.474476] (-) TimerEvent: {}
+[24.574721] (-) TimerEvent: {}
+[24.674967] (-) TimerEvent: {}
+[24.775219] (-) TimerEvent: {}
+[24.875469] (-) TimerEvent: {}
+[24.975738] (-) TimerEvent: {}
+[25.076031] (-) TimerEvent: {}
+[25.176296] (-) TimerEvent: {}
+[25.276571] (-) TimerEvent: {}
+[25.376844] (-) TimerEvent: {}
+[25.477126] (-) TimerEvent: {}
+[25.577455] (-) TimerEvent: {}
+[25.677723] (-) TimerEvent: {}
+[25.777992] (-) TimerEvent: {}
+[25.878265] (-) TimerEvent: {}
+[25.978508] (-) TimerEvent: {}
+[26.078743] (-) TimerEvent: {}
+[26.179017] (-) TimerEvent: {}
+[26.279336] (-) TimerEvent: {}
+[26.379601] (-) TimerEvent: {}
+[26.479859] (-) TimerEvent: {}
+[26.580116] (-) TimerEvent: {}
+[26.680351] (-) TimerEvent: {}
+[26.780609] (-) TimerEvent: {}
+[26.880898] (-) TimerEvent: {}
+[26.981170] (-) TimerEvent: {}
+[27.081455] (-) TimerEvent: {}
+[27.181687] (-) TimerEvent: {}
+[27.281995] (-) TimerEvent: {}
+[27.382448] (-) TimerEvent: {}
+[27.454235] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 85%] Linking CXX executable webappcontrol\n'}
+[27.482575] (-) TimerEvent: {}
+[27.582840] (-) TimerEvent: {}
+[27.683077] (-) TimerEvent: {}
+[27.783329] (-) TimerEvent: {}
+[27.883584] (-) TimerEvent: {}
+[27.983845] (-) TimerEvent: {}
+[28.084108] (-) TimerEvent: {}
+[28.184353] (-) TimerEvent: {}
+[28.284572] (-) TimerEvent: {}
+[28.384822] (-) TimerEvent: {}
+[28.485050] (-) TimerEvent: {}
+[28.585433] (-) TimerEvent: {}
+[28.671229] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 85%] Built target webappcontrol\n'}
+[28.685581] (-) TimerEvent: {}
+[28.785893] (-) TimerEvent: {}
+[28.886168] (-) TimerEvent: {}
+[28.986443] (-) TimerEvent: {}
+[29.086701] (-) TimerEvent: {}
+[29.186977] (-) TimerEvent: {}
+[29.287225] (-) TimerEvent: {}
+[29.348744] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 92%] Linking CXX executable movecirclecmd\n'}
+[29.387353] (-) TimerEvent: {}
+[29.487571] (-) TimerEvent: {}
+[29.563183] (roarm_moveit_cmd) StdoutLine: {'line': b'[100%] Linking CXX executable setgrippercmd\n'}
+[29.587709] (-) TimerEvent: {}
+[29.687947] (-) TimerEvent: {}
+[29.788189] (-) TimerEvent: {}
+[29.831421] (roarm_moveit_cmd) StdoutLine: {'line': b'[100%] Built target movecirclecmd\n'}
+[29.888335] (-) TimerEvent: {}
+[29.988571] (-) TimerEvent: {}
+[30.088854] (-) TimerEvent: {}
+[30.189144] (-) TimerEvent: {}
+[30.289440] (-) TimerEvent: {}
+[30.389695] (-) TimerEvent: {}
+[30.490016] (-) TimerEvent: {}
+[30.549584] (roarm_moveit_cmd) StdoutLine: {'line': b'[100%] Built target setgrippercmd\n'}
+[30.562493] (roarm_moveit_cmd) CommandEnded: {'returncode': 0}
+[30.563711] (roarm_moveit_cmd) JobProgress: {'identifier': 'roarm_moveit_cmd', 'progress': 'install'}
+[30.574016] (roarm_moveit_cmd) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_workspace/build/roarm_moveit_cmd'], 'cwd': '/root/ros2_workspace/build/roarm_moveit_cmd', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-0/default,28936,0'), ('USER', 'root'), ('SSH_CLIENT', '99.127.244.23 51899 22'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/moveit_servo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '3.2a'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '6'), ('OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE', 'delta'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('PWD', '/root/ros2_workspace/build/roarm_moveit_cmd'), ('SSH_CONNECTION', '99.127.244.23 51899 167.172.239.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:/opt/ros/humble')]), 'shell': False}
+[30.583543] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[30.583904] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[30.584407] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/getposecmd\n'}
+[30.590154] (-) TimerEvent: {}
+[30.594903] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/getposecmd_tf2\n'}
+[30.605320] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/keyboardcontrol\n'}
+[30.616293] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/movepointcmd\n'}
+[30.628186] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/movecirclecmd\n'}
+[30.637985] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/webappcontrol\n'}
+[30.647797] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/setgrippercmd\n'}
+[30.658025] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/launch/command_control.launch.py\n'}
+[30.668311] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/config/command_control.rviz\n'}
+[30.678550] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/ament_index/resource_index/package_run_dependencies/roarm_moveit_cmd\n'}
+[30.689656] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/ament_index/resource_index/parent_prefix_path/roarm_moveit_cmd\n'}
+[30.690239] (-) TimerEvent: {}
+[30.700321] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/ament_prefix_path.sh\n'}
+[30.713473] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/ament_prefix_path.dsv\n'}
+[30.726911] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/path.sh\n'}
+[30.737626] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/path.dsv\n'}
+[30.750582] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.bash\n'}
+[30.760647] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.sh\n'}
+[30.769984] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.zsh\n'}
+[30.779293] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.dsv\n'}
+[30.789344] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.dsv\n'}
+[30.790384] (-) TimerEvent: {}
+[30.799114] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/ament_index/resource_index/packages/roarm_moveit_cmd\n'}
+[30.809366] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[30.820932] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[30.830599] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/roarm_moveit_cmdConfig.cmake\n'}
+[30.844404] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/roarm_moveit_cmdConfig-version.cmake\n'}
+[30.857294] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.xml\n'}
+[30.870222] (roarm_moveit_cmd) CommandEnded: {'returncode': 0}
+[30.890757] (-) TimerEvent: {}
+[30.891816] (roarm_moveit_cmd) JobEnded: {'identifier': 'roarm_moveit_cmd', 'rc': 0}
+[30.892548] (-) EventReactorShutdown: {}

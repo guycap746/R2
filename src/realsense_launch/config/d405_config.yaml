@@ -1,0 +1,81 @@
+# Intel RealSense D405 Configuration
+# Optimized for object detection and grasping applications
+
+camera_name: "d405"
+camera_namespace: "d405"
+
+# Stream configurations
+rgb_camera:
+  profile: "640x480x30"
+  format: "RGB8"
+  
+depth_module:
+  profile: "640x480x30"
+  format: "Z16"
+
+# Processing settings
+pointcloud:
+  enable: true
+  stream_filter: 2
+  stream_index_filter: 0
+  allow_no_texture_points: false
+  ordered_pc: false
+
+align_depth:
+  enable: true
+
+# Post-processing filters
+decimation_filter:
+  enable: true
+  filter_magnitude: 2
+
+spatial_filter:
+  enable: true
+  filter_magnitude: 2
+  filter_smooth_alpha: 0.5
+  filter_smooth_delta: 20
+  holes_fill: 0
+
+temporal_filter:
+  enable: true
+  filter_smooth_alpha: 0.4
+  filter_smooth_delta: 20
+  persistence_control: 3
+
+hole_filling_filter:
+  enable: false
+  holes_fill: 1
+
+# Disable unused filters for performance
+colorizer:
+  enable: false
+  
+disparity_filter:
+  enable: false
+  
+hdr_merge:
+  enable: false
+  
+sequence_id_filter:
+  enable: false
+  
+threshold_filter:
+  enable: false
+  
+units_transform:
+  enable: false
+
+# Camera settings (auto-exposure enabled)
+depth_module.exposure.1: 8500
+depth_module.gain.1: 16
+depth_module.enable_auto_exposure.1: true
+
+rgb_camera.exposure.1: 166
+rgb_camera.gain.1: 64
+rgb_camera.enable_auto_exposure.1: true
+rgb_camera.white_balance.1: 4600
+rgb_camera.enable_auto_white_balance.1: true
+
+# Advanced settings
+motion_module.global_time_enabled: true
+enable_sync: true

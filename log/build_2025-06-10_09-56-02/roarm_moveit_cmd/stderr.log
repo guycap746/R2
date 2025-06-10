@@ -1,0 +1,36 @@
+roarm_moveit_cmd: You did not request a specific build type: Choosing 'Release' for maximum performance
+In file included from /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp:6:
+/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2: warning: #warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [-Wcpp]
+   35 | #warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  ^~~~~~~
+/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/getposecmd_tf2.cpp: In function ‘void handle_service(std::shared_ptr<roarm_moveit::srv::GetPoseCmd_Request_<std::allocator<void> > >, std::shared_ptr<roarm_moveit::srv::GetPoseCmd_Response_<std::allocator<void> > >, std::shared_ptr<RobotPosePublisher>)’:
+/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/getposecmd_tf2.cpp:59:83: warning: unused parameter ‘request’ [-Wunused-parameter]
+   59 | void handle_service(const std::shared_ptr<roarm_moveit::srv::GetPoseCmd::Request> request,
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp: In function ‘void handle_service(std::shared_ptr<roarm_moveit::srv::MovePointCmd_Request_<std::allocator<void> > >, std::shared_ptr<roarm_moveit::srv::MovePointCmd_Response_<std::allocator<void> > >)’:
+/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp:35:92: warning: ‘using MoveItErrorCode = class moveit::core::MoveItErrorCode’ is deprecated: Use moveit::core::MoveItErrorCode [-Wdeprecated-declarations]
+   35 |   bool success = (move_group.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::SUCCESS);
+      |                                                                                            ^~~~~~~
+In file included from /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp:4:
+/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7: note: declared here
+   71 | using MoveItErrorCode [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       ^~~~~~~~~~~~~~~
+/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/getposecmd_moveit2.cpp: In function ‘void handle_service(std::shared_ptr<roarm_moveit::srv::GetPoseCmd_Request_<std::allocator<void> > >, std::shared_ptr<roarm_moveit::srv::GetPoseCmd_Response_<std::allocator<void> > >)’:
+/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/getposecmd_moveit2.cpp:14:83: warning: unused parameter ‘request’ [-Wunused-parameter]
+   14 | void handle_service(const std::shared_ptr<roarm_moveit::srv::GetPoseCmd::Request> request,
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+In file included from /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp:10:
+/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2: warning: #warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [-Wcpp]
+   35 | #warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  ^~~~~~~
+/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp: In function ‘void handle_service(std::shared_ptr<roarm_moveit::srv::MoveCircleCmd_Request_<std::allocator<void> > >, std::shared_ptr<roarm_moveit::srv::MoveCircleCmd_Response_<std::allocator<void> > >)’:
+/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp:93:94: warning: ‘using MoveItErrorCode = class moveit::core::MoveItErrorCode’ is deprecated: Use moveit::core::MoveItErrorCode [-Wdeprecated-declarations]
+   93 |     bool success = (move_group.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::SUCCESS);
+      |                                                                                              ^~~~~~~
+In file included from /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp:8:
+/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7: note: declared here
+   71 | using MoveItErrorCode [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       ^~~~~~~~~~~~~~~
+/root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp:42:10: warning: unused variable ‘center_z’ [-Wunused-variable]
+   42 |   double center_z = request->z;
+      |          ^~~~~~~~

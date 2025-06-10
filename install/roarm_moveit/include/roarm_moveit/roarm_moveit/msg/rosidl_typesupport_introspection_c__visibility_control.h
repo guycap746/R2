@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/roarm_moveit/rosidl_typesupport_introspection_c/roarm_moveit/msg/rosidl_typesupport_introspection_c__visibility_control.h

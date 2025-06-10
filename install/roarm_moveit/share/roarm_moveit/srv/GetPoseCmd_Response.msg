@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/roarm_moveit/rosidl_cmake/srv/GetPoseCmd_Response.msg

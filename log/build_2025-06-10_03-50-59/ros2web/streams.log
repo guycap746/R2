@@ -1,0 +1,16 @@
+[0.781s] Invoking command in '/root/ros2_workspace/build/ros2web': AMENT_PREFIX_PATH=/root/ros2_workspace/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/ros2web_interfaces LD_LIBRARY_PATH=/root/ros2_workspace/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/build/ros2web/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_workspace/install/ros2web/lib/python3.10/site-packages:/root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_workspace/build/ros2web/build --no-deps symlink_data
+[1.253s] running develop
+[1.256s] running egg_info
+[1.256s] writing ros2web.egg-info/PKG-INFO
+[1.256s] writing dependency_links to ros2web.egg-info/dependency_links.txt
+[1.256s] writing entry points to ros2web.egg-info/entry_points.txt
+[1.256s] writing requirements to ros2web.egg-info/requires.txt
+[1.256s] writing top-level names to ros2web.egg-info/top_level.txt
+[1.262s] reading manifest file 'ros2web.egg-info/SOURCES.txt'
+[1.262s] writing manifest file 'ros2web.egg-info/SOURCES.txt'
+[1.262s] running build_ext
+[1.262s] Creating /root/ros2_workspace/install/ros2web/lib/python3.10/site-packages/ros2web.egg-link (link to .)
+[1.262s] 
+[1.263s] Installed /root/ros2_workspace/build/ros2web
+[1.263s] running symlink_data
+[1.293s] Invoked command in '/root/ros2_workspace/build/ros2web' returned '0': AMENT_PREFIX_PATH=/root/ros2_workspace/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/ros2web_interfaces LD_LIBRARY_PATH=/root/ros2_workspace/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/build/ros2web/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_workspace/install/ros2web/lib/python3.10/site-packages:/root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_workspace/build/ros2web/build --no-deps symlink_data

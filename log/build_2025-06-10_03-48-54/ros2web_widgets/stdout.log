@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating ros2web_widgets.egg-info
+writing ros2web_widgets.egg-info/PKG-INFO
+writing dependency_links to ros2web_widgets.egg-info/dependency_links.txt
+writing entry points to ros2web_widgets.egg-info/entry_points.txt
+writing requirements to ros2web_widgets.egg-info/requires.txt
+writing top-level names to ros2web_widgets.egg-info/top_level.txt
+writing manifest file 'ros2web_widgets.egg-info/SOURCES.txt'
+reading manifest file 'ros2web_widgets.egg-info/SOURCES.txt'
+writing manifest file 'ros2web_widgets.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ros2_workspace/install/ros2web_widgets/lib/python3.10/site-packages/ros2web-widgets.egg-link (link to .)
+Installing widgets script to /root/ros2_workspace/install/ros2web_widgets/lib/ros2web_widgets
+
+Installed /root/ros2_workspace/build/ros2web_widgets
+running symlink_data
+creating /root/ros2_workspace/install/ros2web_widgets/share/ament_index
+creating /root/ros2_workspace/install/ros2web_widgets/share/ament_index/resource_index
+creating /root/ros2_workspace/install/ros2web_widgets/share/ament_index/resource_index/packages
+symbolically linking /root/ros2_workspace/build/ros2web_widgets/resource/ros2web_widgets -> /root/ros2_workspace/install/ros2web_widgets/share/ament_index/resource_index/packages
+symbolically linking /root/ros2_workspace/build/ros2web_widgets/package.xml -> /root/ros2_workspace/install/ros2web_widgets/share/ros2web_widgets

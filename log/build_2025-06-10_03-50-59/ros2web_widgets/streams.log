@@ -1,0 +1,17 @@
+[0.954s] Invoking command in '/root/ros2_workspace/build/ros2web_widgets': AMENT_PREFIX_PATH=/root/ros2_workspace/install/ros2web_app:/root/ros2_workspace/install/ros2web:/root/ros2_workspace/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/ros2web_interfaces LD_LIBRARY_PATH=/root/ros2_workspace/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/build/ros2web_widgets/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_workspace/install/ros2web_widgets/lib/python3.10/site-packages:/root/ros2_workspace/build/ros2web_app:/root/ros2_workspace/install/ros2web_app/lib/python3.10/site-packages:/root/ros2_workspace/build/ros2web:/root/ros2_workspace/install/ros2web/lib/python3.10/site-packages:/root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_workspace/build/ros2web_widgets/build --no-deps symlink_data
+[1.248s] running develop
+[1.424s] running egg_info
+[1.424s] writing ros2web_widgets.egg-info/PKG-INFO
+[1.425s] writing dependency_links to ros2web_widgets.egg-info/dependency_links.txt
+[1.425s] writing entry points to ros2web_widgets.egg-info/entry_points.txt
+[1.425s] writing requirements to ros2web_widgets.egg-info/requires.txt
+[1.425s] writing top-level names to ros2web_widgets.egg-info/top_level.txt
+[1.427s] reading manifest file 'ros2web_widgets.egg-info/SOURCES.txt'
+[1.428s] writing manifest file 'ros2web_widgets.egg-info/SOURCES.txt'
+[1.429s] running build_ext
+[1.429s] Creating /root/ros2_workspace/install/ros2web_widgets/lib/python3.10/site-packages/ros2web-widgets.egg-link (link to .)
+[1.430s] Installing widgets script to /root/ros2_workspace/install/ros2web_widgets/lib/ros2web_widgets
+[1.430s] 
+[1.430s] Installed /root/ros2_workspace/build/ros2web_widgets
+[1.430s] running symlink_data
+[1.461s] Invoked command in '/root/ros2_workspace/build/ros2web_widgets' returned '0': AMENT_PREFIX_PATH=/root/ros2_workspace/install/ros2web_app:/root/ros2_workspace/install/ros2web:/root/ros2_workspace/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/ros2web_interfaces LD_LIBRARY_PATH=/root/ros2_workspace/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/build/ros2web_widgets/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_workspace/install/ros2web_widgets/lib/python3.10/site-packages:/root/ros2_workspace/build/ros2web_app:/root/ros2_workspace/install/ros2web_app/lib/python3.10/site-packages:/root/ros2_workspace/build/ros2web:/root/ros2_workspace/install/ros2web/lib/python3.10/site-packages:/root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_workspace/build/ros2web_widgets/build --no-deps symlink_data

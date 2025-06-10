@@ -1,0 +1,176 @@
+# Isaac Sim Integration Parameters for RoArm M3
+
+isaac_sim_launcher:
+  ros__parameters:
+    # Simulation settings
+    headless: false
+    enable_physics: true
+    physics_dt: 0.016667  # 60 FPS
+    rendering_dt: 0.016667  # 60 FPS
+    real_time_factor: 1.0
+    
+    # Robot settings
+    robot_model: "roarm_m3"
+    robot_asset_path: ""  # Auto-detect
+    
+    # Camera settings
+    enable_cameras: true
+    camera_resolution: [1280, 720]
+    camera_frequency: 30.0
+    
+    # Environment settings
+    workspace_bounds:
+      x_min: -0.5
+      x_max: 0.8
+      y_min: -0.6
+      y_max: 0.6
+      z_min: 0.0
+      z_max: 0.5
+
+isaac_ros_bridge:
+  ros__parameters:
+    # Publishing settings
+    update_frequency: 60.0
+    publish_tf: true
+    publish_camera_data: true
+    publish_joint_states: true
+    
+    # Robot configuration
+    robot_name: "roarm_m3"
+    
+    # Camera configuration
+    cameras:
+      d405:
+        frame_id: "d405_color_optical_frame"
+        width: 640
+        height: 480
+        fx: 615.0
+        fy: 615.0
+        cx: 320.0
+        cy: 240.0
+      oak_d:
+        frame_id: "oak_d_color_optical_frame" 
+        width: 1280
+        height: 720
+        fx: 860.0
+        fy: 860.0
+        cx: 640.0
+        cy: 360.0
+    
+    # Joint mapping (Isaac Sim joint names to ROS joint names)
+    joint_mapping:
+      isaac_joint_1: "joint1"
+      isaac_joint_2: "joint2"
+      isaac_joint_3: "joint3"
+      isaac_joint_4: "joint4"
+      isaac_joint_5: "joint5"
+      isaac_joint_6: "joint6"
+
+synthetic_data_generator:
+  ros__parameters:
+    # Output settings
+    output_directory: "/tmp/isaac_synthetic_data"
+    
+    # Generation settings
+    num_scenes_per_batch: 50
+    objects_per_scene_min: 3
+    objects_per_scene_max: 8
+    
+    # Randomization settings
+    enable_domain_randomization: true
+    
+    # Lighting randomization
+    lighting:
+      intensity_range: [300, 2000]
+      temperature_range: [3000, 6500]
+      position_variance: 0.5
+    
+    # Material randomization
+    materials:
+      - type: "plastic"
+        roughness_range: [0.1, 0.7]
+        metallic_range: [0.0, 0.1]
+      - type: "metal"
+        roughness_range: [0.05, 0.3]
+        metallic_range: [0.7, 1.0]
+      - type: "ceramic"
+        roughness_range: [0.1, 0.4]
+        metallic_range: [0.0, 0.0]
+    
+    # Object generation
+    objects:
+      - type: "cube"
+        scale_range: [0.02, 0.05]
+        mass_range: [0.1, 0.5]
+      - type: "sphere"
+        scale_range: [0.015, 0.04]
+        mass_range: [0.05, 0.3]
+      - type: "cylinder"
+        scale_range: [0.02, 0.06]
+        mass_range: [0.1, 0.4]
+    
+    # Annotation settings
+    generate_annotations: true
+    annotation_formats: ["coco", "yolo", "anygrasp"]
+    
+    # Image settings
+    image_resolution: [1280, 720]
+    depth_range: [0.1, 3.0]
+    save_formats: ["png", "npy"]
+
+sim_to_real_calibration:
+  ros__parameters:
+    # Calibration settings
+    enable_auto_calibration: true
+    calibration_samples: 100
+    
+    # Physics parameters to match real world
+    gravity: [0.0, 0.0, -9.81]
+    friction_coefficients:
+      table: 0.7
+      objects: 0.6
+      gripper: 0.8
+    
+    # Sensor noise simulation
+    camera_noise:
+      rgb_stddev: 0.02
+      depth_stddev: 0.005
+    
+    imu_noise:
+      angular_velocity_stddev: 0.01
+      linear_acceleration_stddev: 0.05
+    
+    # Joint control matching
+    joint_control:
+      position_tolerance: 0.01
+      velocity_scaling: 0.8
+      effort_scaling: 0.9
+
+grasp_simulation_environment:
+  ros__parameters:
+    # Environment settings
+    table_height: 0.0
+    table_size: [0.8, 0.6, 0.02]
+    
+    # Object spawn settings
+    spawn_area:
+      x_range: [0.15, 0.45]
+      y_range: [-0.2, 0.2]
+      z_offset: 0.05
+    
+    # Physics settings
+    gravity_enabled: true
+    contact_reporting: true
+    
+    # Grasp evaluation
+    success_criteria:
+      lift_height: 0.05
+      hold_duration: 2.0
+      max_slip_distance: 0.01
+    
+    # Object properties
+    default_object_properties:
+      density: 1000.0  # kg/m³
+      restitution: 0.1
+      static_friction: 0.7
+      dynamic_friction: 0.5

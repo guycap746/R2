@@ -1,0 +1,41 @@
+Built target ament_cmake_python_symlink_oak_camera_integration
+running egg_info
+writing oak_camera_integration.egg-info/PKG-INFO
+writing dependency_links to oak_camera_integration.egg-info/dependency_links.txt
+writing top-level names to oak_camera_integration.egg-info/top_level.txt
+reading manifest file 'oak_camera_integration.egg-info/SOURCES.txt'
+writing manifest file 'oak_camera_integration.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_oak_camera_integration_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/environment/pythonpath.sh
+-- Up-to-date symlink: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/environment/pythonpath.dsv
+-- Up-to-date symlink: /root/ros2_workspace/install/oak_camera_integration/local/lib/python3.10/dist-packages/oak_camera_integration-1.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /root/ros2_workspace/install/oak_camera_integration/local/lib/python3.10/dist-packages/oak_camera_integration-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /root/ros2_workspace/install/oak_camera_integration/local/lib/python3.10/dist-packages/oak_camera_integration-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /root/ros2_workspace/install/oak_camera_integration/local/lib/python3.10/dist-packages/oak_camera_integration-1.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /root/ros2_workspace/install/oak_camera_integration/local/lib/python3.10/dist-packages/oak_camera_integration/__init__.py
+-- Up-to-date symlink: /root/ros2_workspace/install/oak_camera_integration/lib/oak_camera_integration/multi_camera_coordinator.py
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/lib/oak_camera_integration/oak_camera_manager.py
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/launch/multi_camera_system.launch.py
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/launch/oak_1.launch.py
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/launch/oak_d.launch.py
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/config/oak_1_config.yaml
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/config/oak_d_config.yaml
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/ament_index/resource_index/package_run_dependencies/oak_camera_integration
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/ament_index/resource_index/parent_prefix_path/oak_camera_integration
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/environment/ament_prefix_path.dsv
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/environment/path.sh
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/environment/path.dsv
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/local_setup.bash
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/local_setup.sh
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/local_setup.zsh
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/local_setup.dsv
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/package.dsv
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/ament_index/resource_index/packages/oak_camera_integration
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/cmake/oak_camera_integrationConfig.cmake
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/cmake/oak_camera_integrationConfig-version.cmake
+-- Symlinking: /root/ros2_workspace/install/oak_camera_integration/share/oak_camera_integration/package.xml
+Listing '/root/ros2_workspace/install/oak_camera_integration/local/lib/python3.10/dist-packages/oak_camera_integration'...
+Compiling '/root/ros2_workspace/install/oak_camera_integration/local/lib/python3.10/dist-packages/oak_camera_integration/__init__.py'...

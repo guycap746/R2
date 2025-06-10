@@ -1,0 +1,5 @@
+/root/ros2_workspace/build/roarm_anygrasp_integration/rosidl_adapter/roarm_anygrasp_integration:srv/SelectGrasp.idl
+/root/ros2_workspace/build/roarm_anygrasp_integration/rosidl_adapter/roarm_anygrasp_integration:srv/GetGraspCandidates.idl
+/root/ros2_workspace/build/roarm_anygrasp_integration/rosidl_adapter/roarm_anygrasp_integration:srv/UploadToRoboflow.idl
+/root/ros2_workspace/build/roarm_anygrasp_integration/rosidl_adapter/roarm_anygrasp_integration:srv/ConfigureRoboflow.idl
+/root/ros2_workspace/build/roarm_anygrasp_integration/rosidl_adapter/roarm_anygrasp_integration:srv/CalibrateCamera.idl

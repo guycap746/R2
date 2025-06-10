@@ -1,0 +1,24 @@
+[0.595s] Invoking command in '/root/ros2_workspace/build/roarm_web_app': AMENT_PREFIX_PATH=/root/ros2_workspace/install/ros2web_app:/root/ros2_workspace/install/ros2web:/root/ros2_workspace/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/ros2web_interfaces LD_LIBRARY_PATH=/root/ros2_workspace/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/build/roarm_web_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_workspace/install/roarm_web_app/lib/python3.10/site-packages:/root/ros2_workspace/build/ros2web_app:/root/ros2_workspace/install/ros2web_app/lib/python3.10/site-packages:/root/ros2_workspace/build/ros2web:/root/ros2_workspace/install/ros2web/lib/python3.10/site-packages:/root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_workspace/build/roarm_web_app/build --no-deps symlink_data
+[0.826s] running develop
+[0.970s] running egg_info
+[0.970s] creating roarm_web_app.egg-info
+[0.970s] writing roarm_web_app.egg-info/PKG-INFO
+[0.970s] writing dependency_links to roarm_web_app.egg-info/dependency_links.txt
+[0.971s] writing entry points to roarm_web_app.egg-info/entry_points.txt
+[0.971s] writing requirements to roarm_web_app.egg-info/requires.txt
+[0.971s] writing top-level names to roarm_web_app.egg-info/top_level.txt
+[0.971s] writing manifest file 'roarm_web_app.egg-info/SOURCES.txt'
+[0.973s] reading manifest file 'roarm_web_app.egg-info/SOURCES.txt'
+[0.974s] writing manifest file 'roarm_web_app.egg-info/SOURCES.txt'
+[0.976s] running build_ext
+[0.976s] Creating /root/ros2_workspace/install/roarm_web_app/lib/python3.10/site-packages/roarm-web-app.egg-link (link to .)
+[0.977s] Installing roarm_web_app script to /root/ros2_workspace/install/roarm_web_app/lib/roarm_web_app
+[0.978s] 
+[0.978s] Installed /root/ros2_workspace/build/roarm_web_app
+[0.978s] running symlink_data
+[0.978s] creating /root/ros2_workspace/install/roarm_web_app/share/ament_index
+[0.978s] creating /root/ros2_workspace/install/roarm_web_app/share/ament_index/resource_index
+[0.978s] creating /root/ros2_workspace/install/roarm_web_app/share/ament_index/resource_index/packages
+[0.978s] symbolically linking /root/ros2_workspace/build/roarm_web_app/resource/roarm_web_app -> /root/ros2_workspace/install/roarm_web_app/share/ament_index/resource_index/packages
+[0.978s] symbolically linking /root/ros2_workspace/build/roarm_web_app/package.xml -> /root/ros2_workspace/install/roarm_web_app/share/roarm_web_app
+[1.010s] Invoked command in '/root/ros2_workspace/build/roarm_web_app' returned '0': AMENT_PREFIX_PATH=/root/ros2_workspace/install/ros2web_app:/root/ros2_workspace/install/ros2web:/root/ros2_workspace/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/ros2web_interfaces LD_LIBRARY_PATH=/root/ros2_workspace/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/build/roarm_web_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_workspace/install/roarm_web_app/lib/python3.10/site-packages:/root/ros2_workspace/build/ros2web_app:/root/ros2_workspace/install/ros2web_app/lib/python3.10/site-packages:/root/ros2_workspace/build/ros2web:/root/ros2_workspace/install/ros2web/lib/python3.10/site-packages:/root/ros2_workspace/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_workspace/build/roarm_web_app/build --no-deps symlink_data

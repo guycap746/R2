@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9a4f256438fbd7f3edb7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "roarm_lerobot_integration",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_roarm_lerobot_integration_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_roarm_lerobot_integration_egg-a209e46c11bf4e478891.json",
+					"name" : "ament_cmake_python_build_roarm_lerobot_integration_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_roarm_lerobot_integration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_roarm_lerobot_integration-289fd1535f8733c19bd6.json",
+					"name" : "ament_cmake_python_copy_roarm_lerobot_integration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roarm_lerobot_integration_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roarm_lerobot_integration_uninstall-1abb858a7b779c2dee98.json",
+					"name" : "roarm_lerobot_integration_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b2d7fb6beb56f2750fb4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros2_workspace/build/roarm_lerobot_integration",
+		"source" : "/root/ros2_workspace/src/roarm_lerobot_integration"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

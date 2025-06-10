@@ -1,0 +1,16 @@
+[1.011s] Invoking command in '/root/ros2_workspace/build/launch_api': PYTHONPATH=/root/ros2_workspace/build/launch_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_workspace/install/launch_api/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_workspace/build/launch_api/build --no-deps symlink_data
+[1.304s] running develop
+[1.541s] running egg_info
+[1.541s] writing launch_api.egg-info/PKG-INFO
+[1.541s] writing dependency_links to launch_api.egg-info/dependency_links.txt
+[1.541s] writing entry points to launch_api.egg-info/entry_points.txt
+[1.541s] writing requirements to launch_api.egg-info/requires.txt
+[1.541s] writing top-level names to launch_api.egg-info/top_level.txt
+[1.544s] reading manifest file 'launch_api.egg-info/SOURCES.txt'
+[1.554s] writing manifest file 'launch_api.egg-info/SOURCES.txt'
+[1.557s] running build_ext
+[1.557s] Creating /root/ros2_workspace/install/launch_api/lib/python3.10/site-packages/launch-api.egg-link (link to .)
+[1.558s] 
+[1.558s] Installed /root/ros2_workspace/build/launch_api
+[1.558s] running symlink_data
+[1.613s] Invoked command in '/root/ros2_workspace/build/launch_api' returned '0': PYTHONPATH=/root/ros2_workspace/build/launch_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_workspace/install/launch_api/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_workspace/build/launch_api/build --no-deps symlink_data

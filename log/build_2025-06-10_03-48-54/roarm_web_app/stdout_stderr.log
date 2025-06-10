@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating roarm_web_app.egg-info
+writing roarm_web_app.egg-info/PKG-INFO
+writing dependency_links to roarm_web_app.egg-info/dependency_links.txt
+writing entry points to roarm_web_app.egg-info/entry_points.txt
+writing requirements to roarm_web_app.egg-info/requires.txt
+writing top-level names to roarm_web_app.egg-info/top_level.txt
+writing manifest file 'roarm_web_app.egg-info/SOURCES.txt'
+reading manifest file 'roarm_web_app.egg-info/SOURCES.txt'
+writing manifest file 'roarm_web_app.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ros2_workspace/install/roarm_web_app/lib/python3.10/site-packages/roarm-web-app.egg-link (link to .)
+Installing roarm_web_app script to /root/ros2_workspace/install/roarm_web_app/lib/roarm_web_app
+
+Installed /root/ros2_workspace/build/roarm_web_app
+running symlink_data
+creating /root/ros2_workspace/install/roarm_web_app/share/ament_index
+creating /root/ros2_workspace/install/roarm_web_app/share/ament_index/resource_index
+creating /root/ros2_workspace/install/roarm_web_app/share/ament_index/resource_index/packages
+symbolically linking /root/ros2_workspace/build/roarm_web_app/resource/roarm_web_app -> /root/ros2_workspace/install/roarm_web_app/share/ament_index/resource_index/packages
+symbolically linking /root/ros2_workspace/build/roarm_web_app/package.xml -> /root/ros2_workspace/install/roarm_web_app/share/roarm_web_app

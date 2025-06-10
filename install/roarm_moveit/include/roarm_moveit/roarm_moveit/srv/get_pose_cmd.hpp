@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/roarm_moveit/rosidl_generator_cpp/roarm_moveit/srv/get_pose_cmd.hpp

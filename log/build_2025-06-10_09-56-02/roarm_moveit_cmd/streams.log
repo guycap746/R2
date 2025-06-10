@@ -1,0 +1,155 @@
+[0.019s] Invoking command in '/root/ros2_workspace/build/roarm_moveit_cmd': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/moveit_servo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd -DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/roarm_moveit_cmd
+[0.040s] -- Found moveit_common: 2.5.9 (/opt/ros/humble/share/moveit_common/cmake)
+[0.041s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.220s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.322s] roarm_moveit_cmd: You did not request a specific build type: Choosing 'Release' for maximum performance
+[0.346s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread 
+[0.356s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.389s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.392s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.399s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.412s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.428s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.569s] -- Found moveit_core: 2.5.9 (/opt/ros/humble/share/moveit_core/cmake)
+[0.581s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.611s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.645s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.647s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.758s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.814s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.840s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.875s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.924s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.138s] -- Found moveit_ros_planning: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+[1.144s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.171s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[1.178s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.194s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.219s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.253s] -- Found moveit_visual_tools: 4.1.2 (/opt/ros/humble/share/moveit_visual_tools/cmake)
+[1.331s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[1.341s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.343s] -- Found OGRE
+[1.343s] --   static     : OFF
+[1.343s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.344s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.344s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.344s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.344s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.344s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.344s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.344s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.344s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.344s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.344s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.345s] -- Could not find freeimage library
+[1.368s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.375s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.483s] -- Found X11: /usr/include   
+[1.483s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.643s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.643s] -- Looking for gethostbyname
+[1.759s] -- Looking for gethostbyname - found
+[1.759s] -- Looking for connect
+[1.867s] -- Looking for connect - found
+[1.868s] -- Looking for remove
+[1.979s] -- Looking for remove - found
+[1.980s] -- Looking for shmat
+[2.096s] -- Looking for shmat - found
+[2.096s] -- Looking for IceConnectionNumber in ICE
+[2.207s] -- Looking for IceConnectionNumber in ICE - found
+[2.319s] -- Found moveit_servo: 2.5.5 (/root/ros2_workspace/install/moveit_servo/share/moveit_servo/cmake)
+[2.380s] -- Found roarm_moveit: 0.3.0 (/root/ros2_workspace/install/roarm_moveit/share/roarm_moveit/cmake)
+[2.395s] -- Found ompl: /opt/ros/humble/include/ompl-1.6;/usr/include;/usr/include/eigen3  
+[2.477s] -- Configuring done
+[2.649s] -- Generating done
+[2.709s] -- Build files have been written to: /root/ros2_workspace/build/roarm_moveit_cmd
+[2.727s] Invoked command in '/root/ros2_workspace/build/roarm_moveit_cmd' returned '0': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/moveit_servo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd -DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/roarm_moveit_cmd
+[2.729s] Invoking command in '/root/ros2_workspace/build/roarm_moveit_cmd': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/moveit_servo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_workspace/build/roarm_moveit_cmd -- -j4 -l4
+[2.799s] [  7%] Building CXX object CMakeFiles/keyboardcontrol.dir/src/keyboardcontrol.cpp.o
+[2.799s] [ 14%] Building CXX object CMakeFiles/movepointcmd.dir/src/movepointcmd.cpp.o
+[2.805s] [ 21%] Building CXX object CMakeFiles/getposecmd_tf2.dir/src/getposecmd_tf2.cpp.o
+[2.812s] [ 28%] Building CXX object CMakeFiles/getposecmd.dir/src/getposecmd_moveit2.cpp.o
+[3.576s] In file included from /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp:6:
+[3.576s] /opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2: warning: #warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [-Wcpp]
+[3.576s]    35 | #warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[3.576s]       |  ^~~~~~~
+[6.561s] /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/getposecmd_tf2.cpp: In function ‘void handle_service(std::shared_ptr<roarm_moveit::srv::GetPoseCmd_Request_<std::allocator<void> > >, std::shared_ptr<roarm_moveit::srv::GetPoseCmd_Response_<std::allocator<void> > >, std::shared_ptr<RobotPosePublisher>)’:
+[6.561s] /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/getposecmd_tf2.cpp:59:83: warning: unused parameter ‘request’ [-Wunused-parameter]
+[6.561s]    59 | void handle_service(const std::shared_ptr<roarm_moveit::srv::GetPoseCmd::Request> request,
+[6.561s]       |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+[9.179s] /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp: In function ‘void handle_service(std::shared_ptr<roarm_moveit::srv::MovePointCmd_Request_<std::allocator<void> > >, std::shared_ptr<roarm_moveit::srv::MovePointCmd_Response_<std::allocator<void> > >)’:
+[9.179s] /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp:35:92: warning: ‘using MoveItErrorCode = class moveit::core::MoveItErrorCode’ is deprecated: Use moveit::core::MoveItErrorCode [-Wdeprecated-declarations]
+[9.179s]    35 |   bool success = (move_group.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::SUCCESS);
+[9.179s]       |                                                                                            ^~~~~~~
+[9.179s] In file included from /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp:4:
+[9.179s] /opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7: note: declared here
+[9.179s]    71 | using MoveItErrorCode [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[9.179s]       |       ^~~~~~~~~~~~~~~
+[11.797s] [ 35%] Linking CXX executable keyboardcontrol
+[11.940s] [ 42%] Linking CXX executable getposecmd_tf2
+[12.388s] /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/getposecmd_moveit2.cpp: In function ‘void handle_service(std::shared_ptr<roarm_moveit::srv::GetPoseCmd_Request_<std::allocator<void> > >, std::shared_ptr<roarm_moveit::srv::GetPoseCmd_Response_<std::allocator<void> > >)’:
+[12.388s] /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/getposecmd_moveit2.cpp:14:83: warning: unused parameter ‘request’ [-Wunused-parameter]
+[12.389s]    14 | void handle_service(const std::shared_ptr<roarm_moveit::srv::GetPoseCmd::Request> request,
+[12.389s]       |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+[12.877s] [ 42%] Built target keyboardcontrol
+[12.907s] [ 50%] Building CXX object CMakeFiles/movecirclecmd.dir/src/movecirclecmd.cpp.o
+[13.164s] [ 50%] Built target getposecmd_tf2
+[13.191s] [ 57%] Building CXX object CMakeFiles/webappcontrol.dir/src/webappcontrol.cpp.o
+[13.737s] In file included from /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp:10:
+[13.737s] /opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2: warning: #warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [-Wcpp]
+[13.737s]    35 | #warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[13.737s]       |  ^~~~~~~
+[14.487s] [ 64%] Linking CXX executable movepointcmd
+[14.978s] [ 64%] Built target movepointcmd
+[15.006s] [ 71%] Building CXX object CMakeFiles/setgrippercmd.dir/src/setgrippercmd.cpp.o
+[18.957s] /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp: In function ‘void handle_service(std::shared_ptr<roarm_moveit::srv::MoveCircleCmd_Request_<std::allocator<void> > >, std::shared_ptr<roarm_moveit::srv::MoveCircleCmd_Response_<std::allocator<void> > >)’:
+[18.957s] /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp:93:94: warning: ‘using MoveItErrorCode = class moveit::core::MoveItErrorCode’ is deprecated: Use moveit::core::MoveItErrorCode [-Wdeprecated-declarations]
+[18.958s]    93 |     bool success = (move_group.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::SUCCESS);
+[18.958s]       |                                                                                              ^~~~~~~
+[18.958s] In file included from /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp:8:
+[18.958s] /opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7: note: declared here
+[18.958s]    71 | using MoveItErrorCode [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[18.958s]       |       ^~~~~~~~~~~~~~~
+[18.958s] /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp:42:10: warning: unused variable ‘center_z’ [-Wunused-variable]
+[18.958s]    42 |   double center_z = request->z;
+[18.958s]       |          ^~~~~~~~
+[19.323s] [ 78%] Linking CXX executable getposecmd
+[19.891s] [ 78%] Built target getposecmd
+[27.453s] [ 85%] Linking CXX executable webappcontrol
+[28.670s] [ 85%] Built target webappcontrol
+[29.347s] [ 92%] Linking CXX executable movecirclecmd
+[29.562s] [100%] Linking CXX executable setgrippercmd
+[29.830s] [100%] Built target movecirclecmd
+[30.548s] [100%] Built target setgrippercmd
+[30.561s] Invoked command in '/root/ros2_workspace/build/roarm_moveit_cmd' returned '0': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/moveit_servo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_workspace/build/roarm_moveit_cmd -- -j4 -l4
+[30.573s] Invoking command in '/root/ros2_workspace/build/roarm_moveit_cmd': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/moveit_servo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_workspace/build/roarm_moveit_cmd
+[30.582s] -- Install configuration: "Release"
+[30.582s] -- Execute custom install script
+[30.583s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/getposecmd
+[30.594s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/getposecmd_tf2
+[30.604s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/keyboardcontrol
+[30.615s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/movepointcmd
+[30.627s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/movecirclecmd
+[30.637s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/webappcontrol
+[30.646s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/setgrippercmd
+[30.657s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/launch/command_control.launch.py
+[30.667s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/config/command_control.rviz
+[30.677s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/ament_index/resource_index/package_run_dependencies/roarm_moveit_cmd
+[30.688s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/ament_index/resource_index/parent_prefix_path/roarm_moveit_cmd
+[30.699s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/ament_prefix_path.sh
+[30.712s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/ament_prefix_path.dsv
+[30.726s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/path.sh
+[30.736s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/path.dsv
+[30.749s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.bash
+[30.759s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.sh
+[30.769s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.zsh
+[30.778s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.dsv
+[30.788s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.dsv
+[30.798s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/ament_index/resource_index/packages/roarm_moveit_cmd
+[30.808s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.820s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.829s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/roarm_moveit_cmdConfig.cmake
+[30.843s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/roarm_moveit_cmdConfig-version.cmake
+[30.856s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.xml
+[30.869s] Invoked command in '/root/ros2_workspace/build/roarm_moveit_cmd' returned '0': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/moveit_servo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_workspace/build/roarm_moveit_cmd

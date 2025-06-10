@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from roarm_anygrasp_integration/srv/CalibrateCamera.srv
+// generated code does not contain a copyright notice
+
+
+module roarm_anygrasp_integration {
+  module srv {
+    @verbatim (language="comment", text=
+      "Camera calibration service definition" "\n"
+      "Request to start calibration process")
+    struct CalibrateCamera_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "Response with calibration results")
+    struct CalibrateCamera_Response {
+      boolean success;
+
+      string message;
+
+      double primary_reprojection_error;
+
+      double side_reprojection_error;
+    };
+  };
+};

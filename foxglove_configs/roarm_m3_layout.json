@@ -1,0 +1,201 @@
+{
+  "configById": {
+    "3D!18nkdl8": {
+      "layers": {
+        "grid": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "Grid",
+          "instanceId": "grid",
+          "layerId": "foxglove.Grid",
+          "size": 10,
+          "divisions": 10,
+          "lineWidth": 1,
+          "color": "#248eff",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0],
+          "order": 1
+        },
+        "robot_model": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "Robot Model",
+          "instanceId": "robot_model",
+          "layerId": "foxglove.Urdf",
+          "sourceType": "param",
+          "parameter": "/robot_description",
+          "fallbackUrdf": "",
+          "order": 2
+        },
+        "tf": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "Transform Tree",
+          "instanceId": "tf",
+          "layerId": "foxglove.Transforms",
+          "editable": true,
+          "settings": {
+            "axisScale": 1.0,
+            "lineWidth": 3,
+            "enablePreloading": true
+          },
+          "order": 3
+        },
+        "grasp_poses": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "Grasp Poses",
+          "instanceId": "grasp_poses",
+          "layerId": "foxglove.PoseArray",
+          "topic": "/anygrasp/grasp_poses",
+          "settings": {
+            "arrowScale": [0.05, 0.01, 0.01],
+            "color": "#00ff00",
+            "alpha": 0.8
+          },
+          "order": 4
+        },
+        "pointcloud": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "Point Cloud",
+          "instanceId": "pointcloud",
+          "layerId": "foxglove.PointCloud",
+          "topic": "/camera/depth/color/points",
+          "settings": {
+            "pointSize": 2,
+            "colorMode": "rgb",
+            "pointShape": "circle"
+          },
+          "order": 5
+        },
+        "planned_path": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "Planned Path",
+          "instanceId": "planned_path",
+          "layerId": "foxglove.MarkerArray",
+          "topic": "/move_group/display_planned_path",
+          "order": 6
+        }
+      },
+      "cameraState": {
+        "perspective": true,
+        "distance": 2.5,
+        "phi": 60,
+        "thetaOffset": 45,
+        "targetOffset": [0, 0, 0],
+        "target": [0, 0, 0],
+        "targetOrientation": [0, 0, 0, 1],
+        "fovy": 45,
+        "near": 0.01,
+        "far": 1000
+      },
+      "followMode": "follow-pose",
+      "followTf": "base_link",
+      "scene": {
+        "enableStats": false,
+        "backgroundColor": "#212529",
+        "labelScaleFactor": 1
+      },
+      "transforms": {
+        "frame": "base_link"
+      },
+      "topics": {
+        "/tf": { "visible": true },
+        "/tf_static": { "visible": true }
+      }
+    },
+    "JointControl!3d9": {
+      "topic": "/joint_states",
+      "settings": {
+        "showLabels": true,
+        "showValues": true
+      }
+    },
+    "RoArmControl!4k2": {
+      "topic": "/servo_node/delta_joint_cmds",
+      "settings": {
+        "axes": ["X", "Y", "Z", "Roll", "Pitch", "Yaw"],
+        "publishRate": 10,
+        "scale": 0.1
+      }
+    },
+    "GraspVisualization!7h1": {
+      "topic": "/anygrasp/grasp_poses",
+      "settings": {
+        "showLabels": true,
+        "colorMode": "by-confidence"
+      }
+    },
+    "CameraStream!8j3": {
+      "topic": "/camera/color/image_raw",
+      "settings": {
+        "smooth": true,
+        "flipHorizontal": false,
+        "flipVertical": false,
+        "rotation": 0
+      }
+    },
+    "DiagnosticsPanel!9k4": {
+      "topicToRender": "/diagnostics",
+      "collapsedSections": [],
+      "minLevel": 0,
+      "pinnedIds": [
+        "roarm_driver",
+        "moveit",
+        "anygrasp_node"
+      ]
+    },
+    "ParameterPanel!2l5": {
+      "path": "",
+      "overridePublishSettings": false,
+      "nodes": {
+        "/roarm_driver": {
+          "expanded": true
+        },
+        "/anygrasp_node": {
+          "expanded": true
+        },
+        "/servo_node": {
+          "expanded": true
+        }
+      }
+    }
+  },
+  "globalVariables": {
+    "robot_name": "roarm_m3",
+    "base_frame": "base_link",
+    "end_effector_frame": "hand_tcp"
+  },
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": {
+    "first": "3D!18nkdl8",
+    "second": {
+      "first": {
+        "first": "JointControl!3d9",
+        "second": "RoArmControl!4k2",
+        "direction": "column"
+      },
+      "second": {
+        "first": {
+          "first": "CameraStream!8j3",
+          "second": "GraspVisualization!7h1",
+          "direction": "column"
+        },
+        "second": {
+          "first": "DiagnosticsPanel!9k4",
+          "second": "ParameterPanel!2l5",
+          "direction": "column"
+        },
+        "direction": "row"
+      },
+      "direction": "column"
+    },
+    "direction": "row",
+    "splitPercentage": 60
+  }
+}

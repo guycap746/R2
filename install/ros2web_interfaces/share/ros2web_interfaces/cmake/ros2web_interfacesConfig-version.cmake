@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/ros2web_interfaces/ament_cmake_core/ros2web_interfacesConfig-version.cmake

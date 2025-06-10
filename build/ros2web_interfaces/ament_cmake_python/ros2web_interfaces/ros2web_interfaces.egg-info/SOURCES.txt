@@ -1,0 +1,16 @@
+setup.py
+ros2web_interfaces/__init__.py
+ros2web_interfaces.egg-info/PKG-INFO
+ros2web_interfaces.egg-info/SOURCES.txt
+ros2web_interfaces.egg-info/dependency_links.txt
+ros2web_interfaces.egg-info/top_level.txt
+ros2web_interfaces/msg/__init__.py
+ros2web_interfaces/msg/_body_part.py
+ros2web_interfaces/msg/_content_type.py
+ros2web_interfaces/msg/_http_status_code.py
+ros2web_interfaces/msg/_ws_msg.py
+ros2web_interfaces/msg/_ws_msg_data.py
+ros2web_interfaces/msg/_ws_msg_type.py
+ros2web_interfaces/srv/__init__.py
+ros2web_interfaces/srv/_http.py
+ros2web_interfaces/srv/_ws.py

@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/oak_camera_integration/ament_cmake_core/oak_camera_integrationConfig-version.cmake

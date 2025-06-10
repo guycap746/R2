@@ -1,0 +1,43 @@
+# BNO055 Configuration for Wrist-Mounted IMU
+# Connected via USB to PC for enhanced stability tracking
+
+# Connection settings
+connection_type: "uart"  # USB-to-UART connection
+uart_port: "/dev/ttyUSB0"  # Default USB port (may vary)
+uart_baudrate: "115200"
+uart_timeout: "0.1"
+
+# Frame and topic configuration
+frame_id: "wrist_imu_link"
+ros_topic_prefix: "wrist_imu/"
+
+# Data acquisition settings
+data_query_frequency: 50  # 50Hz for high-frequency motion tracking
+calib_status_frequency: 1.0  # 1Hz calibration status updates
+
+# Operation mode (12 = NDOF mode - full 9DOF fusion)
+operation_mode: 12
+
+# Axis remapping for wrist mounting orientation
+# P1 = Default orientation (adjust based on physical mounting)
+placement_axis_remap: "P1"
+
+# Sensor factors (keep defaults for accuracy)
+acc_factor: 100.0
+mag_factor: 16000000.0
+gyr_factor: 900.0
+grav_factor: 100.0
+
+# Calibration offsets (set to false initially, calibrate per sensor)
+set_offsets: false
+offset_acc: [0, 0, 0]
+radius_acc: 1000
+offset_mag: [0, 0, 0]
+radius_mag: 0
+offset_gyr: [0, 0, 0]
+
+# Sensor variance (tuned for wrist tracking applications)
+variance_acc: [0.01, 0.01, 0.01]  # Tighter for hand stability
+variance_angular_vel: [0.02, 0.02, 0.02]  # Reduced for precise orientation
+variance_orientation: [0.01, 0.01, 0.01]  # High precision for camera orientation
+variance_mag: [0.05, 0.05, 0.05]  # Magnetometer less critical for wrist

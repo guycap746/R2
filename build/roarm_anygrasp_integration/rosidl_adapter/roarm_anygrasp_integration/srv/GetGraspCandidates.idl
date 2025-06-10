@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from roarm_anygrasp_integration/srv/GetGraspCandidates.srv
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module roarm_anygrasp_integration {
+  module srv {
+    @verbatim (language="comment", text=
+      "Service to get top grasp candidates for user selection" "\n"
+      "Request: Number of top candidates to return (max 10)")
+    struct GetGraspCandidates_Request {
+      int32 num_candidates;
+
+      @verbatim (language="comment", text=
+        "Minimum confidence threshold (0.0 - 1.0)")
+      float min_confidence;
+    };
+    struct GetGraspCandidates_Response {
+      @verbatim (language="comment", text=
+        "Response: Top grasp candidates with metadata")
+      sequence<geometry_msgs::msg::PoseStamped> grasp_poses;
+
+      sequence<float> confidence_scores;
+
+      sequence<float> grasp_widths;
+
+      sequence<float> quality_scores;
+
+      sequence<int32> original_indices;
+
+      @verbatim (language="comment", text=
+        "Detection metadata")
+      string detection_status;
+
+      int32 total_grasps_detected;
+
+      builtin_interfaces::msg::Time detection_timestamp;
+    };
+  };
+};

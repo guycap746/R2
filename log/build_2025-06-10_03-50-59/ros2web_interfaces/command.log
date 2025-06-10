@@ -1,0 +1,4 @@
+Invoking command in '/root/ros2_workspace/build/ros2web_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_workspace/build/ros2web_interfaces -- -j4 -l4
+Invoked command in '/root/ros2_workspace/build/ros2web_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_workspace/build/ros2web_interfaces -- -j4 -l4
+Invoking command in '/root/ros2_workspace/build/ros2web_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_workspace/build/ros2web_interfaces
+Invoked command in '/root/ros2_workspace/build/ros2web_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_workspace/build/ros2web_interfaces

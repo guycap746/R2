@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/ros2web_interfaces/rosidl_generator_py/ros2web_interfaces/msg/_content_type.py

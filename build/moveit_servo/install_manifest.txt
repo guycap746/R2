@@ -1,0 +1,9 @@
+/root/ros2_workspace/install/moveit_servo/lib/libmoveit_servo_lib.so.2.5.5
+/root/ros2_workspace/install/moveit_servo/lib/libmoveit_servo_lib.so
+/root/ros2_workspace/install/moveit_servo/lib/libmoveit_servo_lib_parameters.so.2.5.5
+/root/ros2_workspace/install/moveit_servo/lib/libmoveit_servo_lib_parameters.so
+/root/ros2_workspace/install/moveit_servo/lib/libpose_tracking.so
+/root/ros2_workspace/install/moveit_servo/lib/libservo_node.so
+/root/ros2_workspace/install/moveit_servo/lib/libservo_controller_input.so
+/root/ros2_workspace/install/moveit_servo/share/moveit_servo/cmake/export_moveit_servoExport.cmake
+/root/ros2_workspace/install/moveit_servo/share/moveit_servo/cmake/export_moveit_servoExport-release.cmake

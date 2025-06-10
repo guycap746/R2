@@ -1,0 +1,11 @@
+# Camera calibration service definition
+# Request to start calibration process
+
+# Request (empty - calibration uses collected samples)
+---
+# Response with calibration results
+
+bool success
+string message
+float64 primary_reprojection_error
+float64 side_reprojection_error

@@ -1,0 +1,65 @@
+[0.013s] Invoking command in '/root/ros2_workspace/build/roarm_moveit_cmd': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/moveit_servo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/roarm_moveit_cmd
+[0.061s] -- The C compiler identification is GNU 11.4.0
+[0.108s] -- The CXX compiler identification is GNU 11.4.0
+[0.115s] -- Detecting C compiler ABI info
+[0.174s] -- Detecting C compiler ABI info - done
+[0.181s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.181s] -- Detecting C compile features
+[0.181s] -- Detecting C compile features - done
+[0.184s] -- Detecting CXX compiler ABI info
+[0.253s] -- Detecting CXX compiler ABI info - done
+[0.259s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.260s] -- Detecting CXX compile features
+[0.260s] -- Detecting CXX compile features - done
+[0.262s] -- Found moveit_common: 2.5.9 (/opt/ros/humble/share/moveit_common/cmake)
+[0.263s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.410s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.465s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.547s] roarm_moveit_cmd: You did not request a specific build type: Choosing 'Release' for maximum performance
+[0.753s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread 
+[0.756s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.788s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.792s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.800s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.811s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.825s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.942s] -- Found moveit_core: 2.5.9 (/opt/ros/humble/share/moveit_core/cmake)
+[0.958s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.999s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.040s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.042s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.122s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.142s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.178s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.187s] -- Found Threads: TRUE  
+[1.230s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.233s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.256s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.328s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.370s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.566s] -- Found moveit_ros_planning: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+[1.572s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.597s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[1.602s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.616s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.637s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.674s] CMake Error at CMakeLists.txt:15 (find_package):
+[1.674s]   By not providing "Findmoveit_visual_tools.cmake" in CMAKE_MODULE_PATH this
+[1.674s]   project has asked CMake to find a package configuration file provided by
+[1.674s]   "moveit_visual_tools", but CMake did not find one.
+[1.674s] 
+[1.674s]   Could not find a package configuration file provided by
+[1.674s]   "moveit_visual_tools" with any of the following names:
+[1.674s] 
+[1.674s]     moveit_visual_toolsConfig.cmake
+[1.674s]     moveit_visual_tools-config.cmake
+[1.674s] 
+[1.674s]   Add the installation prefix of "moveit_visual_tools" to CMAKE_PREFIX_PATH
+[1.674s]   or set "moveit_visual_tools_DIR" to a directory containing one of the above
+[1.674s]   files.  If "moveit_visual_tools" provides a separate development package or
+[1.674s]   SDK, be sure it has been installed.
+[1.674s] 
+[1.674s] 
+[1.675s] -- Configuring incomplete, errors occurred!
+[1.675s] See also "/root/ros2_workspace/build/roarm_moveit_cmd/CMakeFiles/CMakeOutput.log".
+[1.687s] Invoked command in '/root/ros2_workspace/build/roarm_moveit_cmd' returned '1': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/moveit_servo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_workspace/src/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/roarm_moveit_cmd

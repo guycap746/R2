@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/roarm_anygrasp_integration/rosidl_cmake/srv/GetGraspCandidates_Response.msg

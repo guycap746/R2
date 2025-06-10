@@ -1,0 +1,39 @@
+[0.025s] Invoking command in '/root/ros2_workspace/build/roarm_moveit_cmd': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/moveit_servo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_workspace/build/roarm_moveit_cmd -- -j4 -l4
+[0.427s] [ 14%] Built target keyboardcontrol
+[0.427s] [ 28%] Built target getposecmd_tf2
+[0.428s] [ 42%] Built target getposecmd
+[0.428s] [ 57%] Built target webappcontrol
+[0.428s] [ 71%] Built target movecirclecmd
+[0.428s] [ 85%] Built target movepointcmd
+[0.428s] [100%] Built target setgrippercmd
+[0.448s] Invoked command in '/root/ros2_workspace/build/roarm_moveit_cmd' returned '0': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/moveit_servo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_workspace/build/roarm_moveit_cmd -- -j4 -l4
+[0.450s] Invoking command in '/root/ros2_workspace/build/roarm_moveit_cmd': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/moveit_servo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_workspace/build/roarm_moveit_cmd
+[0.458s] -- Install configuration: "Release"
+[0.459s] -- Execute custom install script
+[0.459s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/getposecmd
+[0.459s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/getposecmd_tf2
+[0.460s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/keyboardcontrol
+[0.460s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/movepointcmd
+[0.460s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/movecirclecmd
+[0.460s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/webappcontrol
+[0.460s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/setgrippercmd
+[0.460s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/launch/command_control.launch.py
+[0.460s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/config/command_control.rviz
+[0.461s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/ament_index/resource_index/package_run_dependencies/roarm_moveit_cmd
+[0.461s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/ament_index/resource_index/parent_prefix_path/roarm_moveit_cmd
+[0.461s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/ament_prefix_path.sh
+[0.461s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/ament_prefix_path.dsv
+[0.461s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/path.sh
+[0.462s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/path.dsv
+[0.462s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.bash
+[0.462s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.sh
+[0.462s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.zsh
+[0.462s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.dsv
+[0.462s] -- Symlinking: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.dsv
+[0.475s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/ament_index/resource_index/packages/roarm_moveit_cmd
+[0.476s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.476s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.476s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/roarm_moveit_cmdConfig.cmake
+[0.476s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/roarm_moveit_cmdConfig-version.cmake
+[0.476s] -- Up-to-date symlink: /root/ros2_workspace/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.xml
+[0.478s] Invoked command in '/root/ros2_workspace/build/roarm_moveit_cmd' returned '0': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/moveit_servo:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/moveit_servo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_workspace/build/roarm_moveit_cmd

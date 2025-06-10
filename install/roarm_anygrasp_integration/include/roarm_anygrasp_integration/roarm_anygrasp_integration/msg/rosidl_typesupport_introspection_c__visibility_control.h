@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/roarm_anygrasp_integration/rosidl_typesupport_introspection_c/roarm_anygrasp_integration/msg/rosidl_typesupport_introspection_c__visibility_control.h

@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from roarm_anygrasp_integration/srv/ConfigureRoboflow.srv
+// generated code does not contain a copyright notice
+
+
+module roarm_anygrasp_integration {
+  module srv {
+    @verbatim (language="comment", text=
+      "Service for configuring Roboflow upload settings" "\n"
+      "Request: Configuration parameters")
+    struct ConfigureRoboflow_Request {
+      string api_key;
+
+      string workspace_name;
+
+      string project_name;
+
+      string dataset_version;
+
+      boolean auto_upload;
+
+      boolean include_failed_grasps;
+
+      string annotation_format;
+
+      float min_confidence_for_upload;
+    };
+    struct ConfigureRoboflow_Response {
+      @verbatim (language="comment", text=
+        "Response: Configuration status")
+      boolean success;
+
+      string message;
+
+      string workspace_url;
+
+      string project_url;
+
+      int32 total_images_in_dataset;
+    };
+  };
+};
