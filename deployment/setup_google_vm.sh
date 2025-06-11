@@ -57,6 +57,14 @@ check_system() {
         log_warning "This script is designed for Ubuntu 22.04. Continuing anyway..."
     fi
     
+    # Check Python version
+    PYTHON_VER=$(python3 -c "import sys; print(f'{sys.version_info.major}.{sys.version_info.minor}')")
+    log_info "Detected Python version: $PYTHON_VER"
+    if [[ "$PYTHON_VER" < "3.8" ]]; then
+        log_error "Python 3.8+ required. Found: $PYTHON_VER"
+        exit 1
+    fi
+    
     # Check available memory
     TOTAL_MEM=$(free -g | awk '/^Mem:/{print $2}')
     if [[ $TOTAL_MEM -lt 8 ]]; then
