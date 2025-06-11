@@ -1,29 +1,28 @@
-# ROS2 Docker Development Environment
+# ROS2 RoArm M3 Development Environment
 
-This setup provides a portable ROS2 Humble development environment using Docker.
+This is a native ROS2 Humble development environment for the RoArm M3 robotic manipulation system.
 
 ## Quick Start
 
-1. **Build and start the development container:**
+1. **Install ROS2 Humble:**
    ```bash
-   docker-compose up --build -d ros2-dev
+   # Install ROS2 Humble Desktop Full
+   sudo apt update
+   sudo apt install ros-humble-desktop-full
+   source /opt/ros/humble/setup.bash
    ```
 
-2. **Enter the development container:**
+2. **Build your workspace:**
    ```bash
-   docker-compose exec ros2-dev bash
+   cd /root/ros2_workspace
+   colcon build --symlink-install
+   source install/setup.bash
    ```
 
 3. **Create your first package:**
    ```bash
    cd src
    ros2 pkg create --build-type ament_python my_package
-   ```
-
-4. **Build your workspace:**
-   ```bash
-   colcon build
-   source install/setup.bash
    ```
 
 ## Directory Structure
@@ -35,26 +34,38 @@ This setup provides a portable ROS2 Humble development environment using Docker.
 
 ## Available Commands
 
-### Container Management
-- `docker-compose up -d ros2-dev` - Start development container
-- `docker-compose exec ros2-dev bash` - Enter development container
-- `docker-compose down` - Stop all containers
-
-### Build Aliases (inside container)
-- `cb` - colcon build
-- `cbs` - colcon build --symlink-install
-- `cbp <package>` - colcon build --packages-select
-- `ct` - colcon test
-- `ctp <package>` - colcon test --packages-select
+### Build Commands
+- `colcon build` - Build all packages
+- `colcon build --symlink-install` - Build with symbolic links
+- `colcon build --packages-select <package>` - Build specific package
+- `colcon test` - Run tests
+- `colcon test --packages-select <package>` - Test specific package
 
 ## Features
 
 - ROS2 Humble Desktop Full
 - Python development tools (pytest, flake8, mypy, black)
 - Debugging tools (gdb, valgrind)
-- GUI support (X11 forwarding)
-- Persistent workspace volumes
-- Network host mode for ROS2 communication
+- GUI support for RViz and other visualization tools
+- Persistent workspace
+- Native ROS2 communication
+
+## Integrated Systems
+
+- **RoArm M3 Robot**: 6-DOF robotic arm with gripper
+- **AnyGrasp Integration**: AI-powered grasp detection
+- **MoveIt2**: Motion planning and control
+- **Camera Integration**: RealSense D405 and OAK-D cameras
+- **Foxglove Studio**: Web-based visualization and control
+- **LeRobot Integration**: Dataset collection and training
+- **Isaac Sim**: Photorealistic simulation environment
+
+## Getting Started
+
+1. **Hardware Setup**: Connect RoArm M3 and cameras
+2. **Launch System**: Use provided launch files
+3. **Test Integration**: Run system tests
+4. **Start Development**: Create custom packages
 
 ## Portability
 

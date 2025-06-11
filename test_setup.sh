@@ -6,11 +6,11 @@ set -e
 
 echo "Testing ROS2 + RoArm M3 + AnyGrasp Setup..."
 
-# Check if we're in a Docker container
-if [ -f /.dockerenv ]; then
-    echo "✅ Running inside Docker container"
+# Check ROS2 environment
+if [ -n "$ROS_DISTRO" ]; then
+    echo "✅ ROS2 environment detected: $ROS_DISTRO"
 else
-    echo "⚠️  Not running in Docker container"
+    echo "⚠️  ROS2 environment not sourced"
 fi
 
 # Test ROS2 installation
@@ -24,9 +24,9 @@ fi
 
 # Test workspace setup
 echo "Testing workspace setup..."
-if [ -d "/ros2_ws" ]; then
+if [ -d "/root/ros2_workspace" ]; then
     echo "✅ Workspace directory exists"
-    cd /ros2_ws
+    cd /root/ros2_workspace
     
     # Check for key packages
     if [ -d "src/roarm_main" ]; then
@@ -123,10 +123,11 @@ fi
 echo ""
 echo "=== Setup Status Summary ==="
 echo "🔧 To complete setup:"
-echo "1. Build workspace: cd /ros2_ws && colcon build --symlink-install"
-echo "2. Set up AnyGrasp: ./setup_anygrasp.sh"
-echo "3. Register for AnyGrasp license"
-echo "4. Complete AnyGrasp setup: source setup_anygrasp_post_license.sh"
+echo "1. Source ROS2: source /opt/ros/humble/setup.bash"
+echo "2. Build workspace: cd /root/ros2_workspace && colcon build --symlink-install"
+echo "3. Set up AnyGrasp: ./setup_anygrasp.sh"
+echo "4. Register for AnyGrasp license"
+echo "5. Complete AnyGrasp setup: source setup_anygrasp_post_license.sh"
 echo ""
 echo "🚀 To test the system:"
 echo "1. Connect RoArm M3 and RealSense camera"

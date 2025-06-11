@@ -1,7 +1,8 @@
 #!/bin/bash
 
-# Complete System Backup Before Docker Migration
+# Complete System Backup Script
 # This script creates comprehensive backups of the entire RoArm M3 system
+# Note: Docker migration has been completed - this script now serves as general backup utility
 
 set -e
 
@@ -13,7 +14,7 @@ BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
 # Configuration
-BACKUP_BASE_DIR="/backup/roarm_migration"
+BACKUP_BASE_DIR="/backup/roarm_system"
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
 BACKUP_DIR="${BACKUP_BASE_DIR}/${TIMESTAMP}"
 
@@ -57,44 +58,25 @@ else
     log_warning "ROS2 workspace not found at /root/ros2_workspace"
 fi
 
-# 2. DOCKER BACKUP
-echo -e "\n${BLUE}2. Backing up Docker environment...${NC}"
+# 2. LEGACY DOCKER CLEANUP CHECK
+echo -e "\n${BLUE}2. Checking for legacy Docker artifacts...${NC}"
 
-# Check if Docker is running
-if command -v docker &> /dev/null && docker info &> /dev/null; then
-    echo "Backing up Docker images..."
+# Check if Docker is still installed
+if command -v docker &> /dev/null; then
+    log_warning "Docker is still installed but no longer used by this system"
     
-    # List all images
-    docker images --format "table {{.Repository}}:{{.Tag}}\t{{.ID}}\t{{.Size}}" > "${BACKUP_DIR}/docker/docker_images_list.txt"
-    
-    # Save specific images
-    if docker images | grep -q "ros"; then
-        echo "Saving ROS-related Docker images..."
-        docker save $(docker images --format "{{.Repository}}:{{.Tag}}" | grep -E "(ros|roarm)") | \
-            gzip > "${BACKUP_DIR}/docker/ros_docker_images.tar.gz"
-        log_step "ROS Docker images backed up"
+    # Check for any remaining Docker containers or images
+    if docker ps -a &> /dev/null; then
+        docker ps -a > "${BACKUP_DIR}/docker/remaining_docker_containers.txt"
+        log_step "Documented remaining Docker containers"
     fi
     
-    # Backup docker-compose files
-    if [ -f "/root/ros2_workspace/docker-compose.yml" ]; then
-        cp "/root/ros2_workspace/docker-compose.yml" "${BACKUP_DIR}/docker/"
-        log_step "Docker Compose file backed up"
+    if docker images &> /dev/null; then
+        docker images > "${BACKUP_DIR}/docker/remaining_docker_images.txt"
+        log_step "Documented remaining Docker images"
     fi
-    
-    # Backup Dockerfile
-    if [ -f "/root/ros2_workspace/Dockerfile" ]; then
-        cp "/root/ros2_workspace/Dockerfile" "${BACKUP_DIR}/docker/"
-        log_step "Dockerfile backed up"
-    fi
-    
-    # Docker container information
-    docker ps -a > "${BACKUP_DIR}/docker/docker_containers.txt"
-    docker volume ls > "${BACKUP_DIR}/docker/docker_volumes.txt"
-    docker network ls > "${BACKUP_DIR}/docker/docker_networks.txt"
-    
-    log_step "Docker environment backed up"
 else
-    log_warning "Docker not available or not running"
+    log_step "Docker removed - native ROS2 environment in use"
 fi
 
 # 3. SYSTEM CONFIGURATION BACKUP
@@ -310,11 +292,10 @@ cat > "${BACKUP_DIR}/BACKUP_MANIFEST.md" << EOF
 - \`workspace/dual_camera_captures/\` - Dual camera capture data
 - \`workspace/roboflow_images/\` - Roboflow training data
 
-### Docker Backup
-- \`docker/ros_docker_images.tar.gz\` - All ROS-related Docker images
-- \`docker/docker-compose.yml\` - Docker Compose configuration
-- \`docker/Dockerfile\` - Docker build configuration
-- \`docker/docker_*.txt\` - Docker environment information
+### Legacy Docker Check
+- \`docker/remaining_docker_containers.txt\` - Any remaining Docker containers
+- \`docker/remaining_docker_images.txt\` - Any remaining Docker images
+- Note: System migrated to native ROS2 - Docker no longer used
 
 ### System Configuration
 - \`system/installed_packages.txt\` - Debian package list
@@ -362,10 +343,10 @@ find ${BACKUP_DIR} -name "*.tar.gz" -exec tar -tzf {} >/dev/null \; && echo "✅
 
 ## Notes
 
-- This backup was created before Docker removal migration
+- System successfully migrated from Docker to native ROS2
 - All critical system state has been preserved
 - Calibration data and training datasets are included
-- Docker environment can be fully restored if needed
+- Native ROS2 Humble environment provides better performance
 
 **Created by**: backup_before_migration.sh
 **System**: $(uname -a)
@@ -408,10 +389,10 @@ echo -e ""
 echo -e "${YELLOW}📋 Next steps:${NC}"
 echo -e "1. Review backup manifest: ${BACKUP_DIR}/BACKUP_MANIFEST.md"
 echo -e "2. Test restore scripts on a separate system"
-echo -e "3. Proceed with Docker migration knowing you have a complete backup"
-echo -e "4. Keep this backup until migration is fully validated"
+echo -e "3. System is now running on native ROS2 for optimal performance"
+echo -e "4. Keep this backup for system restoration if needed"
 echo -e ""
-echo -e "${GREEN}✅ You can now safely proceed with Docker removal!${NC}"
+echo -e "${GREEN}✅ Native ROS2 system backup completed successfully!${NC}"
 
 # Create symlink to latest backup
 ln -sf "${BACKUP_DIR}" "${BACKUP_BASE_DIR}/latest"

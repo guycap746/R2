@@ -15,7 +15,7 @@ Foxglove Studio provides a powerful web-based interface for robotics visualizati
 
 ## Prerequisites
 
-- Docker container with Foxglove Bridge installed
+- ROS2 Humble with Foxglove Bridge installed
 - ROS2 system running with RoArm M3 packages
 - Network access for web-based interface
 - Modern web browser (Chrome, Firefox, Edge)
@@ -55,7 +55,7 @@ ros2 launch roarm_moveit foxglove_roarm.launch.py
 
 1. In Foxglove Studio, click "⚙️ Settings"
 2. Go to "Layouts" 
-3. Import `/ros2_ws/foxglove_configs/roarm_m3_layout.json`
+3. Import `/root/ros2_workspace/foxglove_configs/roarm_m3_layout.json`
 4. Or manually configure panels as described below
 
 ## Configuration
@@ -78,7 +78,7 @@ foxglove_bridge_node = Node(
 
 ### Custom Configuration File
 
-Edit `/ros2_ws/foxglove_configs/foxglove_bridge_config.yaml`:
+Edit `/root/ros2_workspace/foxglove_configs/foxglove_bridge_config.yaml`:
 
 ```yaml
 port: 8765
@@ -120,7 +120,7 @@ Configure the main 3D panel for robot visualization:
 Custom panel for RoArm M3 control:
 
 1. **Add Custom Panel**: Import the TypeScript panel
-2. **File**: `/ros2_ws/foxglove_panels/roarm_control_panel.ts`
+2. **File**: `/root/ros2_workspace/foxglove_panels/roarm_control_panel.ts`
 3. **Features**:
    - Joint state monitoring
    - Position control sliders
@@ -134,7 +134,7 @@ Custom panel for RoArm M3 control:
 Specialized panel for grasp detection and execution:
 
 1. **Add Custom Panel**: Import the AnyGrasp panel
-2. **File**: `/ros2_ws/foxglove_panels/anygrasp_visualization_panel.ts`
+2. **File**: `/root/ros2_workspace/foxglove_panels/anygrasp_visualization_panel.ts`
 3. **Features**:
    - Grasp detection trigger
    - Grasp filtering and sorting
@@ -307,16 +307,13 @@ sudo ufw allow 8080
 sudo ufw allow 7400:7500/udp
 ```
 
-### Docker Network
+### Network Configuration
 
-If using Docker, ensure ports are exposed:
-```yaml
-# docker-compose.yml
-services:
-  ros2-dev:
-    ports:
-      - "8765:8765"  # Foxglove Bridge
-      - "8080:8080"  # Web interface
+Ensure firewall allows the required ports:
+```bash
+# Allow required ports
+sudo ufw allow 8765  # Foxglove Bridge
+sudo ufw allow 8080  # Web interface
 ```
 
 ## Security Considerations

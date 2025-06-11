@@ -1,0 +1,1 @@
+/root/ros2_workspace/src/xarm_6_launch/config/xarm_6_integration.py

@@ -188,7 +188,7 @@ Check logs in `/tmp/roarm_test_logs_*/`
 ## 🎯 When to Run Tests
 
 ### Required Testing Scenarios
-1. **After Docker Migration** - Verify native ROS2 functionality
+1. **After System Updates** - Verify native ROS2 functionality
 2. **After Major Code Changes** - Ensure no regressions
 3. **Before Deployment** - Validate system readiness
 4. **After Environment Changes** - Verify dependencies

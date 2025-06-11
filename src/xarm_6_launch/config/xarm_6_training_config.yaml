@@ -1,0 +1,140 @@
+# xArm 6 Training Configuration
+# Extends the existing LeRobot training infrastructure for xArm 6
+
+robot_config:
+  name: "xarm_6"
+  type: "manipulator"
+  dof: 6
+  simulation_mode: true
+  
+  # Joint configuration
+  joints:
+    names: ['joint1', 'joint2', 'joint3', 'joint4', 'joint5', 'joint6']
+    limits:
+      joint1: [-6.28, 6.28]
+      joint2: [-2.09, 2.09] 
+      joint3: [-6.28, 6.28]
+      joint4: [-6.28, 6.28]
+      joint5: [-1.69, 3.84]
+      joint6: [-6.28, 6.28]
+  
+  # End effector configuration
+  end_effector:
+    name: "tcp_link"
+    gripper_joint: "gripper_joint"
+    gripper_limits: [0.0, 0.04]
+  
+  # Workspace limits
+  workspace:
+    x_range: [0.2, 1.0]
+    y_range: [-0.5, 0.5]
+    z_range: [0.0, 0.8]
+
+# Camera configuration for training
+cameras:
+  tcp_camera:
+    topic: "/xarm_6/tcp_camera/image_raw"
+    frame_id: "tcp_link"
+    resolution: [640, 480]
+    fps: 30
+  
+  overview_camera:
+    topic: "/external_camera/image_raw"
+    frame_id: "external_camera_optical"
+    resolution: [640, 480]
+    fps: 30
+
+# Training parameters
+training:
+  # Dataset configuration
+  dataset:
+    name: "xarm_6_manipulation"
+    fps: 30
+    episode_length: 200
+    
+  # Data collection
+  data_collection:
+    observation_space:
+      - "joint_positions"
+      - "joint_velocities"
+      - "tcp_pose"
+      - "tcp_camera_image"
+      - "overview_camera_image"
+      - "gripper_state"
+    
+    action_space:
+      - "joint_position_targets"
+      - "gripper_command"
+    
+    # Teleoperation settings
+    teleoperation:
+      control_frequency: 50  # Hz
+      position_scaling: 1.0
+      orientation_scaling: 1.0
+      
+  # Model configuration  
+  model:
+    policy_type: "ACT"  # Action Chunking Transformer
+    observation_dim: 6 + 6 + 7 + 1  # joints + tcp_pose + gripper
+    action_dim: 6 + 1  # joint targets + gripper
+    
+    # Network architecture
+    hidden_dim: 512
+    num_layers: 4
+    num_heads: 8
+    
+    # Training hyperparameters
+    batch_size: 8
+    learning_rate: 1e-4
+    num_epochs: 2000
+    
+  # Evaluation settings
+  evaluation:
+    success_threshold: 0.02  # 2cm position accuracy
+    max_episode_steps: 200
+    num_eval_episodes: 10
+
+# AnyGrasp integration
+anygrasp:
+  enabled: true
+  model_path: "/root/ros2_workspace/src/roarm_anygrasp_integration/models"
+  confidence_threshold: 0.8
+  
+  # Grasp planning
+  planning:
+    num_candidates: 20
+    planning_time: 2.0
+    gripper_depth: 0.02
+    
+  # Object detection
+  object_detection:
+    enabled: true
+    min_object_size: 0.01  # 1cm
+    max_object_size: 0.20  # 20cm
+
+# Simulation settings
+simulation:
+  isaac_sim:
+    physics_dt: 0.016  # 60 FPS
+    rendering_dt: 0.033  # 30 FPS
+    real_time_factor: 1.0
+    
+  gazebo:
+    physics_engine: "ode"
+    step_size: 0.004
+    real_time_factor: 1.0
+
+# Performance monitoring
+monitoring:
+  metrics:
+    - "episode_length"
+    - "success_rate" 
+    - "position_error"
+    - "orientation_error"
+    - "grasp_success_rate"
+    - "collision_rate"
+  
+  logging:
+    log_level: "INFO"
+    save_frequency: 100  # episodes
+    checkpoint_frequency: 500  # episodes

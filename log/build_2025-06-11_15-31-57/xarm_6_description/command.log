@@ -1,0 +1,2 @@
+Invoking command in '/root/ros2_workspace/build/xarm_6_description': /usr/bin/cmake /root/ros2_workspace/src/xarm_6_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/xarm_6_description
+Invoked command in '/root/ros2_workspace/build/xarm_6_description' returned '1': /usr/bin/cmake /root/ros2_workspace/src/xarm_6_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/xarm_6_description

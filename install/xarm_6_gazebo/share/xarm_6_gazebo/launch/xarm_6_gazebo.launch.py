@@ -1,0 +1,1 @@
+/root/ros2_workspace/src/xarm_6_gazebo/launch/xarm_6_gazebo.launch.py

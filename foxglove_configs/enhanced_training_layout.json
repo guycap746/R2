@@ -1,0 +1,254 @@
+{
+  "configById": {
+    "3D!4f1b1b5": {
+      "cameraState": {
+        "perspective": true,
+        "distance": 5.5,
+        "phi": 0.7853981633974483,
+        "thetaOffset": 0,
+        "targetOffset": [0, 0, 0],
+        "target": [0, 0, 0],
+        "targetOrientation": [0, 0, 0, 1]
+      },
+      "followMode": "follow-pose",
+      "followTf": "base_link",
+      "scene": {
+        "enableStats": false,
+        "backgroundColor": "#212529",
+        "transforms": {
+          "showLabel": false,
+          "editable": true,
+          "size": 0.3,
+          "lineWidth": 3,
+          "axisScale": 1
+        }
+      },
+      "transforms": {
+        "frame:base_link": {
+          "visible": true
+        },
+        "frame:world": {
+          "visible": true
+        }
+      },
+      "topics": {
+        "/robot_description": {
+          "visible": true,
+          "showVisual": true,
+          "showCollision": false
+        },
+        "/joint_states": {
+          "visible": true,
+          "colorField": "header.stamp.sec",
+          "colorMode": "colormap",
+          "colorMap": "rainbow"
+        },
+        "/camera/depth/color/points": {
+          "visible": true,
+          "pointSize": 2,
+          "colorField": "rgb",
+          "colorMode": "rgb"
+        },
+        "/anygrasp/grasp_poses": {
+          "visible": true,
+          "type": "arrow",
+          "arrowScale": [0.3, 0.05, 0.05],
+          "color": "#00ff00"
+        }
+      },
+      "layers": {
+        "grid": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "Grid",
+          "instanceId": "grid",
+          "layerId": "foxglove.Grid",
+          "size": 10,
+          "divisions": 10,
+          "lineWidth": 1,
+          "color": "#248eff",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0],
+          "order": 1
+        }
+      },
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179938779914944
+      }
+    },
+    "TrainingDashboard!a1b2c3d": {
+      "topicPrefix": "/lerobot",
+      "refreshRate": 2
+    },
+    "DatasetBrowser!e4f5g6h": {
+      "maxEpisodes": 100,
+      "autoRefresh": true
+    },
+    "ModelComparison!i7j8k9l": {
+      "maxModels": 4,
+      "chartUpdateRate": 5,
+      "showStatisticalSignificance": true
+    },
+    "Plot!m1n2o3p": {
+      "paths": [
+        {
+          "value": "/lerobot/training_stats.loss",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#ff6b6b",
+          "label": "Training Loss"
+        },
+        {
+          "value": "/lerobot/training_stats.validation_loss",
+          "enabled": true,
+          "timestampMethod": "receiveTime", 
+          "color": "#4ecdc4",
+          "label": "Validation Loss"
+        },
+        {
+          "value": "/lerobot/performance_analytics.success_rate",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#45b7d1",
+          "label": "Success Rate"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Image!q4r5s6t": {
+      "cameraTopic": "/camera/color/image_raw",
+      "enabledMarkerTopics": [],
+      "synchronize": false,
+      "mode": "fit",
+      "pan": { "x": 0, "y": 0 },
+      "rotation": 0,
+      "scale": 1,
+      "transformMarkers": false,
+      "smooth": true,
+      "flipHorizontal": false,
+      "flipVertical": false,
+      "minValue": 0,
+      "maxValue": 1
+    },
+    "StateTransitions!u7v8w9x": {
+      "paths": [
+        {
+          "value": "/training_workflow/status",
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "isSynced": true
+    },
+    "Table!y1z2a3b": {
+      "path": "/lerobot/dataset_list.datasets",
+      "filter": "",
+      "enabledColumns": [
+        "name",
+        "total_episodes", 
+        "storage_size_mb",
+        "data_quality_score"
+      ]
+    },
+    "Log!c4d5e6f": {
+      "minLogLevel": 1,
+      "nameFilter": {
+        "training": true,
+        "lerobot": true,
+        "workflow": true,
+        "anygrasp": false,
+        "roarm": false
+      }
+    },
+    "Gauge!g7h8i9j": {
+      "path": "/lerobot/performance_analytics.success_rate",
+      "minValue": 0,
+      "maxValue": 1,
+      "colorMap": "red-yellow-green",
+      "reverse": false,
+      "units": ""
+    },
+    "Tab!diagnostics": {
+      "activeTabIdx": 0,
+      "tabs": [
+        {
+          "title": "System Health",
+          "layout": {
+            "first": "Diagnostics!k1l2m3n",
+            "second": "Parameters!o4p5q6r",
+            "direction": "row",
+            "splitPercentage": 60
+          }
+        }
+      ]
+    }
+  },
+  "globalVariables": {
+    "selected_model": "ACT_Policy",
+    "training_active": false,
+    "current_dataset": ""
+  },
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1,
+    "messageOrder": "receiveTime"
+  },
+  "layout": {
+    "direction": "row",
+    "first": {
+      "direction": "column",
+      "first": {
+        "direction": "row",
+        "first": "3D!4f1b1b5",
+        "second": "Image!q4r5s6t",
+        "splitPercentage": 70
+      },
+      "second": {
+        "direction": "row",
+        "first": "TrainingDashboard!a1b2c3d",
+        "second": "Plot!m1n2o3p",
+        "splitPercentage": 60
+      },
+      "splitPercentage": 60
+    },
+    "second": {
+      "direction": "column",
+      "first": {
+        "direction": "row",
+        "first": "DatasetBrowser!e4f5g6h",
+        "second": "ModelComparison!i7j8k9l",
+        "splitPercentage": 50
+      },
+      "second": {
+        "direction": "row",
+        "first": {
+          "direction": "column",
+          "first": "Table!y1z2a3b",
+          "second": "Gauge!g7h8i9j",
+          "splitPercentage": 70
+        },
+        "second": {
+          "direction": "column", 
+          "first": "StateTransitions!u7v8w9x",
+          "second": "Log!c4d5e6f",
+          "splitPercentage": 40
+        },
+        "splitPercentage": 50
+      },
+      "splitPercentage": 70
+    },
+    "splitPercentage": 75
+  }
+}

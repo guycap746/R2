@@ -10,38 +10,37 @@ This setup includes:
 - **AnyGrasp SDK** for 6DOF grasp detection
 - **Intel ROS2 Grasp Library** as an alternative grasping solution
 - **RealSense D405** camera integration for depth perception
-- **Docker containerization** for consistent deployment
+- **Native ROS2 environment** for optimal performance
 
 ## Prerequisites
 
-- Docker and Docker Compose installed
-- NVIDIA Docker support (for GPU acceleration)
+- ROS2 Humble Desktop Full installed
+- Python 3.8+ with pip
 - At least 8GB RAM and 20GB disk space
 - USB access for RoArm M3 and RealSense camera
 
 ## Quick Start
 
-### 1. Build the Docker Environment
+### 1. Set Up ROS2 Environment
 
 ```bash
+# Source ROS2 Humble
+source /opt/ros/humble/setup.bash
 cd /root/ros2_workspace
-docker-compose build ros2-dev
 ```
 
-### 2. Start the Development Container
+### 2. Install Dependencies
 
 ```bash
-docker-compose up -d ros2-dev
-docker exec -it ros2-humble-dev /bin/bash
+# Install required Python packages
+pip3 install numpy opencv-python open3d
+sudo apt install python3-rosdep python3-colcon-common-extensions
 ```
 
 ### 3. Set Up AnyGrasp SDK
 
-Inside the container:
-
 ```bash
 # Run the AnyGrasp setup script
-cd /ros2_ws
 ./setup_anygrasp.sh
 ```
 
@@ -70,7 +69,7 @@ source /ros2_ws/setup_anygrasp_post_license.sh
 ### 6. Build the ROS2 Workspace
 
 ```bash
-cd /ros2_ws
+cd /root/ros2_workspace
 colcon build --symlink-install
 source install/setup.bash
 ```
@@ -146,7 +145,7 @@ ros2 launch ros2_grasp_library intel_grasp_demo.launch.py
 
 ### Camera Configuration
 
-Edit camera parameters in `/ros2_ws/src/realsense_launch/config/d405_config.yaml`:
+Edit camera parameters in `/root/ros2_workspace/src/realsense_launch/config/d405_config.yaml`:
 
 ```yaml
 camera:
@@ -177,7 +176,7 @@ anygrasp_node = Node(
 ### MoveIt2 Configuration
 
 The RoArm M3 MoveIt2 configuration is located in:
-- `/ros2_ws/src/roarm_main/roarm_moveit/config/`
+- `/root/ros2_workspace/src/roarm_main/roarm_moveit/config/`
 - Key files: `kinematics.yaml`, `joint_limits.yaml`, `moveit_controllers.yaml`
 
 ## Troubleshooting
@@ -230,20 +229,21 @@ ros2 node list
 ### RealSense D405 Setup
 
 1. Connect via USB 3.0
-2. Install RealSense SDK (included in Docker)
+2. Install RealSense SDK
 3. Test with `realsense-viewer` (if available) or ROS2 launch
 
 ## Performance Optimization
 
 ### GPU Acceleration
 
-For faster grasp detection, ensure NVIDIA Docker is configured:
+For faster grasp detection, ensure NVIDIA drivers are properly installed:
 
 ```bash
-# Add to docker-compose.yml
-runtime: nvidia
-environment:
-  - NVIDIA_VISIBLE_DEVICES=all
+# Check NVIDIA driver installation
+nvidia-smi
+
+# Install NVIDIA drivers if needed
+sudo apt install nvidia-driver-470
 ```
 
 ### Memory Management

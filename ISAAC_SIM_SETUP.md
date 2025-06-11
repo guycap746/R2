@@ -23,7 +23,7 @@ The Isaac Sim integration provides:
 ### Software Requirements
 - **Operating System**: Ubuntu 20.04/22.04 or Windows 10/11
 - **NVIDIA Driver**: 470.57.02 or later
-- **Docker**: Optional but recommended for containerized deployment
+- **ROS2 Humble**: Native installation recommended
 
 ## 🚀 Installation
 

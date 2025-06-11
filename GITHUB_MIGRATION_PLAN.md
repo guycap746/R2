@@ -17,7 +17,7 @@ roarm-m3-intelligent-grasping/
 ├── 📁 .github/                           # GitHub-specific files
 │   ├── workflows/                        # CI/CD pipelines
 │   │   ├── build-and-test.yml
-│   │   ├── docker-build.yml
+│   │   ├── ros2-humble-test.yml
 │   │   └── native-install-test.yml
 │   ├── ISSUE_TEMPLATE/                   # Issue templates
 │   ├── PULL_REQUEST_TEMPLATE.md
@@ -53,10 +53,10 @@ roarm-m3-intelligent-grasping/
 │   ├── calibration_workflow.launch.py
 │   └── development.launch.py
 │
-├── 📁 docker/                            # Docker configurations (legacy)
-│   ├── Dockerfile.ros2
-│   ├── Dockerfile.anygrasp
-│   ├── docker-compose.yml
+├── 📁 legacy/                            # Legacy configurations (archived)
+│   ├── migration_notes.md
+│   ├── docker_removal_plan.md
+│   └── pre_migration_backup.md
 │   └── README.md
 │
 ├── 📁 tests/                             # Test suites
@@ -71,8 +71,7 @@ roarm-m3-intelligent-grasping/
 │   └── visualization/                    # Demo images and videos
 │
 └── 📁 deployment/                        # Deployment configurations
-    ├── native/                           # Native installation
-    ├── docker/                           # Docker deployment
+    ├── native/                           # Native ROS2 deployment
     ├── kubernetes/                       # K8s deployment (future)
     └── edge/                             # Edge device deployment
 ```
@@ -90,12 +89,12 @@ git init
 
 # Create directory structure
 mkdir -p .github/workflows .github/ISSUE_TEMPLATE
-mkdir -p src config docs scripts launch docker tests data deployment
+mkdir -p src config docs scripts launch legacy tests data deployment
 mkdir -p docs/{installation,calibration,user-guide,developer-guide,api}
 mkdir -p scripts/{install,setup,calibration,tools}
 mkdir -p tests/{unit,integration,hardware,calibration}
 mkdir -p config/{hardware,calibration,grasping,visualization}
-mkdir -p deployment/{native,docker,kubernetes,edge}
+mkdir -p deployment/{native,kubernetes,edge}
 mkdir -p data/{calibration,grasping,visualization}
 ```
 
@@ -204,8 +203,9 @@ secrets.yaml
 *.hdf5
 models/
 
-# Docker
-.dockerignore
+# Legacy Files
+docker-compose.yml
+Dockerfile
 
 # Documentation build
 docs/_build/
@@ -226,11 +226,9 @@ cp -r /root/ros2_workspace/config/* ./config/ 2>/dev/null || echo "No config dir
 # Copy documentation
 cp /root/ros2_workspace/*.md ./docs/
 cp /root/ros2_workspace/CALIBRATION_README.md ./docs/calibration/
-cp /root/ros2_workspace/DOCKER_REMOVAL_PLAN.md ./docs/installation/
+cp /root/ros2_workspace/DOCKER_REMOVAL_PLAN.md ./legacy/docker_removal_plan.md
 
-# Copy Docker files to legacy directory
-cp /root/ros2_workspace/Dockerfile ./docker/Dockerfile.ros2
-cp /root/ros2_workspace/docker-compose.yml ./docker/
+# Note: Docker files have been removed as part of migration
 ```
 
 #### 2.2 Create Installation Scripts
@@ -306,21 +304,28 @@ jobs:
         colcon test
         colcon test-result --verbose
 
-  build-docker:
+  test-native-ros2:
     runs-on: ubuntu-22.04
     steps:
     - uses: actions/checkout@v4
       with:
         lfs: true
     
-    - name: Build Docker image
+    - name: Install ROS2 Humble
       run: |
-        cd docker
-        docker build -t roarm-m3:latest -f Dockerfile.ros2 .
+        sudo apt update
+        sudo apt install software-properties-common
+        sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+        echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+        sudo apt update
+        sudo apt install ros-humble-desktop-full
     
-    - name: Test Docker container
+    - name: Test native build
       run: |
-        docker run --rm roarm-m3:latest bash -c "source /opt/ros/humble/setup.bash && ros2 pkg list | grep roarm"
+        source /opt/ros/humble/setup.bash
+        colcon build --symlink-install
+        source install/setup.bash
+        ros2 pkg list | grep roarm
 
   documentation:
     runs-on: ubuntu-22.04
@@ -367,18 +372,11 @@ An intelligent robotic grasping system combining the RoArm M3 6-DOF robot arm wi
 - 🎯 **ChArUco Calibration**: Professional camera calibration workflow
 - 🌐 **Web Interface**: Foxglove Studio integration for remote control
 - 📊 **Data Collection**: Automatic Roboflow integration for ML training
-- 🔧 **Modular Design**: Docker and native installation options
+- 🔧 **Modular Design**: Native ROS2 installation with optional containerization
 
 ## 🚀 Quick Start
 
-### Docker (Recommended for beginners)
-```bash
-git clone https://github.com/username/roarm-m3-intelligent-grasping.git
-cd roarm-m3-intelligent-grasping
-docker-compose up
-```
-
-### Native Installation (Ubuntu 22.04)
+### Native Installation (Recommended)
 ```bash
 git clone https://github.com/username/roarm-m3-intelligent-grasping.git
 cd roarm-m3-intelligent-grasping
@@ -424,7 +422,7 @@ This project is licensed under the Apache 2.0 License - see [LICENSE](LICENSE) f
 #### 3.2 Installation Documentation
 Create comprehensive installation guides for different deployment scenarios:
 - Native Ubuntu 22.04 installation
-- Docker deployment guide  
+- Native installation guide  
 - Hardware setup and calibration
 - Troubleshooting common issues
 
@@ -497,7 +495,7 @@ echo "Backup completed: $BACKUP_DIR"
 
 ### **Week 3: Testing & Documentation**
 - [ ] Comprehensive testing of native installation
-- [ ] Performance benchmarking vs Docker
+- [ ] Performance benchmarking of native installation
 - [ ] Complete user and developer documentation
 - [ ] Create video tutorials
 
@@ -509,10 +507,10 @@ echo "Backup completed: $BACKUP_DIR"
 
 ## 🔍 **Risk Mitigation**
 
-1. **Keep Docker as fallback**: Maintain Docker option during transition
+1. **Document migration**: Maintain migration notes for reference
 2. **Progressive migration**: Move components incrementally
 3. **Automated testing**: Ensure quality throughout migration
 4. **Multiple backups**: Git + cloud + local backups
 5. **Documentation**: Comprehensive guides for all scenarios
 
-This migration plan provides a solid foundation for moving from Docker-based development to a GitHub-managed project with flexible deployment options.
+This migration plan provides a solid foundation for moving from Docker-based development to a GitHub-managed project with native ROS2 deployment.

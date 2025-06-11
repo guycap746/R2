@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypeset="1"?>
+<package format="3">
+  <name>xarm_6_launch</name>
+  <version>0.0.0</version>
+  <description>Launch files for UFactory xArm 6 robotic arm simulation and control</description>
+  <maintainer email="dev@roarm.com">RoArm Team</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>xarm_6_description</exec_depend>
+  <exec_depend>xarm_6_moveit_config</exec_depend>
+  <exec_depend>xarm_6_gazebo</exec_depend>
+  <exec_depend>xarm_6_isaac_sim</exec_depend>
+  <exec_depend>moveit_ros_planning_interface</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

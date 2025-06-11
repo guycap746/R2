@@ -7,3 +7,8 @@
 [0;34m[2025-06-10 13:04:39] INFO: Found task file: /root/ros2_workspace/ANYGRASP_IMPROVEMENT_TASKS.md[0m
 [0;32m[2025-06-10 13:04:39] SUCCESS: Environment validation passed[0m
 [0;34m[2025-06-10 13:04:39] INFO: Starting Claude Code session...[0m
+[0;32m[2025-06-11 01:59:36] SUCCESS: Claude session completed successfully[0m
+[0;34m[2025-06-11 01:59:36] INFO: Logs available at: /root/ros2_workspace/logs/claude_log_20250610_130439.json[0m
+[0;34m[2025-06-11 01:59:36] INFO: Script logs at: /root/ros2_workspace/logs/script_log_20250610_130439.log[0m
+[0;34m[2025-06-11 01:59:36] INFO: Cleaning up...[0m
+[0;34m[2025-06-11 01:59:36] INFO: Session duration: 46497s[0m

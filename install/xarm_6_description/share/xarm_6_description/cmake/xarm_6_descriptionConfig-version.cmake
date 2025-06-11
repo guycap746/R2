@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/xarm_6_description/ament_cmake_core/xarm_6_descriptionConfig-version.cmake

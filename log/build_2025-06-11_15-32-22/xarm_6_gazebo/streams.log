@@ -1,0 +1,50 @@
+[0.013s] Invoking command in '/root/ros2_workspace/build/xarm_6_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_workspace/install/xarm_6_isaac_sim:/root/ros2_workspace/install/ros2web_widgets:/root/ros2_workspace/install/ros2web_example_py:/root/ros2_workspace/install/roarm_web_app:/root/ros2_workspace/install/ros2web_app:/root/ros2_workspace/install/ros2web:/root/ros2_workspace/install/roarm_driver:/root/ros2_workspace/install/launch_api:/opt/ros/humble /usr/bin/cmake /root/ros2_workspace/src/xarm_6_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/xarm_6_gazebo
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.127s] -- The CXX compiler identification is GNU 11.4.0
+[0.133s] -- Detecting C compiler ABI info
+[0.211s] -- Detecting C compiler ABI info - done
+[0.220s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.220s] -- Detecting C compile features
+[0.220s] -- Detecting C compile features - done
+[0.224s] -- Detecting CXX compiler ABI info
+[0.308s] -- Detecting CXX compiler ABI info - done
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.315s] -- Detecting CXX compile features
+[0.315s] -- Detecting CXX compile features - done
+[0.320s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.498s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.578s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.630s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.732s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.733s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.734s] -- Added test 'lint_cmake' to check CMake code style
+[0.735s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.736s] -- Added test 'xmllint' to check XML markup files
+[0.738s] -- Configuring done
+[0.740s] -- Generating done
+[0.742s] -- Build files have been written to: /root/ros2_workspace/build/xarm_6_gazebo
+[0.747s] Invoked command in '/root/ros2_workspace/build/xarm_6_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_workspace/install/xarm_6_isaac_sim:/root/ros2_workspace/install/ros2web_widgets:/root/ros2_workspace/install/ros2web_example_py:/root/ros2_workspace/install/roarm_web_app:/root/ros2_workspace/install/ros2web_app:/root/ros2_workspace/install/ros2web:/root/ros2_workspace/install/roarm_driver:/root/ros2_workspace/install/launch_api:/opt/ros/humble /usr/bin/cmake /root/ros2_workspace/src/xarm_6_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_workspace/install/xarm_6_gazebo
+[0.748s] Invoking command in '/root/ros2_workspace/build/xarm_6_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_workspace/install/xarm_6_isaac_sim:/root/ros2_workspace/install/ros2web_widgets:/root/ros2_workspace/install/ros2web_example_py:/root/ros2_workspace/install/roarm_web_app:/root/ros2_workspace/install/ros2web_app:/root/ros2_workspace/install/ros2web:/root/ros2_workspace/install/roarm_driver:/root/ros2_workspace/install/launch_api:/opt/ros/humble /usr/bin/cmake --build /root/ros2_workspace/build/xarm_6_gazebo -- -j4 -l4
+[0.785s] Invoked command in '/root/ros2_workspace/build/xarm_6_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_workspace/install/xarm_6_isaac_sim:/root/ros2_workspace/install/ros2web_widgets:/root/ros2_workspace/install/ros2web_example_py:/root/ros2_workspace/install/roarm_web_app:/root/ros2_workspace/install/ros2web_app:/root/ros2_workspace/install/ros2web:/root/ros2_workspace/install/roarm_driver:/root/ros2_workspace/install/launch_api:/opt/ros/humble /usr/bin/cmake --build /root/ros2_workspace/build/xarm_6_gazebo -- -j4 -l4
+[0.793s] Invoking command in '/root/ros2_workspace/build/xarm_6_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_workspace/install/xarm_6_isaac_sim:/root/ros2_workspace/install/ros2web_widgets:/root/ros2_workspace/install/ros2web_example_py:/root/ros2_workspace/install/roarm_web_app:/root/ros2_workspace/install/ros2web_app:/root/ros2_workspace/install/ros2web:/root/ros2_workspace/install/roarm_driver:/root/ros2_workspace/install/launch_api:/opt/ros/humble /usr/bin/cmake --install /root/ros2_workspace/build/xarm_6_gazebo
+[0.799s] -- Install configuration: ""
+[0.799s] -- Execute custom install script
+[0.800s] -- Symlinking: /root/ros2_workspace/install/xarm_6_gazebo/share/xarm_6_gazebo/config/xarm_6_gazebo.urdf.xacro
+[0.808s] -- Symlinking: /root/ros2_workspace/install/xarm_6_gazebo/share/xarm_6_gazebo/launch/xarm_6_gazebo.launch.py
+[0.816s] -- Symlinking: /root/ros2_workspace/install/xarm_6_gazebo/share/xarm_6_gazebo/worlds/xarm_6_world.world
+[0.824s] -- Symlinking: /root/ros2_workspace/install/xarm_6_gazebo/share/ament_index/resource_index/package_run_dependencies/xarm_6_gazebo
+[0.832s] -- Symlinking: /root/ros2_workspace/install/xarm_6_gazebo/share/ament_index/resource_index/parent_prefix_path/xarm_6_gazebo
+[0.840s] -- Symlinking: /root/ros2_workspace/install/xarm_6_gazebo/share/xarm_6_gazebo/environment/ament_prefix_path.sh
+[0.848s] -- Symlinking: /root/ros2_workspace/install/xarm_6_gazebo/share/xarm_6_gazebo/environment/ament_prefix_path.dsv
+[0.856s] -- Symlinking: /root/ros2_workspace/install/xarm_6_gazebo/share/xarm_6_gazebo/environment/path.sh
+[0.868s] -- Symlinking: /root/ros2_workspace/install/xarm_6_gazebo/share/xarm_6_gazebo/environment/path.dsv
+[0.877s] -- Symlinking: /root/ros2_workspace/install/xarm_6_gazebo/share/xarm_6_gazebo/local_setup.bash
+[0.886s] -- Symlinking: /root/ros2_workspace/install/xarm_6_gazebo/share/xarm_6_gazebo/local_setup.sh
+[0.895s] -- Symlinking: /root/ros2_workspace/install/xarm_6_gazebo/share/xarm_6_gazebo/local_setup.zsh
+[0.904s] -- Symlinking: /root/ros2_workspace/install/xarm_6_gazebo/share/xarm_6_gazebo/local_setup.dsv
+[0.913s] -- Symlinking: /root/ros2_workspace/install/xarm_6_gazebo/share/xarm_6_gazebo/package.dsv
+[0.928s] -- Symlinking: /root/ros2_workspace/install/xarm_6_gazebo/share/ament_index/resource_index/packages/xarm_6_gazebo
+[0.938s] -- Symlinking: /root/ros2_workspace/install/xarm_6_gazebo/share/xarm_6_gazebo/cmake/xarm_6_gazeboConfig.cmake
+[0.947s] -- Symlinking: /root/ros2_workspace/install/xarm_6_gazebo/share/xarm_6_gazebo/cmake/xarm_6_gazeboConfig-version.cmake
+[0.958s] -- Symlinking: /root/ros2_workspace/install/xarm_6_gazebo/share/xarm_6_gazebo/package.xml
+[0.970s] Invoked command in '/root/ros2_workspace/build/xarm_6_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_workspace/install/xarm_6_isaac_sim:/root/ros2_workspace/install/ros2web_widgets:/root/ros2_workspace/install/ros2web_example_py:/root/ros2_workspace/install/roarm_web_app:/root/ros2_workspace/install/ros2web_app:/root/ros2_workspace/install/ros2web:/root/ros2_workspace/install/roarm_driver:/root/ros2_workspace/install/launch_api:/opt/ros/humble /usr/bin/cmake --install /root/ros2_workspace/build/xarm_6_gazebo

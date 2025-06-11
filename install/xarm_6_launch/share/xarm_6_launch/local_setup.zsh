@@ -1,0 +1,1 @@
+/root/ros2_workspace/build/xarm_6_launch/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,4 @@
+[console_scripts]
+xarm_6_isaac_launcher = xarm_6_isaac_sim.xarm_6_isaac_launcher:main
+xarm_6_simulation_controller = xarm_6_isaac_sim.xarm_6_simulation_controller:main
+

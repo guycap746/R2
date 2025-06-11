@@ -1,0 +1,1 @@
+gazebo_ros;gazebo_ros_pkgs;gazebo_plugins;robot_state_publisher;joint_state_publisher;ros2_controllers;ros2_control;gazebo_ros2_control;xarm_6_description;xarm_6_moveit_config;ament_lint_auto;ament_lint_common

@@ -10,7 +10,14 @@
       "Bash(ros2 launch:*)",
       "Bash(collon build:*)",
       "WebFetch(domain:huggingface.co)",
-      "Bash(chmod:*)"
+      "Bash(chmod:*)",
+      "Bash(rm:*)",
+      "Bash(grep:*)",
+      "Bash(modal serve:*)",
+      "Bash(ls:*)",
+      "Bash(modal app list:*)",
+      "Bash(modal app logs ap-MeTOC6oTDoplxRkC5aHHea)",
+      "Bash(python3:*)"
     ],
     "deny": []
   }
