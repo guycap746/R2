@@ -13,16 +13,16 @@ curl -sSL https://raw.githubusercontent.com/guycap746/R2/main/deployment/setup_g
 
 ### For Any Linux System:
 ```bash
-# Option A: Direct download
+# Option A: Git clone (RECOMMENDED)
+git clone https://github.com/guycap746/R2.git
+cd R2/deployment
+./setup_google_vm.sh
+
+# Option B: Direct download
 wget https://github.com/guycap746/R2/archive/main.zip
 unzip main.zip
 cd R2-main/deployment
 chmod +x setup_google_vm.sh
-./setup_google_vm.sh
-
-# Option B: Git clone
-git clone https://github.com/guycap746/R2.git
-cd R2/deployment
 ./setup_google_vm.sh
 ```
 
@@ -90,9 +90,22 @@ You'll know it worked when you see:
 ## 🆘 If Something Goes Wrong
 
 1. **Check the error message** - Script provides detailed feedback
-2. **Ensure prerequisites** - Ubuntu 22.04, not root user, internet
-3. **Try manual steps** - Follow `GOOGLE_VM_SETUP_GUIDE.md`
-4. **Create GitHub issue** - Include error output
+2. **Review the log file** - Full log saved to `/tmp/r2_setup_YYYYMMDD_HHMMSS.log`
+3. **Ensure prerequisites** - Ubuntu 22.04, not root user, internet
+4. **Try manual steps** - Follow `GOOGLE_VM_SETUP_GUIDE.md`
+5. **Create GitHub issue** - Include error output and log file
+
+### Debugging Commands:
+```bash
+# Find recent log files
+ls -la /tmp/r2_setup_*.log
+
+# View the latest log
+tail -100 /tmp/r2_setup_*.log
+
+# Check for specific errors
+grep -i "error\|fail" /tmp/r2_setup_*.log
+```
 
 ## 📦 What This Package Contains
 

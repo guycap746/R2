@@ -456,6 +456,7 @@ main() {
     log_header "R2 RoArm M3 System Setup for Google Cloud VM"
     log_info "This script will install and configure the complete R2 system"
     log_info "Estimated time: 15-30 minutes depending on VM performance"
+    log_info "Installation log will be saved to: $LOG_FILE"
     
     # Confirm installation
     read -p "Do you want to proceed with the installation? (y/N): " -n 1 -r
@@ -480,10 +481,16 @@ main() {
     show_final_info
     
     log_success "Installation completed successfully!"
+    log_info "Full installation log saved to: $LOG_FILE"
 }
 
+# Create log file for debugging
+LOG_FILE="/tmp/r2_setup_$(date +%Y%m%d_%H%M%S).log"
+exec > >(tee -a "$LOG_FILE")
+exec 2> >(tee -a "$LOG_FILE" >&2)
+
 # Trap errors and cleanup
-trap 'log_error "Installation failed at line $LINENO. Check the output above for details."' ERR
+trap 'log_error "Installation failed at line $LINENO. Check the output above for details."; log_error "Full log saved to: $LOG_FILE"' ERR
 
 # Run main installation
 main "$@"
