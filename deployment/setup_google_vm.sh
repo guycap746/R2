@@ -182,6 +182,14 @@ install_python_deps() {
         websockets \
         jsonschema
     
+    # Install Intel RealSense with compatibility check
+    log_info "Installing Intel RealSense Python SDK..."
+    if pip3 install pyrealsense2; then
+        log_success "pyrealsense2 installed successfully"
+    else
+        log_warning "pyrealsense2 installation failed - will use ROS2 packages only"
+    fi
+    
     # Install AI/ML packages
     log_info "Installing AI/ML packages..."
     pip3 install \
