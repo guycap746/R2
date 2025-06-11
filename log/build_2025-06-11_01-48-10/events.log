@@ -1,0 +1,139 @@
+[0.000000] (-) TimerEvent: {}
+[0.000125] (-) JobUnselected: {'identifier': 'launch_api'}
+[0.000171] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.000198] (-) JobUnselected: {'identifier': 'oak_camera_integration'}
+[0.000222] (-) JobUnselected: {'identifier': 'realsense_launch'}
+[0.000246] (-) JobUnselected: {'identifier': 'roarm_anygrasp_integration'}
+[0.000270] (-) JobUnselected: {'identifier': 'roarm_description'}
+[0.000294] (-) JobUnselected: {'identifier': 'roarm_driver'}
+[0.000317] (-) JobUnselected: {'identifier': 'roarm_isaac_sim'}
+[0.000340] (-) JobUnselected: {'identifier': 'roarm_moveit'}
+[0.000372] (-) JobUnselected: {'identifier': 'roarm_moveit_cmd'}
+[0.000401] (-) JobUnselected: {'identifier': 'roarm_moveit_ikfast_plugins'}
+[0.000429] (-) JobUnselected: {'identifier': 'roarm_web_app'}
+[0.000457] (-) JobUnselected: {'identifier': 'ros2web'}
+[0.000486] (-) JobUnselected: {'identifier': 'ros2web_app'}
+[0.000514] (-) JobUnselected: {'identifier': 'ros2web_example_py'}
+[0.000542] (-) JobUnselected: {'identifier': 'ros2web_interfaces'}
+[0.000570] (-) JobUnselected: {'identifier': 'ros2web_widgets'}
+[0.000598] (-) JobUnselected: {'identifier': 'wrist_imu_integration'}
+[0.000631] (roarm_lerobot_integration) JobQueued: {'identifier': 'roarm_lerobot_integration', 'dependencies': OrderedDict([('roarm_anygrasp_integration', '/root/ros2_workspace/install/roarm_anygrasp_integration'), ('roarm_description', '/root/ros2_workspace/install/roarm_description'), ('roarm_driver', '/root/ros2_workspace/install/roarm_driver'), ('roarm_moveit', '/root/ros2_workspace/install/roarm_moveit')])}
+[0.000683] (roarm_lerobot_integration) JobStarted: {'identifier': 'roarm_lerobot_integration'}
+[0.018732] (roarm_lerobot_integration) JobProgress: {'identifier': 'roarm_lerobot_integration', 'progress': 'cmake'}
+[0.020073] (roarm_lerobot_integration) JobProgress: {'identifier': 'roarm_lerobot_integration', 'progress': 'build'}
+[0.021539] (roarm_lerobot_integration) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_workspace/build/roarm_lerobot_integration', '--', '-j4', '-l4'], 'cwd': '/root/ros2_workspace/build/roarm_lerobot_integration', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-0/default,2059,0'), ('USER', 'root'), ('SSH_CLIENT', '99.127.244.23 49195 22'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '4'), ('LD_LIBRARY_PATH', '/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/roarm_anygrasp_integration/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '3.2a'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '5'), ('OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE', 'delta'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_driver:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('CLAUDECODE', '1'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/root/ros2_workspace/build/roarm_lerobot_integration'), ('SSH_CONNECTION', '99.127.244.23 49195 167.172.239.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:/root/ros2_workspace/build/roarm_driver:/root/ros2_workspace/install/roarm_driver/lib/python3.10/site-packages:/root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration:/opt/ros/humble')]), 'shell': False}
+[0.062543] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098820] (-) TimerEvent: {}
+[0.199133] (-) TimerEvent: {}
+[0.252756] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.293814] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.296534] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.299249] (-) TimerEvent: {}
+[0.302962] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.313834] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.328436] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.365322] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.367149] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399430] (-) TimerEvent: {}
+[0.478563] (roarm_lerobot_integration) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.499602] (-) TimerEvent: {}
+[0.536022] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.536463] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.569956] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found trajectory_msgs: 4.8.0 (/opt/ros/humble/share/trajectory_msgs/cmake)\n'}
+[0.589744] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[0.599774] (-) TimerEvent: {}
+[0.650313] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.654857] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.699942] (-) TimerEvent: {}
+[0.720867] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.724460] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.725798] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.727465] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)\n'}
+[0.800104] (-) TimerEvent: {}
+[0.822220] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found moveit_core: 2.5.9 (/opt/ros/humble/share/moveit_core/cmake)\n'}
+[0.838986] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[0.863205] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[0.873697] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.897496] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[0.900230] (-) TimerEvent: {}
+[0.933322] (roarm_lerobot_integration) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[1.000410] (-) TimerEvent: {}
+[1.005158] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.008252] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.100596] (-) TimerEvent: {}
+[1.131571] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.200753] (-) TimerEvent: {}
+[1.228841] (roarm_lerobot_integration) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.232385] (roarm_lerobot_integration) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.233046] (roarm_lerobot_integration) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.233517] (roarm_lerobot_integration) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.235185] (roarm_lerobot_integration) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.236202] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.245755] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Generating done\n'}
+[1.250429] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_workspace/build/roarm_lerobot_integration\n'}
+[1.300882] (-) TimerEvent: {}
+[1.306775] (roarm_lerobot_integration) StdoutLine: {'line': b'Built target ament_cmake_python_copy_roarm_lerobot_integration\n'}
+[1.401054] (-) TimerEvent: {}
+[1.501312] (-) TimerEvent: {}
+[1.571932] (roarm_lerobot_integration) StdoutLine: {'line': b'running egg_info\n'}
+[1.572870] (roarm_lerobot_integration) StdoutLine: {'line': b'writing roarm_lerobot_integration.egg-info/PKG-INFO\n'}
+[1.573113] (roarm_lerobot_integration) StdoutLine: {'line': b'writing dependency_links to roarm_lerobot_integration.egg-info/dependency_links.txt\n'}
+[1.573320] (roarm_lerobot_integration) StdoutLine: {'line': b'writing top-level names to roarm_lerobot_integration.egg-info/top_level.txt\n'}
+[1.575504] (roarm_lerobot_integration) StdoutLine: {'line': b"reading manifest file 'roarm_lerobot_integration.egg-info/SOURCES.txt'\n"}
+[1.576161] (roarm_lerobot_integration) StdoutLine: {'line': b"writing manifest file 'roarm_lerobot_integration.egg-info/SOURCES.txt'\n"}
+[1.601433] (-) TimerEvent: {}
+[1.603398] (roarm_lerobot_integration) StdoutLine: {'line': b'Built target ament_cmake_python_build_roarm_lerobot_integration_egg\n'}
+[1.614678] (roarm_lerobot_integration) CommandEnded: {'returncode': 0}
+[1.615464] (roarm_lerobot_integration) JobProgress: {'identifier': 'roarm_lerobot_integration', 'progress': 'install'}
+[1.625003] (roarm_lerobot_integration) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_workspace/build/roarm_lerobot_integration'], 'cwd': '/root/ros2_workspace/build/roarm_lerobot_integration', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-0/default,2059,0'), ('USER', 'root'), ('SSH_CLIENT', '99.127.244.23 49195 22'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '4'), ('LD_LIBRARY_PATH', '/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/roarm_anygrasp_integration/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '3.2a'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '5'), ('OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE', 'delta'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_driver:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('CLAUDECODE', '1'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/root/ros2_workspace/build/roarm_lerobot_integration'), ('SSH_CONNECTION', '99.127.244.23 49195 167.172.239.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:/root/ros2_workspace/build/roarm_driver:/root/ros2_workspace/install/roarm_driver/lib/python3.10/site-packages:/root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration:/opt/ros/humble')]), 'shell': False}
+[1.632271] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.632680] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/environment/pythonpath.sh\n'}
+[1.632796] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/environment/pythonpath.dsv\n'}
+[1.633061] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration-0.0.0-py3.10.egg-info\n'}
+[1.633285] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.633371] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.633461] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.633535] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.633607] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration\n'}
+[1.633677] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration/__init__.py\n'}
+[1.670946] (roarm_lerobot_integration) StdoutLine: {'line': b"Listing '/root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration'...\n"}
+[1.676767] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/lib/roarm_lerobot_integration/lerobot_bridge.py\n'}
+[1.677243] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/lib/roarm_lerobot_integration/lerobot_data_collector.py\n'}
+[1.677587] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/lib/roarm_lerobot_integration/lerobot_policy_trainer.py\n'}
+[1.677842] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/lib/roarm_lerobot_integration/lerobot_policy_executor.py\n'}
+[1.677994] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/lib/roarm_lerobot_integration/lerobot_teleop_interface.py\n'}
+[1.678173] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/lib/roarm_lerobot_integration/lerobot_dataset_manager.py\n'}
+[1.678367] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/lib/roarm_lerobot_integration/lerobot_evaluation_node.py\n'}
+[1.678592] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/lib/roarm_lerobot_integration/lerobot_anygrasp_integration.py\n'}
+[1.678676] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/lib/roarm_lerobot_integration/lerobot_performance_monitor.py\n'}
+[1.678761] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/lib/roarm_lerobot_integration/lerobot_hybrid_visualizer.py\n'}
+[1.678855] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration//launch\n'}
+[1.678952] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration//launch/lerobot_complete.launch.py\n'}
+[1.679048] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration//launch/lerobot_anygrasp_hybrid.launch.py\n'}
+[1.679144] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration//config\n'}
+[1.679239] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration//config/roarm_lerobot_config.yaml\n'}
+[1.679346] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration//training\n'}
+[1.679458] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration//training/.gitkeep\n'}
+[1.679600] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration//models\n'}
+[1.679730] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration//models/.gitkeep\n'}
+[1.679822] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration//datasets\n'}
+[1.679926] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration//datasets/.gitkeep\n'}
+[1.680051] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/ament_index/resource_index/package_run_dependencies/roarm_lerobot_integration\n'}
+[1.680377] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/ament_index/resource_index/parent_prefix_path/roarm_lerobot_integration\n'}
+[1.680961] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/environment/ament_prefix_path.sh\n'}
+[1.681512] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/environment/ament_prefix_path.dsv\n'}
+[1.681724] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/environment/path.sh\n'}
+[1.681904] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/environment/path.dsv\n'}
+[1.682496] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/local_setup.bash\n'}
+[1.682727] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/local_setup.sh\n'}
+[1.682885] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/local_setup.zsh\n'}
+[1.683095] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/local_setup.dsv\n'}
+[1.683198] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/package.dsv\n'}
+[1.683306] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/ament_index/resource_index/packages/roarm_lerobot_integration\n'}
+[1.683415] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/cmake/roarm_lerobot_integrationConfig.cmake\n'}
+[1.683789] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/cmake/roarm_lerobot_integrationConfig-version.cmake\n'}
+[1.683934] (roarm_lerobot_integration) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/package.xml\n'}
+[1.684183] (roarm_lerobot_integration) CommandEnded: {'returncode': 0}
+[1.701570] (-) TimerEvent: {}
+[1.710532] (roarm_lerobot_integration) JobEnded: {'identifier': 'roarm_lerobot_integration', 'rc': 0}
+[1.711249] (-) EventReactorShutdown: {}

@@ -1,0 +1,51 @@
+Built target ament_cmake_python_copy_roarm_lerobot_integration
+running egg_info
+writing roarm_lerobot_integration.egg-info/PKG-INFO
+writing dependency_links to roarm_lerobot_integration.egg-info/dependency_links.txt
+writing top-level names to roarm_lerobot_integration.egg-info/top_level.txt
+reading manifest file 'roarm_lerobot_integration.egg-info/SOURCES.txt'
+writing manifest file 'roarm_lerobot_integration.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_roarm_lerobot_integration_egg
+-- Install configuration: ""
+-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/environment/pythonpath.sh
+-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/environment/pythonpath.dsv
+-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration-0.0.0-py3.10.egg-info
+-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration
+-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration/__init__.py
+Listing '/root/ros2_workspace/install/roarm_lerobot_integration/local/lib/python3.10/dist-packages/roarm_lerobot_integration'...
+-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/lib/roarm_lerobot_integration/lerobot_bridge.py
+-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/lib/roarm_lerobot_integration/lerobot_data_collector.py
+-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/lib/roarm_lerobot_integration/lerobot_policy_trainer.py
+-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/lib/roarm_lerobot_integration/lerobot_policy_executor.py
+-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/lib/roarm_lerobot_integration/lerobot_teleop_interface.py
+-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/lib/roarm_lerobot_integration/lerobot_dataset_manager.py
+-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/lib/roarm_lerobot_integration/lerobot_evaluation_node.py
+-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration//launch
+-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration//launch/lerobot_complete.launch.py
+-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration//config
+-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration//config/roarm_lerobot_config.yaml
+-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration//training
+-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration//training/.gitkeep
+-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration//models
+-- Up-to-date: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration//models/.gitkeep
+-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration//datasets
+-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration//datasets/.gitkeep
+-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/ament_index/resource_index/package_run_dependencies/roarm_lerobot_integration
+-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/ament_index/resource_index/parent_prefix_path/roarm_lerobot_integration
+-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/environment/path.sh
+-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/environment/path.dsv
+-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/local_setup.bash
+-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/local_setup.sh
+-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/local_setup.zsh
+-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/local_setup.dsv
+-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/package.dsv
+-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/ament_index/resource_index/packages/roarm_lerobot_integration
+-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/cmake/roarm_lerobot_integrationConfig.cmake
+-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/cmake/roarm_lerobot_integrationConfig-version.cmake
+-- Installing: /root/ros2_workspace/install/roarm_lerobot_integration/share/roarm_lerobot_integration/package.xml

@@ -37,6 +37,9 @@ install(PROGRAMS
   scripts/lerobot_teleop_interface.py
   scripts/lerobot_dataset_manager.py
   scripts/lerobot_evaluation_node.py
+  scripts/lerobot_anygrasp_integration.py
+  scripts/lerobot_performance_monitor.py
+  scripts/lerobot_hybrid_visualizer.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

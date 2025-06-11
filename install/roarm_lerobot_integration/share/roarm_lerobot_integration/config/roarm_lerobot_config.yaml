@@ -1,0 +1,101 @@
+# RoArm LeRobot Integration Configuration
+
+robot:
+  type: "roarm_m3"
+  dof: 6
+  joint_names: ["joint1", "joint2", "joint3", "joint4", "joint5", "joint6"]
+  joint_limits:
+    position: [[-3.14159, 3.14159], [-1.57, 1.57], [-3.14159, 3.14159], [-3.14159, 3.14159], [-1.57, 1.57], [-3.14159, 3.14159]]
+    velocity: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+    effort: [50.0, 50.0, 50.0, 20.0, 20.0, 20.0]
+
+data_collection:
+  fps: 30
+  max_episode_steps: 1000
+  max_episodes: 100
+  data_dir: "/tmp/lerobot_data"
+  compression: true
+  collection_mode: "teleoperation"  # teleoperation, demonstration, autonomous
+  
+sensors:
+  cameras:
+    - name: "rgb_camera"
+      topic: "/camera/color/image_raw"
+      resolution: [640, 480]
+      encoding: "bgr8"
+    - name: "depth_camera" 
+      topic: "/camera/depth/image_rect_raw"
+      resolution: [640, 480]
+      encoding: "16UC1"
+  
+  proprioception:
+    joint_states_topic: "/joint_states"
+    force_torque_topic: "/force_torque"
+    
+training:
+  policy_type: "act"  # act, diffusion, cnn_lstm, transformer
+  batch_size: 32
+  learning_rate: 0.0001
+  num_epochs: 100
+  validation_split: 0.2
+  device: "auto"  # auto, cpu, cuda
+  model_dir: "/tmp/lerobot_models"
+  
+  # Policy-specific configurations
+  act:
+    hidden_dim: 512
+    num_layers: 4
+    num_heads: 8
+    chunk_size: 100
+    
+  diffusion:
+    noise_steps: 100
+    beta_start: 0.0001
+    beta_end: 0.02
+    
+  cnn_lstm:
+    cnn_channels: [32, 64, 128]
+    lstm_hidden: 256
+    lstm_layers: 2
+
+execution:
+  policy_execution_fps: 30
+  safety_checks: true
+  max_joint_velocity: 0.5
+  workspace_limits: [-1.0, 1.0, -1.0, 1.0, 0.0, 1.0]  # [x_min, x_max, y_min, y_max, z_min, z_max]
+  
+huggingface:
+  dataset_repo: "roarm/manipulation_dataset"
+  policy_repo: "roarm/manipulation_policy"
+  use_auth_token: true
+  auto_upload: false
+  upload_interval: 3600  # seconds
+
+evaluation:
+  num_episodes: 10
+  evaluation_timeout: 60.0
+  generate_plots: true
+  results_dir: "/tmp/lerobot_evaluation"
+  
+  tasks:
+    - name: "pick_and_place"
+      description: "Pick and place manipulation task"
+      success_criteria:
+        final_position: [0.0, 0.5, 0.3, 0.0, 0.0, 0.0]
+        position_tolerance: 0.05
+        max_duration: 30.0
+        
+    - name: "reaching"
+      description: "Point-to-point reaching task"  
+      success_criteria:
+        final_position: [0.2, 0.3, 0.4, 0.0, 0.0, 0.0]
+        position_tolerance: 0.02
+        max_duration: 15.0
+
+teleoperation:
+  enable_keyboard: true
+  enable_gamepad: true
+  velocity_scaling: 0.1
+  position_scaling: 0.01
+  control_mode: "joint_control"  # joint_control, cartesian_control
+  publish_rate: 30

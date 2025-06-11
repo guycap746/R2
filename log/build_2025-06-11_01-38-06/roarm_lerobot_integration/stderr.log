@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:94 (file):
+  file INSTALL cannot find
+  "/root/ros2_workspace/src/roarm_lerobot_integration/models": No such file
+  or directory.
+
+

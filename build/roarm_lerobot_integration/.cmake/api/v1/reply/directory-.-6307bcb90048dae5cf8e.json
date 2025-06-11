@@ -101,37 +101,37 @@
 			{
 				"command" : 0,
 				"file" : 3,
-				"line" : 44,
+				"line" : 47,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 3,
-				"line" : 49,
+				"line" : 52,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 3,
-				"line" : 54,
+				"line" : 57,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 3,
-				"line" : 59,
+				"line" : 62,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 3,
-				"line" : 64,
+				"line" : 67,
 				"parent" : 0
 			},
 			{
 				"command" : 9,
 				"file" : 3,
-				"line" : 73,
+				"line" : 76,
 				"parent" : 0
 			},
 			{
@@ -375,7 +375,10 @@
 				"scripts/lerobot_policy_executor.py",
 				"scripts/lerobot_teleop_interface.py",
 				"scripts/lerobot_dataset_manager.py",
-				"scripts/lerobot_evaluation_node.py"
+				"scripts/lerobot_evaluation_node.py",
+				"scripts/lerobot_anygrasp_integration.py",
+				"scripts/lerobot_performance_monitor.py",
+				"scripts/lerobot_hybrid_visualizer.py"
 			],
 			"type" : "file"
 		},

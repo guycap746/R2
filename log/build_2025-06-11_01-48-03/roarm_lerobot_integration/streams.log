@@ -1,0 +1,22 @@
+[0.019s] Invoking command in '/root/ros2_workspace/build/roarm_lerobot_integration': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_driver:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/roarm_anygrasp_integration/lib PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:/root/ros2_workspace/build/roarm_driver:/root/ros2_workspace/install/roarm_driver/lib/python3.10/site-packages:/root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages /usr/bin/cmake --build /root/ros2_workspace/build/roarm_lerobot_integration -- -j4 -l4
+[0.057s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.266s] Traceback (most recent call last):
+[0.266s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.266s]     from ament_package.templates import get_environment_hook_template_path
+[0.266s] ModuleNotFoundError: No module named 'ament_package'
+[0.280s] CMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.280s]   execute_process(/usr/bin/python3
+[0.280s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.280s]   /root/ros2_workspace/build/roarm_lerobot_integration/ament_cmake_package_templates/templates.cmake)
+[0.280s]   returned error code 1
+[0.280s] Call Stack (most recent call first):
+[0.280s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.280s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.280s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.280s]   CMakeLists.txt:9 (find_package)
+[0.280s] 
+[0.281s] 
+[0.281s] -- Configuring incomplete, errors occurred!
+[0.281s] See also "/root/ros2_workspace/build/roarm_lerobot_integration/CMakeFiles/CMakeOutput.log".
+[0.283s] gmake: *** [Makefile:254: cmake_check_build_system] Error 1
+[0.286s] Invoked command in '/root/ros2_workspace/build/roarm_lerobot_integration' returned '2': AMENT_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_driver:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration CMAKE_PREFIX_PATH=/root/ros2_workspace/install/roarm_moveit:/root/ros2_workspace/install/roarm_description:/root/ros2_workspace/install/roarm_anygrasp_integration LD_LIBRARY_PATH=/root/ros2_workspace/install/roarm_moveit/lib:/root/ros2_workspace/install/roarm_anygrasp_integration/lib PYTHONPATH=/root/ros2_workspace/install/roarm_moveit/local/lib/python3.10/dist-packages:/root/ros2_workspace/build/roarm_driver:/root/ros2_workspace/install/roarm_driver/lib/python3.10/site-packages:/root/ros2_workspace/install/roarm_anygrasp_integration/local/lib/python3.10/dist-packages /usr/bin/cmake --build /root/ros2_workspace/build/roarm_lerobot_integration -- -j4 -l4

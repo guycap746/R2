@@ -1,3 +1,6 @@
+source;share/roarm_lerobot_integration/hook/cmake_prefix_path.ps1
+source;share/roarm_lerobot_integration/hook/cmake_prefix_path.dsv
+source;share/roarm_lerobot_integration/hook/cmake_prefix_path.sh
 source;share/roarm_lerobot_integration/local_setup.bash
 source;share/roarm_lerobot_integration/local_setup.dsv
 source;share/roarm_lerobot_integration/local_setup.ps1

@@ -75,6 +75,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/root/ros2_workspace/src/roarm_lerobot_integration/scripts/lerobot_teleop_interface.py"
     "/root/ros2_workspace/src/roarm_lerobot_integration/scripts/lerobot_dataset_manager.py"
     "/root/ros2_workspace/src/roarm_lerobot_integration/scripts/lerobot_evaluation_node.py"
+    "/root/ros2_workspace/src/roarm_lerobot_integration/scripts/lerobot_anygrasp_integration.py"
+    "/root/ros2_workspace/src/roarm_lerobot_integration/scripts/lerobot_performance_monitor.py"
+    "/root/ros2_workspace/src/roarm_lerobot_integration/scripts/lerobot_hybrid_visualizer.py"
     )
 endif()
 

@@ -1,0 +1,6 @@
+string model_path
+int32 num_episodes
+string task_name
+---
+bool success
+string results
